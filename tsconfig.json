@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "src/**/*.ts",
+    "src/**/**/*.ts",
+    "src/*.ts",
+    "src/**/**/*.d.ts",
+    "src/**/*.d.ts",
+    "src/*.d.ts"
+  ]
+}
