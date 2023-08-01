@@ -1,5 +1,5 @@
 import { ImagePixelInformationInterface } from '@/interface/ImagePixelInformation';
-export class ImagePixelInformation implements ImagePixelInformationInterface {
+class ImagePixelInformation implements ImagePixelInformationInterface {
     context: any;
     canvasId: string;
     constructor() {
@@ -19,7 +19,7 @@ export class ImagePixelInformation implements ImagePixelInformationInterface {
  * @classdesc uniapp gets image pixel information
  * @example
  */
-export class UniappImagePixelInformation extends ImagePixelInformation {
+class UniappImagePixelInformation extends ImagePixelInformation {
     constructor() {
         super();
     }
@@ -63,3 +63,4 @@ export class UniappImagePixelInformation extends ImagePixelInformation {
         })
     }
 }
+export default UniappImagePixelInformation
