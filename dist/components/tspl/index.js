@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = void 0;
+exports.TsplLib = void 0;
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -16,13 +16,22 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
 function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
 function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
-var MyTsplLib = /*#__PURE__*/function () {
-  function MyTsplLib() {
-    _classCallCheck(this, MyTsplLib);
+/**
+ * @description: TSPL instruction library interface document
+ * @param {*}
+ * @return {*}
+ * @implements TsplLibInterface
+ */
+var TsplLib = /*#__PURE__*/function () {
+  function TsplLib() {
+    _classCallCheck(this, TsplLib);
     this.command = [];
     this.NEW_LINE = [0xD, 0xA];
   }
-  _createClass(MyTsplLib, [{
+  /**
+   * @description: init the command
+   */
+  _createClass(TsplLib, [{
     key: "init",
     value: function init() {
       this.command = [];
@@ -108,7 +117,6 @@ var MyTsplLib = /*#__PURE__*/function () {
       return buffer;
     }
   }]);
-  return MyTsplLib;
+  return TsplLib;
 }();
-var _default = MyTsplLib;
-exports["default"] = _default;
+exports.TsplLib = TsplLib;

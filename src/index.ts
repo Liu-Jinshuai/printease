@@ -1,5 +1,5 @@
-import tspl from './components/tspl';
-import imagePixelInformation from './components/imagePixelInformation';
+import * as tspl from './components/tspl';
+import * as imagePixelInformation from './components/imagePixelInformation';
 
 export default {
     tspl,

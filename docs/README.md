@@ -5,4 +5,4 @@ print / [Modules](modules.md)
 
 # document
 
-[document](modules.md)
+[document](docs/modules.md)

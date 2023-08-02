@@ -13,12 +13,7 @@
     }
   },
   "include": [
-    "src",
     "src/**/*.ts",
-    "src/**/**/*.ts",
-    "src/*.ts",
-    "src/**/**/*.d.ts",
     "src/**/*.d.ts",
-    "src/*.d.ts"
   ]
 }

@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = void 0;
+exports.UniappImagePixelInformation = void 0;
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
@@ -41,11 +41,10 @@ var ImagePixelInformation = /*#__PURE__*/function () {
 }();
 /**
  * uniapp gets image pixel information
- * @extends ImagePixelInformation
+ * @classes UniappImagePixelInformation
  * @implements ImagePixelInformationInterface
- * @class
+ * @extends ImagePixelInformation
  * @classdesc uniapp gets image pixel information
- * @example
  */
 var UniappImagePixelInformation = /*#__PURE__*/function (_ImagePixelInformatio) {
   _inherits(UniappImagePixelInformation, _ImagePixelInformatio);
@@ -104,5 +103,4 @@ var UniappImagePixelInformation = /*#__PURE__*/function (_ImagePixelInformatio) 
   }]);
   return UniappImagePixelInformation;
 }(ImagePixelInformation);
-var _default = UniappImagePixelInformation;
-exports["default"] = _default;
+exports.UniappImagePixelInformation = UniappImagePixelInformation;

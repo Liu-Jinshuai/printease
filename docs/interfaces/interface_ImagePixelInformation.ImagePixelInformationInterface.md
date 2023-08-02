@@ -1,8 +1,8 @@
-[print](../README.md) / [Modules](../modules.md) / [ImagePixelInformation](../modules/ImagePixelInformation.md) / ImagePixelInformationInterface
+[print](../README.md) / [Modules](../modules.md) / [interface/ImagePixelInformation](../modules/interface_ImagePixelInformation.md) / ImagePixelInformationInterface
 
 # Interface: ImagePixelInformationInterface
 
-[ImagePixelInformation](../modules/ImagePixelInformation.md).ImagePixelInformationInterface
+[interface/ImagePixelInformation](../modules/interface_ImagePixelInformation.md).ImagePixelInformationInterface
 
 Get image pixel information
 
@@ -10,11 +10,11 @@ Get image pixel information
 
 ### Properties
 
-- [canvasId](ImagePixelInformation.ImagePixelInformationInterface.md#canvasid)
-- [context](ImagePixelInformation.ImagePixelInformationInterface.md#context)
-- [createCanvas](ImagePixelInformation.ImagePixelInformationInterface.md#createcanvas)
-- [drawImage](ImagePixelInformation.ImagePixelInformationInterface.md#drawimage)
-- [getImageData](ImagePixelInformation.ImagePixelInformationInterface.md#getimagedata)
+- [canvasId](interface_ImagePixelInformation.ImagePixelInformationInterface.md#canvasid)
+- [context](interface_ImagePixelInformation.ImagePixelInformationInterface.md#context)
+- [createCanvas](interface_ImagePixelInformation.ImagePixelInformationInterface.md#createcanvas)
+- [drawImage](interface_ImagePixelInformation.ImagePixelInformationInterface.md#drawimage)
+- [getImageData](interface_ImagePixelInformation.ImagePixelInformationInterface.md#getimagedata)
 
 ## Properties
 
@@ -26,7 +26,7 @@ canvas id
 
 #### Defined in
 
-[ImagePixelInformation.ts:13](https://github.com/17562105692/printease/blob/e97394d/src/interface/ImagePixelInformation.ts#L13)
+[interface/ImagePixelInformation.ts:13](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/ImagePixelInformation.ts#L13)
 
 ___
 
@@ -38,7 +38,7 @@ canvas context
 
 #### Defined in
 
-[ImagePixelInformation.ts:9](https://github.com/17562105692/printease/blob/e97394d/src/interface/ImagePixelInformation.ts#L9)
+[interface/ImagePixelInformation.ts:9](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/ImagePixelInformation.ts#L9)
 
 ___
 
@@ -67,7 +67,7 @@ canvas context or null
 
 #### Defined in
 
-[ImagePixelInformation.ts:21](https://github.com/17562105692/printease/blob/e97394d/src/interface/ImagePixelInformation.ts#L21)
+[interface/ImagePixelInformation.ts:21](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/ImagePixelInformation.ts#L21)
 
 ___
 
@@ -101,7 +101,7 @@ draw image
 
 #### Defined in
 
-[ImagePixelInformation.ts:34](https://github.com/17562105692/printease/blob/e97394d/src/interface/ImagePixelInformation.ts#L34)
+[interface/ImagePixelInformation.ts:34](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/ImagePixelInformation.ts#L34)
 
 ___
 
@@ -130,4 +130,4 @@ Get image pixel information（rgba）
 
 #### Defined in
 
-[ImagePixelInformation.ts:42](https://github.com/17562105692/printease/blob/e97394d/src/interface/ImagePixelInformation.ts#L42)
+[interface/ImagePixelInformation.ts:42](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/ImagePixelInformation.ts#L42)

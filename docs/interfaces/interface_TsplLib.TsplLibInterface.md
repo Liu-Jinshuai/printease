@@ -1,24 +1,28 @@
-[print](../README.md) / [Modules](../modules.md) / [TsplLib](../modules/TsplLib.md) / TsplLib
+[print](../README.md) / [Modules](../modules.md) / [interface/TsplLib](../modules/interface_TsplLib.md) / TsplLibInterface
 
-# Interface: TsplLib
+# Interface: TsplLibInterface
 
-[TsplLib](../modules/TsplLib.md).TsplLib
+[interface/TsplLib](../modules/interface_TsplLib.md).TsplLibInterface
+
+## Implemented by
+
+- [`TsplLib`](../classes/components_tspl.TsplLib.md)
 
 ## Table of contents
 
 ### Properties
 
-- [getBuffer](TsplLib.TsplLib.md#getbuffer)
-- [getCommand](TsplLib.TsplLib.md#getcommand)
-- [init](TsplLib.TsplLib.md#init)
-- [setBitmap](TsplLib.TsplLib.md#setbitmap)
-- [setCls](TsplLib.TsplLib.md#setcls)
-- [setGap](TsplLib.TsplLib.md#setgap)
-- [setNewLine](TsplLib.TsplLib.md#setnewline)
-- [setPrint](TsplLib.TsplLib.md#setprint)
-- [setSize](TsplLib.TsplLib.md#setsize)
-- [setText](TsplLib.TsplLib.md#settext)
-- [stringToCharCodeArray](TsplLib.TsplLib.md#stringtocharcodearray)
+- [getBuffer](interface_TsplLib.TsplLibInterface.md#getbuffer)
+- [getCommand](interface_TsplLib.TsplLibInterface.md#getcommand)
+- [init](interface_TsplLib.TsplLibInterface.md#init)
+- [setBitmap](interface_TsplLib.TsplLibInterface.md#setbitmap)
+- [setCls](interface_TsplLib.TsplLibInterface.md#setcls)
+- [setGap](interface_TsplLib.TsplLibInterface.md#setgap)
+- [setNewLine](interface_TsplLib.TsplLibInterface.md#setnewline)
+- [setPrint](interface_TsplLib.TsplLibInterface.md#setprint)
+- [setSize](interface_TsplLib.TsplLibInterface.md#setsize)
+- [setText](interface_TsplLib.TsplLibInterface.md#settext)
+- [stringToCharCodeArray](interface_TsplLib.TsplLibInterface.md#stringtocharcodearray)
 
 ## Properties
 
@@ -30,7 +34,7 @@
 
 ▸ (): `ArrayBuffer`
 
-Get print command (Buffer)
+@description: Get print command (Buffer)
 
 ##### Returns
 
@@ -40,7 +44,7 @@ Returns the print command (Buffer)
 
 #### Defined in
 
-[TsplLib.ts:75](https://github.com/17562105692/printease/blob/e97394d/src/interface/TsplLib.ts#L75)
+[interface/TsplLib.ts:76](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/TsplLib.ts#L76)
 
 ___
 
@@ -52,7 +56,7 @@ ___
 
 ▸ (): `number`[]
 
-get print command
+@description: get print command
 
 ##### Returns
 
@@ -62,7 +66,7 @@ return print command
 
 #### Defined in
 
-[TsplLib.ts:70](https://github.com/17562105692/printease/blob/e97394d/src/interface/TsplLib.ts#L70)
+[interface/TsplLib.ts:71](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/TsplLib.ts#L71)
 
 ___
 
@@ -74,7 +78,7 @@ ___
 
 ▸ (): `void`
 
-init the command
+@description: init the command
 
 ##### Returns
 
@@ -82,7 +86,7 @@ init the command
 
 #### Defined in
 
-[TsplLib.ts:6](https://github.com/17562105692/printease/blob/e97394d/src/interface/TsplLib.ts#L6)
+[interface/TsplLib.ts:7](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/TsplLib.ts#L7)
 
 ___
 
@@ -94,7 +98,7 @@ ___
 
 ▸ (`x`, `y`, `width`, `height`, `mode`, `bitmap`): `void`
 
-Draw a bitmap (non-BMP format image file)
+@description: Draw a bitmap (non-BMP format image file)
 
 ##### Parameters
 
@@ -113,7 +117,7 @@ Draw a bitmap (non-BMP format image file)
 
 #### Defined in
 
-[TsplLib.ts:42](https://github.com/17562105692/printease/blob/e97394d/src/interface/TsplLib.ts#L42)
+[interface/TsplLib.ts:43](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/TsplLib.ts#L43)
 
 ___
 
@@ -125,7 +129,7 @@ ___
 
 ▸ (): `void`
 
-Clear the data of the image buffer
+@description: Clear the data of the image buffer
 
 ##### Returns
 
@@ -133,7 +137,7 @@ Clear the data of the image buffer
 
 #### Defined in
 
-[TsplLib.ts:31](https://github.com/17562105692/printease/blob/e97394d/src/interface/TsplLib.ts#L31)
+[interface/TsplLib.ts:32](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/TsplLib.ts#L32)
 
 ___
 
@@ -145,7 +149,7 @@ ___
 
 ▸ (`m`, `n`): `void`
 
-Set the vertical distance between two label papers
+@description: Set the vertical distance between two label papers
 
 ##### Parameters
 
@@ -160,7 +164,7 @@ Set the vertical distance between two label papers
 
 #### Defined in
 
-[TsplLib.ts:26](https://github.com/17562105692/printease/blob/e97394d/src/interface/TsplLib.ts#L26)
+[interface/TsplLib.ts:27](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/TsplLib.ts#L27)
 
 ___
 
@@ -172,7 +176,7 @@ ___
 
 ▸ (): `void`
 
-Instruction wrapping, called by default, if not necessary, do not need to call
+@description: Instruction wrapping, called by default, if not necessary, do not need to call
 
 ##### Returns
 
@@ -180,7 +184,7 @@ Instruction wrapping, called by default, if not necessary, do not need to call
 
 #### Defined in
 
-[TsplLib.ts:65](https://github.com/17562105692/printease/blob/e97394d/src/interface/TsplLib.ts#L65)
+[interface/TsplLib.ts:66](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/TsplLib.ts#L66)
 
 ___
 
@@ -192,7 +196,7 @@ ___
 
 ▸ (`m`, `n?`): `void`
 
-execute print
+@description: execute print
 
 ##### Parameters
 
@@ -207,7 +211,7 @@ execute print
 
 #### Defined in
 
-[TsplLib.ts:61](https://github.com/17562105692/printease/blob/e97394d/src/interface/TsplLib.ts#L61)
+[interface/TsplLib.ts:62](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/TsplLib.ts#L62)
 
 ___
 
@@ -219,7 +223,7 @@ ___
 
 ▸ (`width`, `height`): `void`
 
-Set the width and length of the label paper
+@description: Set the width and length of the label paper
 
 ##### Parameters
 
@@ -234,7 +238,7 @@ Set the width and length of the label paper
 
 #### Defined in
 
-[TsplLib.ts:19](https://github.com/17562105692/printease/blob/e97394d/src/interface/TsplLib.ts#L19)
+[interface/TsplLib.ts:20](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/TsplLib.ts#L20)
 
 ___
 
@@ -246,7 +250,7 @@ ___
 
 ▸ (`x`, `y`, `font`, `rotation`, `x_multiplication`, `y_multiplication`, `text`): `void`
 
-string msg
+@description: string msg
 
 ##### Parameters
 
@@ -266,7 +270,7 @@ string msg
 
 #### Defined in
 
-[TsplLib.ts:54](https://github.com/17562105692/printease/blob/e97394d/src/interface/TsplLib.ts#L54)
+[interface/TsplLib.ts:55](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/TsplLib.ts#L55)
 
 ___
 
@@ -278,7 +282,7 @@ ___
 
 ▸ (`str`): `number`[]
 
-string to charCode array
+@description: string to charCode array
 
 ##### Parameters
 
@@ -290,6 +294,8 @@ string to charCode array
 
 `number`[]
 
+charCode array
+
 #### Defined in
 
-[TsplLib.ts:12](https://github.com/17562105692/printease/blob/e97394d/src/interface/TsplLib.ts#L12)
+[interface/TsplLib.ts:13](https://github.com/17562105692/printease/blob/f4cf8ae/src/interface/TsplLib.ts#L13)

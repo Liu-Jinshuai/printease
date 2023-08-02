@@ -1,12 +1,21 @@
-import { TsplLib } from "@/interface/TsplLib";
+import { TsplLibInterface } from "@/interface/TsplLib";
 
-class MyTsplLib implements TsplLib {
+/**
+ * @description: TSPL instruction library interface document
+ * @param {*}
+ * @return {*}
+ * @implements TsplLibInterface
+ */
+export class TsplLib implements TsplLibInterface {
     command: number[];
     NEW_LINE: number[];
     constructor() {
         this.command = [];
         this.NEW_LINE = [0xD, 0xA];
     }
+    /**
+     * @description: init the command
+     */
     init(): void {
         this.command = [];
     }
@@ -61,4 +70,3 @@ class MyTsplLib implements TsplLib {
         return buffer;
     }
 }
-export default MyTsplLib;

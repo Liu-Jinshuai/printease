@@ -13,13 +13,12 @@ class ImagePixelInformation implements ImagePixelInformationInterface {
 
 /**
  * uniapp gets image pixel information
- * @extends ImagePixelInformation
+ * @classes UniappImagePixelInformation
  * @implements ImagePixelInformationInterface
- * @class
+ * @extends ImagePixelInformation
  * @classdesc uniapp gets image pixel information
- * @example
  */
-class UniappImagePixelInformation extends ImagePixelInformation {
+export class UniappImagePixelInformation extends ImagePixelInformation {
     constructor() {
         super();
     }
@@ -63,4 +62,3 @@ class UniappImagePixelInformation extends ImagePixelInformation {
         })
     }
 }
-export default UniappImagePixelInformation
