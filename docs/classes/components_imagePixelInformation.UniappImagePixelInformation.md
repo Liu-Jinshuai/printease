@@ -24,6 +24,10 @@ uniapp gets image pixel information
 
   ↳ **`UniappImagePixelInformation`**
 
+## Implements
+
+- [`ImagePixelInformationInterface`](../interfaces/interface_ImagePixelInformation.ImagePixelInformationInterface.md)
+
 ## Table of contents
 
 ### Constructors
@@ -37,8 +41,6 @@ uniapp gets image pixel information
 
 ### Methods
 
-- [createCanvas](components_imagePixelInformation.UniappImagePixelInformation.md#createcanvas)
-- [drawImage](components_imagePixelInformation.UniappImagePixelInformation.md#drawimage)
 - [getImageData](components_imagePixelInformation.UniappImagePixelInformation.md#getimagedata)
 
 ## Constructors
@@ -53,7 +55,7 @@ ImagePixelInformation.constructor
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:22](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/imagePixelInformation/index.ts#L22)
+[components/imagePixelInformation/index.ts:43](https://github.com/17562105692/printease/blob/7693c0c/src/components/imagePixelInformation/index.ts#L43)
 
 ## Properties
 
@@ -61,13 +63,19 @@ ImagePixelInformation.constructor
 
 • **canvasId**: `string`
 
+canvas id
+
+#### Implementation of
+
+[ImagePixelInformationInterface](../interfaces/interface_ImagePixelInformation.ImagePixelInformationInterface.md).[canvasId](../interfaces/interface_ImagePixelInformation.ImagePixelInformationInterface.md#canvasid)
+
 #### Inherited from
 
 ImagePixelInformation.canvasId
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:4](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/imagePixelInformation/index.ts#L4)
+[components/imagePixelInformation/index.ts:4](https://github.com/17562105692/printease/blob/7693c0c/src/components/imagePixelInformation/index.ts#L4)
 
 ___
 
@@ -75,94 +83,44 @@ ___
 
 • **context**: `any`
 
+canvas context
+
+#### Implementation of
+
+[ImagePixelInformationInterface](../interfaces/interface_ImagePixelInformation.ImagePixelInformationInterface.md).[context](../interfaces/interface_ImagePixelInformation.ImagePixelInformationInterface.md#context)
+
 #### Inherited from
 
 ImagePixelInformation.context
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:3](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/imagePixelInformation/index.ts#L3)
+[components/imagePixelInformation/index.ts:3](https://github.com/17562105692/printease/blob/7693c0c/src/components/imagePixelInformation/index.ts#L3)
 
 ## Methods
 
-### createCanvas
-
-▸ **createCanvas**(`canvasId`, `componentInstance`): `void`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `canvasId` | `string` |
-| `componentInstance` | `object` |
-
-#### Returns
-
-`void`
-
-#### Overrides
-
-ImagePixelInformation.createCanvas
-
-#### Defined in
-
-[components/imagePixelInformation/index.ts:25](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/imagePixelInformation/index.ts#L25)
-
-___
-
-### drawImage
-
-▸ **drawImage**(`imageResource`, `dx`, `dy`, `dWidth`, `dHeight`, `sx`, `sy`, `sWidth`, `sHeight`): `Promise`<`any`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `imageResource` | `string` |
-| `dx` | `number` |
-| `dy` | `number` |
-| `dWidth` | `number` |
-| `dHeight` | `number` |
-| `sx` | `number` |
-| `sy` | `number` |
-| `sWidth` | `number` |
-| `sHeight` | `number` |
-
-#### Returns
-
-`Promise`<`any`\>
-
-#### Overrides
-
-ImagePixelInformation.drawImage
-
-#### Defined in
-
-[components/imagePixelInformation/index.ts:32](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/imagePixelInformation/index.ts#L32)
-
-___
-
 ### getImageData
 
-▸ **getImageData**(`x`, `y`, `width`, `height`): `Promise`<`any`\>
+▸ **getImageData**(`imageResource`, `width`, `height`): `Promise`<`any`\>
+
+@description: Get image pixel information（rgba）
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `x` | `number` |
-| `y` | `number` |
-| `width` | `number` |
-| `height` | `number` |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `imageResource` | `string` | image absolute path |
+| `width` | `number` | The width of the rectangle from which the pixel data will be retrieved |
+| `height` | `number` | The height of the rectangle from which the pixel data will be retrieved |
 
 #### Returns
 
 `Promise`<`any`\>
 
-#### Overrides
+#### Implementation of
 
-ImagePixelInformation.getImageData
+[ImagePixelInformationInterface](../interfaces/interface_ImagePixelInformation.ImagePixelInformationInterface.md).[getImageData](../interfaces/interface_ImagePixelInformation.ImagePixelInformationInterface.md#getimagedata)
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:44](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/imagePixelInformation/index.ts#L44)
+[components/imagePixelInformation/index.ts:65](https://github.com/17562105692/printease/blob/7693c0c/src/components/imagePixelInformation/index.ts#L65)

@@ -49,7 +49,7 @@ TsplLibInterface
 
 #### Defined in
 
-[components/tspl/index.ts:12](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L12)
+[components/tspl/index.ts:12](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L12)
 
 ## Properties
 
@@ -59,7 +59,7 @@ TsplLibInterface
 
 #### Defined in
 
-[components/tspl/index.ts:11](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L11)
+[components/tspl/index.ts:11](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L11)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:10](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L10)
+[components/tspl/index.ts:10](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L10)
 
 ## Methods
 
@@ -91,7 +91,7 @@ Returns the print command (Buffer)
 
 #### Defined in
 
-[components/tspl/index.ts:64](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L64)
+[components/tspl/index.ts:64](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L64)
 
 ___
 
@@ -113,7 +113,7 @@ return print command
 
 #### Defined in
 
-[components/tspl/index.ts:61](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L61)
+[components/tspl/index.ts:61](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L61)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:19](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L19)
+[components/tspl/index.ts:19](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L19)
 
 ___
 
@@ -164,7 +164,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:40](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L40)
+[components/tspl/index.ts:40](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L40)
 
 ___
 
@@ -184,7 +184,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:35](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L35)
+[components/tspl/index.ts:35](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L35)
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:30](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L30)
+[components/tspl/index.ts:30](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L30)
 
 ___
 
@@ -231,7 +231,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:58](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L58)
+[components/tspl/index.ts:58](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L58)
 
 ___
 
@@ -258,7 +258,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:53](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L53)
+[components/tspl/index.ts:53](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L53)
 
 ___
 
@@ -285,7 +285,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:25](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L25)
+[components/tspl/index.ts:25](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L25)
 
 ___
 
@@ -317,7 +317,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:48](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L48)
+[components/tspl/index.ts:48](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L48)
 
 ___
 
@@ -345,4 +345,4 @@ charCode array
 
 #### Defined in
 
-[components/tspl/index.ts:22](https://github.com/17562105692/printease/blob/f4cf8ae/src/components/tspl/index.ts#L22)
+[components/tspl/index.ts:22](https://github.com/17562105692/printease/blob/7693c0c/src/components/tspl/index.ts#L22)

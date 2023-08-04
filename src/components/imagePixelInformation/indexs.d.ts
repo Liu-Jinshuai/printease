@@ -4,4 +4,4 @@ declare const uni: {
         draw: (bool?: Boolean, callback?: () => {}) => void;
         canvasGetImageData: (obj: any) => void;
     }
-} 
+}
