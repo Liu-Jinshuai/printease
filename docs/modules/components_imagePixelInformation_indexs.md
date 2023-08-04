@@ -22,4 +22,4 @@
 
 #### Defined in
 
-[components/imagePixelInformation/indexs.d.ts:1](https://github.com/17562105692/printease/blob/7693c0c/src/components/imagePixelInformation/indexs.d.ts#L1)
+[components/imagePixelInformation/indexs.d.ts:1](https://github.com/17562105692/printease/blob/57b5559/src/components/imagePixelInformation/indexs.d.ts#L1)

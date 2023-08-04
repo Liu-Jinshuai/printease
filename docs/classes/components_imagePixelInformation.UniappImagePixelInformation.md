@@ -55,7 +55,7 @@ ImagePixelInformation.constructor
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:43](https://github.com/17562105692/printease/blob/7693c0c/src/components/imagePixelInformation/index.ts#L43)
+[components/imagePixelInformation/index.ts:43](https://github.com/17562105692/printease/blob/57b5559/src/components/imagePixelInformation/index.ts#L43)
 
 ## Properties
 
@@ -75,7 +75,7 @@ ImagePixelInformation.canvasId
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:4](https://github.com/17562105692/printease/blob/7693c0c/src/components/imagePixelInformation/index.ts#L4)
+[components/imagePixelInformation/index.ts:4](https://github.com/17562105692/printease/blob/57b5559/src/components/imagePixelInformation/index.ts#L4)
 
 ___
 
@@ -95,23 +95,25 @@ ImagePixelInformation.context
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:3](https://github.com/17562105692/printease/blob/7693c0c/src/components/imagePixelInformation/index.ts#L3)
+[components/imagePixelInformation/index.ts:3](https://github.com/17562105692/printease/blob/57b5559/src/components/imagePixelInformation/index.ts#L3)
 
 ## Methods
 
 ### getImageData
 
-▸ **getImageData**(`imageResource`, `width`, `height`): `Promise`<`any`\>
+▸ **getImageData**(`canvasId`, `componentInstance`, `imageResource`, `width?`, `height?`): `Promise`<`any`\>
 
 @description: Get image pixel information（rgba）
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `imageResource` | `string` | image absolute path |
-| `width` | `number` | The width of the rectangle from which the pixel data will be retrieved |
-| `height` | `number` | The height of the rectangle from which the pixel data will be retrieved |
+| Name | Type | Default value | Description |
+| :------ | :------ | :------ | :------ |
+| `canvasId` | `string` | `undefined` | canvas id |
+| `componentInstance` | `object` | `undefined` | The custom component instance this means to search for <canvas/> with canvas-id under this custom component, if omitted, it will not be searched in any custom component |
+| `imageResource` | `string` | `undefined` | image absolute path |
+| `width` | `number` | `200` | The width of the rectangle from which the pixel data will be retrieved |
+| `height` | `number` | `200` | The height of the rectangle from which the pixel data will be retrieved |
 
 #### Returns
 
@@ -123,4 +125,4 @@ ImagePixelInformation.context
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:65](https://github.com/17562105692/printease/blob/7693c0c/src/components/imagePixelInformation/index.ts#L65)
+[components/imagePixelInformation/index.ts:68](https://github.com/17562105692/printease/blob/57b5559/src/components/imagePixelInformation/index.ts#L68)

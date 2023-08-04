@@ -44,7 +44,7 @@ Returns the print command (Buffer)
 
 #### Defined in
 
-[interface/TsplLib.ts:76](https://github.com/17562105692/printease/blob/7693c0c/src/interface/TsplLib.ts#L76)
+[interface/TsplLib.ts:76](https://github.com/17562105692/printease/blob/57b5559/src/interface/TsplLib.ts#L76)
 
 ___
 
@@ -66,7 +66,7 @@ return print command
 
 #### Defined in
 
-[interface/TsplLib.ts:71](https://github.com/17562105692/printease/blob/7693c0c/src/interface/TsplLib.ts#L71)
+[interface/TsplLib.ts:71](https://github.com/17562105692/printease/blob/57b5559/src/interface/TsplLib.ts#L71)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:7](https://github.com/17562105692/printease/blob/7693c0c/src/interface/TsplLib.ts#L7)
+[interface/TsplLib.ts:7](https://github.com/17562105692/printease/blob/57b5559/src/interface/TsplLib.ts#L7)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:43](https://github.com/17562105692/printease/blob/7693c0c/src/interface/TsplLib.ts#L43)
+[interface/TsplLib.ts:43](https://github.com/17562105692/printease/blob/57b5559/src/interface/TsplLib.ts#L43)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:32](https://github.com/17562105692/printease/blob/7693c0c/src/interface/TsplLib.ts#L32)
+[interface/TsplLib.ts:32](https://github.com/17562105692/printease/blob/57b5559/src/interface/TsplLib.ts#L32)
 
 ___
 
@@ -164,7 +164,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:27](https://github.com/17562105692/printease/blob/7693c0c/src/interface/TsplLib.ts#L27)
+[interface/TsplLib.ts:27](https://github.com/17562105692/printease/blob/57b5559/src/interface/TsplLib.ts#L27)
 
 ___
 
@@ -184,7 +184,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:66](https://github.com/17562105692/printease/blob/7693c0c/src/interface/TsplLib.ts#L66)
+[interface/TsplLib.ts:66](https://github.com/17562105692/printease/blob/57b5559/src/interface/TsplLib.ts#L66)
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:62](https://github.com/17562105692/printease/blob/7693c0c/src/interface/TsplLib.ts#L62)
+[interface/TsplLib.ts:62](https://github.com/17562105692/printease/blob/57b5559/src/interface/TsplLib.ts#L62)
 
 ___
 
@@ -238,7 +238,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:20](https://github.com/17562105692/printease/blob/7693c0c/src/interface/TsplLib.ts#L20)
+[interface/TsplLib.ts:20](https://github.com/17562105692/printease/blob/57b5559/src/interface/TsplLib.ts#L20)
 
 ___
 
@@ -270,7 +270,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:55](https://github.com/17562105692/printease/blob/7693c0c/src/interface/TsplLib.ts#L55)
+[interface/TsplLib.ts:55](https://github.com/17562105692/printease/blob/57b5559/src/interface/TsplLib.ts#L55)
 
 ___
 
@@ -298,4 +298,4 @@ charCode array
 
 #### Defined in
 
-[interface/TsplLib.ts:13](https://github.com/17562105692/printease/blob/7693c0c/src/interface/TsplLib.ts#L13)
+[interface/TsplLib.ts:13](https://github.com/17562105692/printease/blob/57b5559/src/interface/TsplLib.ts#L13)

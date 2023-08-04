@@ -73,13 +73,24 @@ var UniappImagePixelInformation = /*#__PURE__*/function (_ImagePixelInformatio) 
       if (typeof canvasId !== 'string') {
         throw new Error('canvasId must be string');
       }
+      if (!componentInstance) {
+        throw new Error('componentInstance must be object');
+      }
       this.canvasId = canvasId;
       this.context = uni.createCanvasContext(canvasId, componentInstance);
     }
   }, {
     key: "drawImage",
-    value: function drawImage(imageResource, dx, dy, dWidth, dHeight, sx, sy, sWidth, sHeight) {
+    value: function drawImage(imageResource) {
       var _this = this;
+      var dx = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+      var dy = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
+      var dWidth = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 200;
+      var dHeight = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 200;
+      var sx = arguments.length > 5 ? arguments[5] : undefined;
+      var sy = arguments.length > 6 ? arguments[6] : undefined;
+      var sWidth = arguments.length > 7 ? arguments[7] : undefined;
+      var sHeight = arguments.length > 8 ? arguments[8] : undefined;
       return new Promise(function (resolve, reject) {
         if (typeof imageResource !== 'string') {
           throw new Error('imageResource must be string');
@@ -93,8 +104,10 @@ var UniappImagePixelInformation = /*#__PURE__*/function (_ImagePixelInformatio) 
     }
   }, {
     key: "getImageData",
-    value: function getImageData(imageResource, width, height) {
+    value: function getImageData(canvasId, componentInstance, imageResource) {
       var _this2 = this;
+      var width = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 200;
+      var height = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 200;
       return new Promise( /*#__PURE__*/function () {
         var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(resolve, reject) {
           var widthes;
@@ -104,9 +117,10 @@ var UniappImagePixelInformation = /*#__PURE__*/function (_ImagePixelInformatio) 
                 if (!_this2.context) {
                   reject('canvas context is null');
                 }
-                _context.next = 3;
+                _this2.createCanvas(canvasId, componentInstance);
+                _context.next = 4;
                 return _this2.drawImage(imageResource, 0, 0, width, height, 0, 0, width, height);
-              case 3:
+              case 4:
                 widthes = Math.max(width, height);
                 _this2.context.canvasGetImageData({
                   canvasId: _this2.canvasId,
@@ -121,7 +135,7 @@ var UniappImagePixelInformation = /*#__PURE__*/function (_ImagePixelInformatio) 
                     reject(err);
                   }
                 });
-              case 5:
+              case 6:
               case "end":
                 return _context.stop();
             }
