@@ -28,7 +28,7 @@ canvas id
 
 #### Defined in
 
-[interface/ImagePixelInformation.ts:13](https://github.com/17562105692/printease/blob/57b5559/src/interface/ImagePixelInformation.ts#L13)
+[interface/ImagePixelInformation.ts:13](https://github.com/17562105692/printease/blob/eda80ef/src/interface/ImagePixelInformation.ts#L13)
 
 ___
 
@@ -40,7 +40,7 @@ canvas context
 
 #### Defined in
 
-[interface/ImagePixelInformation.ts:9](https://github.com/17562105692/printease/blob/57b5559/src/interface/ImagePixelInformation.ts#L9)
+[interface/ImagePixelInformation.ts:9](https://github.com/17562105692/printease/blob/eda80ef/src/interface/ImagePixelInformation.ts#L9)
 
 ___
 
@@ -70,4 +70,4 @@ ___
 
 #### Defined in
 
-[interface/ImagePixelInformation.ts:22](https://github.com/17562105692/printease/blob/57b5559/src/interface/ImagePixelInformation.ts#L22)
+[interface/ImagePixelInformation.ts:22](https://github.com/17562105692/printease/blob/eda80ef/src/interface/ImagePixelInformation.ts#L22)

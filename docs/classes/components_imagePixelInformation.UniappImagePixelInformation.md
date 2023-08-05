@@ -55,7 +55,7 @@ ImagePixelInformation.constructor
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:43](https://github.com/17562105692/printease/blob/57b5559/src/components/imagePixelInformation/index.ts#L43)
+[components/imagePixelInformation/index.ts:43](https://github.com/17562105692/printease/blob/eda80ef/src/components/imagePixelInformation/index.ts#L43)
 
 ## Properties
 
@@ -75,7 +75,7 @@ ImagePixelInformation.canvasId
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:4](https://github.com/17562105692/printease/blob/57b5559/src/components/imagePixelInformation/index.ts#L4)
+[components/imagePixelInformation/index.ts:4](https://github.com/17562105692/printease/blob/eda80ef/src/components/imagePixelInformation/index.ts#L4)
 
 ___
 
@@ -95,7 +95,7 @@ ImagePixelInformation.context
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:3](https://github.com/17562105692/printease/blob/57b5559/src/components/imagePixelInformation/index.ts#L3)
+[components/imagePixelInformation/index.ts:3](https://github.com/17562105692/printease/blob/eda80ef/src/components/imagePixelInformation/index.ts#L3)
 
 ## Methods
 
@@ -125,4 +125,4 @@ ImagePixelInformation.context
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:68](https://github.com/17562105692/printease/blob/57b5559/src/components/imagePixelInformation/index.ts#L68)
+[components/imagePixelInformation/index.ts:68](https://github.com/17562105692/printease/blob/eda80ef/src/components/imagePixelInformation/index.ts#L68)
