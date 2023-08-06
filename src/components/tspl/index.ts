@@ -175,6 +175,14 @@ export class TsplLib implements TsplLibInterface {
     setNewLine(): void {
         this.command.push(...this.NEW_LINE);
     }
+    setCommand (command: string | number[]){
+        if(typeof command === "string"){
+            this.command.push(...this.stringToCharCodeArray(command));
+        }else{
+            this.command.push(...command);
+        }
+        this.setNewLine();
+    }
     getCommand() {
         return this.command;
     }

@@ -2,22 +2,25 @@
  * Get image pixel information
  */
 export interface ImagePixelInformationInterface {
-
     /**
-     * canvas context 
+     * @description: grayscale threshold（default 100）
      */
-    context: any;
-    /** 
-     * canvas id
-     */
-    canvasId: string;
-    /**
+    grayThreshold: number;
+     /**
      * @description: Get image pixel information（rgba） 
-     * @param canvasId canvas id
-     * @param componentInstance The custom component instance this means to search for <canvas/> with canvas-id under this custom component, if omitted, it will not be searched in any custom component
-     * @param imageResource image absolute path
-     * @param width The width of the rectangle from which the pixel data will be retrieved
+     * @param imageResource image path
+     * @param width The width of the rectangle from which the pixel data will be retrieved; 
      * @param height The height of the rectangle from which the pixel data will be retrieved
+     * @param callback callback function
      */
-    getImageData: (canvasId: string,componentInstance: object,imageResource: string, width: number, height: number) => Promise<any>;
+     getImageData: (imageResource: string, width: number, height: number,callback:(pixelInformation:object)=>void) => void;
+    /**
+     * @description: Uniapp Get image pixel information（rgba） 
+     * @param canvasId canvas id
+     * @param imageResource image path
+     * @param width The width of the rectangle from which the pixel data will be retrieved; 
+     * @param height The height of the rectangle from which the pixel data will be retrieved
+     * @param callback callback function
+     */
+    uniGetImageData: (canvasId: string,imageResource: string, width: number, height: number,callback:(pixelInformation:object)=>void) => void;
 }

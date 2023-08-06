@@ -19,6 +19,10 @@ var convertRgbToGrayscaleAndBinarization = function convertRgbToGrayscaleAndBina
   }
   var grayscaleArr = [];
   for (var _i = 0; _i < arr.length; _i += 4) {
+    if (arr[_i + 3] === 0) {
+      grayscaleArr.push(1);
+      continue;
+    }
     var gray = arr[_i] * 0.299 + arr[_i + 1] * 0.587 + arr[_i + 2] * 0.114;
     if (gray >= grayThreshold) {
       grayscaleArr.push(1);

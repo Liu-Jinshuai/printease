@@ -6,4 +6,5 @@
 
 ### Classes
 
+- [JavaScriptImagePixelInformation](../classes/components_imagePixelInformation.JavaScriptImagePixelInformation.md)
 - [UniappImagePixelInformation](../classes/components_imagePixelInformation.UniappImagePixelInformation.md)

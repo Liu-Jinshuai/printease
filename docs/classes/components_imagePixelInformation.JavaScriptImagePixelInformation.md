@@ -1,20 +1,20 @@
-[print](../README.md) / [Modules](../modules.md) / [components/imagePixelInformation](../modules/components_imagePixelInformation.md) / UniappImagePixelInformation
+[print](../README.md) / [Modules](../modules.md) / [components/imagePixelInformation](../modules/components_imagePixelInformation.md) / JavaScriptImagePixelInformation
 
-# Class: UniappImagePixelInformation
+# Class: JavaScriptImagePixelInformation
 
-[components/imagePixelInformation](../modules/components_imagePixelInformation.md).UniappImagePixelInformation
+[components/imagePixelInformation](../modules/components_imagePixelInformation.md).JavaScriptImagePixelInformation
 
 **`Classdesc`**
 
-uniapp gets image pixel information
-
-**`Classes`**
-
-UniappImagePixelInformation
+JavaScript gets image pixel information
 
 **`Implements`**
 
 ImagePixelInformationInterface
+
+**`Classes`**
+
+JavaScriptImagePixelInformation
 
 **`Param`**
 
@@ -24,7 +24,7 @@ grayscale threshold（default 100）
 
 - `ImagePixelInformation`
 
-  ↳ **`UniappImagePixelInformation`**
+  ↳ **`JavaScriptImagePixelInformation`**
 
 ## Implements
 
@@ -34,22 +34,22 @@ grayscale threshold（default 100）
 
 ### Constructors
 
-- [constructor](components_imagePixelInformation.UniappImagePixelInformation.md#constructor)
+- [constructor](components_imagePixelInformation.JavaScriptImagePixelInformation.md#constructor)
 
 ### Properties
 
-- [grayThreshold](components_imagePixelInformation.UniappImagePixelInformation.md#graythreshold)
+- [grayThreshold](components_imagePixelInformation.JavaScriptImagePixelInformation.md#graythreshold)
 
 ### Methods
 
-- [getImageData](components_imagePixelInformation.UniappImagePixelInformation.md#getimagedata)
-- [uniGetImageData](components_imagePixelInformation.UniappImagePixelInformation.md#unigetimagedata)
+- [getImageData](components_imagePixelInformation.JavaScriptImagePixelInformation.md#getimagedata)
+- [uniGetImageData](components_imagePixelInformation.JavaScriptImagePixelInformation.md#unigetimagedata)
 
 ## Constructors
 
 ### constructor
 
-• **new UniappImagePixelInformation**(`grayThreshold`)
+• **new JavaScriptImagePixelInformation**(`grayThreshold`)
 
 #### Parameters
 
@@ -63,7 +63,7 @@ ImagePixelInformation.constructor
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:21](https://github.com/17562105692/printease/blob/701da00/src/components/imagePixelInformation/index.ts#L21)
+[components/imagePixelInformation/index.ts:60](https://github.com/17562105692/printease/blob/701da00/src/components/imagePixelInformation/index.ts#L60)
 
 ## Properties
 
@@ -79,7 +79,7 @@ ImagePixelInformation.constructor
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:20](https://github.com/17562105692/printease/blob/701da00/src/components/imagePixelInformation/index.ts#L20)
+[components/imagePixelInformation/index.ts:59](https://github.com/17562105692/printease/blob/701da00/src/components/imagePixelInformation/index.ts#L59)
 
 ## Methods
 
@@ -106,13 +106,13 @@ ImagePixelInformation.constructor
 
 [ImagePixelInformationInterface](../interfaces/interface_ImagePixelInformation.ImagePixelInformationInterface.md).[getImageData](../interfaces/interface_ImagePixelInformation.ImagePixelInformationInterface.md#getimagedata)
 
-#### Inherited from
+#### Overrides
 
 ImagePixelInformation.getImageData
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:9](https://github.com/17562105692/printease/blob/701da00/src/components/imagePixelInformation/index.ts#L9)
+[components/imagePixelInformation/index.ts:64](https://github.com/17562105692/printease/blob/701da00/src/components/imagePixelInformation/index.ts#L64)
 
 ___
 
@@ -140,10 +140,10 @@ ___
 
 [ImagePixelInformationInterface](../interfaces/interface_ImagePixelInformation.ImagePixelInformationInterface.md).[uniGetImageData](../interfaces/interface_ImagePixelInformation.ImagePixelInformationInterface.md#unigetimagedata)
 
-#### Overrides
+#### Inherited from
 
 ImagePixelInformation.uniGetImageData
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:25](https://github.com/17562105692/printease/blob/701da00/src/components/imagePixelInformation/index.ts#L25)
+[components/imagePixelInformation/index.ts:8](https://github.com/17562105692/printease/blob/701da00/src/components/imagePixelInformation/index.ts#L8)

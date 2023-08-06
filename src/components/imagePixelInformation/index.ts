@@ -1,87 +1,86 @@
 import { ImagePixelInformationInterface } from '@/interface/ImagePixelInformation';
+import { convertRgbToGrayscaleAndBinarization, convertBinaryDataToDecimalData } from '../../utils/imageProcessing';
 class ImagePixelInformation {
-    context: any;
-    canvasId: string;
-    constructor() {
-        this.context = null;
-        this.canvasId = '';
+    protected assignToPowerOfTwo(n: number) {
+        let power = Math.ceil(Math.log2(n));
+        return Math.pow(2, power);
     }
-    /**
-    * create canvas
-    * @param canvasId canvas id
-    * @param componentInstance component instance
-    * @returns canvas context or null
-    */
-    protected createCanvas(canvasId: string, componentInstance: object): void {
-
-    }
-    /**
-     * draw image
-     * @param imageResource image resource
-     * @param dx The X-axis position of the upper left corner of the image on the target canvas
-     * @param dy The Y-axis position of the upper left corner of the image on the target canvas
-     * @param dWidth The width of the drawn image on the target canvas, allowing scaling of the drawn image
-     * @param dHeight The height of the drawn image on the target canvas, allowing scaling of the drawn image
-     * @param sx The X coordinate of the upper left corner of the source image's selection rectangle
-     * @param sy The Y coordinate of the upper left corner of the source image's selection rectangle
-     * @param sWidth The width of the source image's rectangular selection box
-     * @param sHeight The height of the source image's rectangular selection box
-     */
-    protected drawImage(imageResource: string, dx: number, dy: number, dWidth: number, dHeight: number, sx: number, sy: number, sWidth: number, sHeight: number) {
-
-    }
+    uniGetImageData(canvasId: string, imageResource: string, width: number = 256, height: number = 256, callback: (pixelInformation: object) => void) { }
+    getImageData(imageResource: string, width: number = 256, height: number = 256, callback: (pixelInformation: object) => void) { }
 }
 
 /**
- * uniapp gets image pixel information
+ * @classdesc uniapp gets image pixel information
  * @classes UniappImagePixelInformation
  * @implements ImagePixelInformationInterface
  * @extends ImagePixelInformation
- * @classdesc uniapp gets image pixel information
+ * @param grayThreshold grayscale threshold（default 100）
  */
 export class UniappImagePixelInformation extends ImagePixelInformation implements ImagePixelInformationInterface {
-    constructor() {
+    grayThreshold: number;
+    constructor(grayThreshold: number) {
         super();
+        this.grayThreshold = grayThreshold;
     }
-    protected createCanvas(canvasId: string, componentInstance: object): void {
-        if (typeof canvasId !== 'string') {
-            throw new Error('canvasId must be string');
-        }
-        if (!componentInstance) {
-            throw new Error('componentInstance must be object');
-        }
-        this.canvasId = canvasId;
-        this.context = uni.createCanvasContext(canvasId, componentInstance)
-    }
-    protected drawImage(imageResource: string, dx: number = 0, dy: number = 0, dWidth: number = 200, dHeight: number = 200, sx?: number, sy?: number, sWidth?: number, sHeight?: number): Promise<any> {
-        return new Promise((resolve, reject) => {
-            if (typeof imageResource !== 'string') {
-                throw new Error('imageResource must be string');
-            }
-            if (!this.context) reject('canvas context is null');
-            this.context.drawImage(imageResource, dx, dy, dWidth, dHeight, sx, sy, sWidth, sHeight);
-            this.context.draw(false, () => {
-                resolve('success');
-            });
-        })
-    }
-    getImageData(canvasId: string, componentInstance: object, imageResource: string, width: number = 200, height: number = 200): Promise<any> {
-        return new Promise(async (resolve, reject) => {
-            if (!this.context) {
-                reject('canvas context is null');
-            }
-            this.createCanvas(canvasId, componentInstance);
-            await this.drawImage(imageResource, 0, 0, width, height, 0, 0, width, height);
-            let widthes = Math.max(width, height);
-            this.context.canvasGetImageData({
-                canvasId: this.canvasId, x: 0, y: 0, width: widthes, height: widthes,
-                success: (res: any) => {
-                    resolve(res);
+    uniGetImageData(canvasId: string, imageResource: string, width: number = 256, height: number = 256, callback: (pixelInformation: object) => void) {
+        let that = this;
+        const ctx = uni.createCanvasContext(canvasId)
+        ctx.drawImage(imageResource, 0, 0, width, height)
+        ctx.draw(false, () => {
+            let maxWidth = this.assignToPowerOfTwo(Math.max(width, height))
+            uni.canvasGetImageData({
+                canvasId: canvasId,
+                x: 0,
+                y: 0,
+                width: maxWidth,
+                height: maxWidth,
+                success(res: any) {
+                    callback && callback({
+                        data: convertBinaryDataToDecimalData(convertRgbToGrayscaleAndBinarization(Object.values(res.data), that.grayThreshold)),
+                        width: maxWidth,
+                        height: maxWidth
+                    })
                 },
-                fail: (err: any) => {
-                    reject(err);
+                fail() {
+                    callback && callback([])
                 }
             })
         })
+    }
+}
+/**
+* @classdesc JavaScript gets image pixel information
+* @implements ImagePixelInformationInterface
+* @extends ImagePixelInformation
+* @classes JavaScriptImagePixelInformation
+* @param grayThreshold grayscale threshold（default 100）
+*/
+export class JavaScriptImagePixelInformation extends ImagePixelInformation implements ImagePixelInformationInterface {
+    grayThreshold: number;
+    constructor(grayThreshold: number) {
+        super();
+        this.grayThreshold = grayThreshold;
+    }
+    getImageData(imageResource: string, width: number = 256, height: number = 256, callback: (pixelInformation: object) => void) {
+        let that = this;
+        let image = new Image();
+        image.crossOrigin = 'Anonymous';
+        image.src = imageResource;
+        image.onload = function () {
+            let canvas = document.createElement('canvas');
+            let ctx = canvas.getContext('2d');
+            canvas.width = that.assignToPowerOfTwo(Math.max(width, height));
+            canvas.height = that.assignToPowerOfTwo(Math.max(width, height));
+            if (!ctx) {
+                throw new Error('canvas is null')
+            }
+            ctx.drawImage(image, 0, 0, width, height);
+            let imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            callback && callback({
+                data: convertBinaryDataToDecimalData(convertRgbToGrayscaleAndBinarization(Object.values(imageData.data), that.grayThreshold)),
+                width: canvas.width,
+                height: canvas.height
+            })
+        }
     }
 }

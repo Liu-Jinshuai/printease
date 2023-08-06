@@ -3,7 +3,7 @@ import {
     ConvertBinaryDataToDecimalData
 } from '../types/ImageProcessing';
 
-export const convertRgbToGrayscaleAndBinarization: ConvertRgbToGrayscaleAndBinarization = function (data: number[], grayThreshold: number = 100) {
+export const convertRgbToGrayscaleAndBinarization: ConvertRgbToGrayscaleAndBinarization = function (data: number[], grayThreshold=100) {
     if (data.length % 4 !== 0) {
         throw new Error("The length of the data array is not a multiple of 4");
     }
@@ -17,6 +17,10 @@ export const convertRgbToGrayscaleAndBinarization: ConvertRgbToGrayscaleAndBinar
     }
     let grayscaleArr: number[] = [];
     for (let i = 0; i < arr.length; i += 4) {
+        if (arr[i + 3] === 0) {
+            grayscaleArr.push(1);
+            continue;
+        }
         let gray = arr[i] * 0.299 + arr[i + 1] * 0.587 + arr[i + 2] * 0.114;
         if (gray >= grayThreshold) {
             grayscaleArr.push(1);

@@ -8,49 +8,26 @@ Get image pixel information
 
 ## Implemented by
 
+- [`JavaScriptImagePixelInformation`](../classes/components_imagePixelInformation.JavaScriptImagePixelInformation.md)
 - [`UniappImagePixelInformation`](../classes/components_imagePixelInformation.UniappImagePixelInformation.md)
 
 ## Table of contents
 
 ### Properties
 
-- [canvasId](interface_ImagePixelInformation.ImagePixelInformationInterface.md#canvasid)
-- [context](interface_ImagePixelInformation.ImagePixelInformationInterface.md#context)
 - [getImageData](interface_ImagePixelInformation.ImagePixelInformationInterface.md#getimagedata)
+- [grayThreshold](interface_ImagePixelInformation.ImagePixelInformationInterface.md#graythreshold)
+- [uniGetImageData](interface_ImagePixelInformation.ImagePixelInformationInterface.md#unigetimagedata)
 
 ## Properties
 
-### canvasId
-
-• **canvasId**: `string`
-
-canvas id
-
-#### Defined in
-
-[interface/ImagePixelInformation.ts:13](https://github.com/17562105692/printease/blob/eda80ef/src/interface/ImagePixelInformation.ts#L13)
-
-___
-
-### context
-
-• **context**: `any`
-
-canvas context
-
-#### Defined in
-
-[interface/ImagePixelInformation.ts:9](https://github.com/17562105692/printease/blob/eda80ef/src/interface/ImagePixelInformation.ts#L9)
-
-___
-
 ### getImageData
 
-• **getImageData**: (`canvasId`: `string`, `componentInstance`: `object`, `imageResource`: `string`, `width`: `number`, `height`: `number`) => `Promise`<`any`\>
+• **getImageData**: (`imageResource`: `string`, `width`: `number`, `height`: `number`, `callback`: (`pixelInformation`: `object`) => `void`) => `void`
 
 #### Type declaration
 
-▸ (`canvasId`, `componentInstance`, `imageResource`, `width`, `height`): `Promise`<`any`\>
+▸ (`imageResource`, `width`, `height`, `callback`): `void`
 
 @description: Get image pixel information（rgba）
 
@@ -58,16 +35,57 @@ ___
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `canvasId` | `string` | canvas id |
-| `componentInstance` | `object` | The custom component instance this means to search for <canvas/> with canvas-id under this custom component, if omitted, it will not be searched in any custom component |
-| `imageResource` | `string` | image absolute path |
-| `width` | `number` | The width of the rectangle from which the pixel data will be retrieved |
+| `imageResource` | `string` | image path |
+| `width` | `number` | The width of the rectangle from which the pixel data will be retrieved; |
 | `height` | `number` | The height of the rectangle from which the pixel data will be retrieved |
+| `callback` | (`pixelInformation`: `object`) => `void` | callback function |
 
 ##### Returns
 
-`Promise`<`any`\>
+`void`
 
 #### Defined in
 
-[interface/ImagePixelInformation.ts:22](https://github.com/17562105692/printease/blob/eda80ef/src/interface/ImagePixelInformation.ts#L22)
+[interface/ImagePixelInformation.ts:16](https://github.com/17562105692/printease/blob/701da00/src/interface/ImagePixelInformation.ts#L16)
+
+___
+
+### grayThreshold
+
+• **grayThreshold**: `number`
+
+@description: grayscale threshold（default 100）
+
+#### Defined in
+
+[interface/ImagePixelInformation.ts:8](https://github.com/17562105692/printease/blob/701da00/src/interface/ImagePixelInformation.ts#L8)
+
+___
+
+### uniGetImageData
+
+• **uniGetImageData**: (`canvasId`: `string`, `imageResource`: `string`, `width`: `number`, `height`: `number`, `callback`: (`pixelInformation`: `object`) => `void`) => `void`
+
+#### Type declaration
+
+▸ (`canvasId`, `imageResource`, `width`, `height`, `callback`): `void`
+
+@description: Uniapp Get image pixel information（rgba）
+
+##### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `canvasId` | `string` | canvas id |
+| `imageResource` | `string` | image path |
+| `width` | `number` | The width of the rectangle from which the pixel data will be retrieved; |
+| `height` | `number` | The height of the rectangle from which the pixel data will be retrieved |
+| `callback` | (`pixelInformation`: `object`) => `void` | callback function |
+
+##### Returns
+
+`void`
+
+#### Defined in
+
+[interface/ImagePixelInformation.ts:25](https://github.com/17562105692/printease/blob/701da00/src/interface/ImagePixelInformation.ts#L25)

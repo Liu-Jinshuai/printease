@@ -224,6 +224,11 @@ export interface TsplLibInterface {
      */
     setNewLine: () => void;
     /**
+     * @description: Set commands（If you want to set a custom directive, you can use the command）
+     * @param command command
+     */
+    setCommand: (command: number[]|string) => void;
+    /**
      * @description: get print command
      * @returns return print command
      */
