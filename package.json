@@ -1,6 +1,6 @@
 {
   "name": "printease",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -10,8 +10,13 @@
     "lint": "eslint .",
     "docs": "typedoc --plugin typedoc-plugin-markdown --excludeProtected  --out docs --entryPointStrategy expand ./src/components/**/*.ts ./src/interface/**/*.ts"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/17562105692/printease"
+  },
+  "keywords": ["print"],
+  "author": "liujinshuai",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.22.9",
     "@babel/core": "^7.22.9",
