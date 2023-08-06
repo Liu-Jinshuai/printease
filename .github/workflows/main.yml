@@ -1,8 +1,9 @@
 name: Node.js CI and Publish
 
 on:
-  release:
-    types: [master]
+  push:
+    branches:
+      - master
 
 jobs:
   build:
