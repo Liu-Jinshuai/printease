@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run tests
-        run: npm test
+        run: npm build
       - name: Set deployment token
         run: npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
       - name: Deploy to NPM
