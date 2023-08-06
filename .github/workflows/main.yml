@@ -1,24 +1,45 @@
-name: Node.js CI
+name: Node.js CI and Publish
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
 
 jobs:
-  build:
+  build_and_test:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+
     - name: Use Node.js
       uses: actions/setup-node@v2
       with:
         node-version: '14'
+
     - name: Install dependencies
       run: npm ci
-    - name: Build
-      run: npm run build
-    - name: Publish to npm
-      uses: JS-DevTools/npm-publish@v1
+
+    - name: Run tests (assuming you have tests)
+      run: npm test
+
+  publish_to_npm:
+    needs: build_and_test
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Use Node.js
+      uses: actions/setup-node@v2
       with:
-        token: ${{ secrets.NPM_TOKEN }}
+        node-version: '14'
+        registry-url: 'https://registry.npmjs.org'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Publish to npm
+      run: npm publish
+      env:
+        NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
