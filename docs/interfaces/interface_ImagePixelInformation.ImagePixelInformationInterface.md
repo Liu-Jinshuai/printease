@@ -1,4 +1,4 @@
-[print](../README.md) / [Modules](../modules.md) / [interface/ImagePixelInformation](../modules/interface_ImagePixelInformation.md) / ImagePixelInformationInterface
+[printease](../README.md) / [Modules](../modules.md) / [interface/ImagePixelInformation](../modules/interface_ImagePixelInformation.md) / ImagePixelInformationInterface
 
 # Interface: ImagePixelInformationInterface
 
@@ -46,7 +46,7 @@ Get image pixel information
 
 #### Defined in
 
-[interface/ImagePixelInformation.ts:16](https://github.com/17562105692/printease/blob/701da00/src/interface/ImagePixelInformation.ts#L16)
+[interface/ImagePixelInformation.ts:16](https://github.com/17562105692/printease/blob/08cf583/src/interface/ImagePixelInformation.ts#L16)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[interface/ImagePixelInformation.ts:8](https://github.com/17562105692/printease/blob/701da00/src/interface/ImagePixelInformation.ts#L8)
+[interface/ImagePixelInformation.ts:8](https://github.com/17562105692/printease/blob/08cf583/src/interface/ImagePixelInformation.ts#L8)
 
 ___
 
@@ -88,4 +88,4 @@ ___
 
 #### Defined in
 
-[interface/ImagePixelInformation.ts:25](https://github.com/17562105692/printease/blob/701da00/src/interface/ImagePixelInformation.ts#L25)
+[interface/ImagePixelInformation.ts:25](https://github.com/17562105692/printease/blob/08cf583/src/interface/ImagePixelInformation.ts#L25)

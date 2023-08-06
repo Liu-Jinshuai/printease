@@ -1,4 +1,4 @@
-[print](../README.md) / [Modules](../modules.md) / components/tspl
+[printease](../README.md) / [Modules](../modules.md) / components/tspl
 
 # Module: components/tspl
 

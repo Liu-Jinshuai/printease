@@ -1,6 +1,6 @@
-[print](README.md) / Modules
+[printease](README.md) / Modules
 
-# print
+# printease
 
 ## Table of contents
 

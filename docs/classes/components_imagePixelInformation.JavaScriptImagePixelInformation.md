@@ -1,4 +1,4 @@
-[print](../README.md) / [Modules](../modules.md) / [components/imagePixelInformation](../modules/components_imagePixelInformation.md) / JavaScriptImagePixelInformation
+[printease](../README.md) / [Modules](../modules.md) / [components/imagePixelInformation](../modules/components_imagePixelInformation.md) / JavaScriptImagePixelInformation
 
 # Class: JavaScriptImagePixelInformation
 
@@ -63,7 +63,7 @@ ImagePixelInformation.constructor
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:60](https://github.com/17562105692/printease/blob/701da00/src/components/imagePixelInformation/index.ts#L60)
+[components/imagePixelInformation/index.ts:60](https://github.com/17562105692/printease/blob/08cf583/src/components/imagePixelInformation/index.ts#L60)
 
 ## Properties
 
@@ -79,7 +79,7 @@ ImagePixelInformation.constructor
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:59](https://github.com/17562105692/printease/blob/701da00/src/components/imagePixelInformation/index.ts#L59)
+[components/imagePixelInformation/index.ts:59](https://github.com/17562105692/printease/blob/08cf583/src/components/imagePixelInformation/index.ts#L59)
 
 ## Methods
 
@@ -112,7 +112,7 @@ ImagePixelInformation.getImageData
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:64](https://github.com/17562105692/printease/blob/701da00/src/components/imagePixelInformation/index.ts#L64)
+[components/imagePixelInformation/index.ts:64](https://github.com/17562105692/printease/blob/08cf583/src/components/imagePixelInformation/index.ts#L64)
 
 ___
 
@@ -146,4 +146,4 @@ ImagePixelInformation.uniGetImageData
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:8](https://github.com/17562105692/printease/blob/701da00/src/components/imagePixelInformation/index.ts#L8)
+[components/imagePixelInformation/index.ts:8](https://github.com/17562105692/printease/blob/08cf583/src/components/imagePixelInformation/index.ts#L8)

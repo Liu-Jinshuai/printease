@@ -1,4 +1,4 @@
-[print](../README.md) / [Modules](../modules.md) / components/imagePixelInformation
+[printease](../README.md) / [Modules](../modules.md) / components/imagePixelInformation
 
 # Module: components/imagePixelInformation
 

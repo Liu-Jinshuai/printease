@@ -1,4 +1,4 @@
-[print](../README.md) / [Modules](../modules.md) / components/imagePixelInformation/indexs
+[printease](../README.md) / [Modules](../modules.md) / components/imagePixelInformation/indexs
 
 # Module: components/imagePixelInformation/indexs
 
@@ -23,4 +23,4 @@
 
 #### Defined in
 
-[components/imagePixelInformation/indexs.d.ts:1](https://github.com/17562105692/printease/blob/701da00/src/components/imagePixelInformation/indexs.d.ts#L1)
+[components/imagePixelInformation/indexs.d.ts:1](https://github.com/17562105692/printease/blob/08cf583/src/components/imagePixelInformation/indexs.d.ts#L1)

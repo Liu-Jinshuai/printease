@@ -292,6 +292,18 @@ var TsplLib = /*#__PURE__*/function () {
       (_this$command31 = this.command).push.apply(_this$command31, _toConsumableArray(this.NEW_LINE));
     }
   }, {
+    key: "setCommand",
+    value: function setCommand(command) {
+      if (typeof command === "string") {
+        var _this$command32;
+        (_this$command32 = this.command).push.apply(_this$command32, _toConsumableArray(this.stringToCharCodeArray(command)));
+      } else {
+        var _this$command33;
+        (_this$command33 = this.command).push.apply(_this$command33, _toConsumableArray(command));
+      }
+      this.setNewLine();
+    }
+  }, {
     key: "getCommand",
     value: function getCommand() {
       return this.command;

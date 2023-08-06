@@ -1,4 +1,4 @@
-[print](../README.md) / [Modules](../modules.md) / interface/TsplLib
+[printease](../README.md) / [Modules](../modules.md) / interface/TsplLib
 
 # Module: interface/TsplLib
 
