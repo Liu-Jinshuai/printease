@@ -26,6 +26,7 @@ TsplLibInterface
 
 - [NEW\_LINE](components_tspl.TsplLib.md#new_line)
 - [command](components_tspl.TsplLib.md#command)
+- [encoding](components_tspl.TsplLib.md#encoding)
 
 ### Methods
 
@@ -46,6 +47,7 @@ TsplLibInterface
 - [setCountry](components_tspl.TsplLib.md#setcountry)
 - [setDensity](components_tspl.TsplLib.md#setdensity)
 - [setDirection](components_tspl.TsplLib.md#setdirection)
+- [setEncoding](components_tspl.TsplLib.md#setencoding)
 - [setErase](components_tspl.TsplLib.md#seterase)
 - [setFeed](components_tspl.TsplLib.md#setfeed)
 - [setFormFeed](components_tspl.TsplLib.md#setformfeed)
@@ -65,6 +67,7 @@ TsplLibInterface
 - [setSpeed](components_tspl.TsplLib.md#setspeed)
 - [setText](components_tspl.TsplLib.md#settext)
 - [stringToCharCodeArray](components_tspl.TsplLib.md#stringtocharcodearray)
+- [stringToEncodedBytes](components_tspl.TsplLib.md#stringtoencodedbytes)
 
 ## Constructors
 
@@ -74,17 +77,17 @@ TsplLibInterface
 
 #### Defined in
 
-[components/tspl/index.ts:12](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L12)
+[components/tspl/index.ts:14](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L14)
 
 ## Properties
 
 ### NEW\_LINE
 
-• **NEW\_LINE**: `number`[]
+• **NEW\_LINE**: `string`
 
 #### Defined in
 
-[components/tspl/index.ts:11](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L11)
+[components/tspl/index.ts:12](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L12)
 
 ___
 
@@ -92,9 +95,31 @@ ___
 
 • **command**: `number`[]
 
+@description: command array
+
+#### Implementation of
+
+[TsplLibInterface](../interfaces/interface_TsplLib.TsplLibInterface.md).[command](../interfaces/interface_TsplLib.TsplLibInterface.md#command)
+
 #### Defined in
 
-[components/tspl/index.ts:10](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L10)
+[components/tspl/index.ts:11](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L11)
+
+___
+
+### encoding
+
+• **encoding**: `string`
+
+@description: Encoding method, default utf-8
+
+#### Implementation of
+
+[TsplLibInterface](../interfaces/interface_TsplLib.TsplLibInterface.md).[encoding](../interfaces/interface_TsplLib.TsplLibInterface.md#encoding)
+
+#### Defined in
+
+[components/tspl/index.ts:13](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L13)
 
 ## Methods
 
@@ -116,7 +141,7 @@ Returns the print command (Buffer)
 
 #### Defined in
 
-[components/tspl/index.ts:189](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L189)
+[components/tspl/index.ts:198](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L198)
 
 ___
 
@@ -138,7 +163,7 @@ return print command
 
 #### Defined in
 
-[components/tspl/index.ts:186](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L186)
+[components/tspl/index.ts:195](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L195)
 
 ___
 
@@ -158,7 +183,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:16](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L16)
+[components/tspl/index.ts:19](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L19)
 
 ___
 
@@ -184,7 +209,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:100](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L100)
+[components/tspl/index.ts:107](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L107)
 
 ___
 
@@ -210,7 +235,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:105](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L105)
+[components/tspl/index.ts:112](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L112)
 
 ___
 
@@ -239,7 +264,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:130](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L130)
+[components/tspl/index.ts:137](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L137)
 
 ___
 
@@ -279,7 +304,7 @@ setBarCode(10, 10, '39', 100, 1, 0, 2, 4, '123456789')
 
 #### Defined in
 
-[components/tspl/index.ts:135](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L135)
+[components/tspl/index.ts:142](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L142)
 
 ___
 
@@ -310,7 +335,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:37](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L37)
+[components/tspl/index.ts:44](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L44)
 
 ___
 
@@ -337,7 +362,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:55](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L55)
+[components/tspl/index.ts:62](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L62)
 
 ___
 
@@ -367,7 +392,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:140](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L140)
+[components/tspl/index.ts:147](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L147)
 
 ___
 
@@ -395,7 +420,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:50](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L50)
+[components/tspl/index.ts:57](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L57)
 
 ___
 
@@ -415,7 +440,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:32](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L32)
+[components/tspl/index.ts:39](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L39)
 
 ___
 
@@ -441,7 +466,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:90](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L90)
+[components/tspl/index.ts:97](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L97)
 
 ___
 
@@ -467,7 +492,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:178](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L178)
+[components/tspl/index.ts:188](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L188)
 
 ___
 
@@ -493,7 +518,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:85](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L85)
+[components/tspl/index.ts:92](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L92)
 
 ___
 
@@ -519,7 +544,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:70](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L70)
+[components/tspl/index.ts:77](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L77)
 
 ___
 
@@ -545,7 +570,33 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:75](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L75)
+[components/tspl/index.ts:82](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L82)
+
+___
+
+### setEncoding
+
+▸ **setEncoding**(`encoding`): `void`
+
+@description: Set encoding type
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `encoding` | `string` | encoding type |
+
+#### Returns
+
+`void`
+
+#### Implementation of
+
+[TsplLibInterface](../interfaces/interface_TsplLib.TsplLibInterface.md).[setEncoding](../interfaces/interface_TsplLib.TsplLibInterface.md#setencoding)
+
+#### Defined in
+
+[components/tspl/index.ts:177](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L177)
 
 ___
 
@@ -574,7 +625,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:155](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L155)
+[components/tspl/index.ts:162](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L162)
 
 ___
 
@@ -600,7 +651,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:95](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L95)
+[components/tspl/index.ts:102](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L102)
 
 ___
 
@@ -620,7 +671,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:110](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L110)
+[components/tspl/index.ts:117](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L117)
 
 ___
 
@@ -647,7 +698,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:27](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L27)
+[components/tspl/index.ts:34](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L34)
 
 ___
 
@@ -667,7 +718,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:115](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L115)
+[components/tspl/index.ts:122](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L122)
 
 ___
 
@@ -693,7 +744,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:125](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L125)
+[components/tspl/index.ts:132](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L132)
 
 ___
 
@@ -713,7 +764,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:175](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L175)
+[components/tspl/index.ts:185](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L185)
 
 ___
 
@@ -739,7 +790,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:60](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L60)
+[components/tspl/index.ts:67](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L67)
 
 ___
 
@@ -766,7 +817,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:170](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L170)
+[components/tspl/index.ts:180](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L180)
 
 ___
 
@@ -794,7 +845,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:145](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L145)
+[components/tspl/index.ts:152](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L152)
 
 ___
 
@@ -822,7 +873,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:150](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L150)
+[components/tspl/index.ts:157](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L157)
 
 ___
 
@@ -860,7 +911,7 @@ setQRCode(10, 10, 'L', 5, 'A', 0, '123456789')
 
 #### Defined in
 
-[components/tspl/index.ts:165](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L165)
+[components/tspl/index.ts:172](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L172)
 
 ___
 
@@ -887,7 +938,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:80](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L80)
+[components/tspl/index.ts:87](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L87)
 
 ___
 
@@ -916,7 +967,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:160](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L160)
+[components/tspl/index.ts:167](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L167)
 
 ___
 
@@ -943,7 +994,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:22](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L22)
+[components/tspl/index.ts:29](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L29)
 
 ___
 
@@ -970,7 +1021,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:120](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L120)
+[components/tspl/index.ts:127](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L127)
 
 ___
 
@@ -996,7 +1047,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:65](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L65)
+[components/tspl/index.ts:72](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L72)
 
 ___
 
@@ -1028,7 +1079,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:45](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L45)
+[components/tspl/index.ts:52](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L52)
 
 ___
 
@@ -1056,4 +1107,30 @@ charCode array
 
 #### Defined in
 
-[components/tspl/index.ts:19](https://github.com/17562105692/printease/blob/08cf583/src/components/tspl/index.ts#L19)
+[components/tspl/index.ts:26](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L26)
+
+___
+
+### stringToEncodedBytes
+
+▸ **stringToEncodedBytes**(`str`): `number`[]
+
+@description: string to encoded bytes
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `str` | `string` | string data |
+
+#### Returns
+
+`number`[]
+
+#### Implementation of
+
+[TsplLibInterface](../interfaces/interface_TsplLib.TsplLibInterface.md).[stringToEncodedBytes](../interfaces/interface_TsplLib.TsplLibInterface.md#stringtoencodedbytes)
+
+#### Defined in
+
+[components/tspl/index.ts:22](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/tspl/index.ts#L22)

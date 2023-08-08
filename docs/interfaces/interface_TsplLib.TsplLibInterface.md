@@ -12,6 +12,8 @@
 
 ### Properties
 
+- [command](interface_TsplLib.TsplLibInterface.md#command)
+- [encoding](interface_TsplLib.TsplLibInterface.md#encoding)
 - [getBuffer](interface_TsplLib.TsplLibInterface.md#getbuffer)
 - [getCommand](interface_TsplLib.TsplLibInterface.md#getcommand)
 - [init](interface_TsplLib.TsplLibInterface.md#init)
@@ -29,6 +31,7 @@
 - [setCountry](interface_TsplLib.TsplLibInterface.md#setcountry)
 - [setDensity](interface_TsplLib.TsplLibInterface.md#setdensity)
 - [setDirection](interface_TsplLib.TsplLibInterface.md#setdirection)
+- [setEncoding](interface_TsplLib.TsplLibInterface.md#setencoding)
 - [setErase](interface_TsplLib.TsplLibInterface.md#seterase)
 - [setFeed](interface_TsplLib.TsplLibInterface.md#setfeed)
 - [setFormFeed](interface_TsplLib.TsplLibInterface.md#setformfeed)
@@ -48,8 +51,33 @@
 - [setSpeed](interface_TsplLib.TsplLibInterface.md#setspeed)
 - [setText](interface_TsplLib.TsplLibInterface.md#settext)
 - [stringToCharCodeArray](interface_TsplLib.TsplLibInterface.md#stringtocharcodearray)
+- [stringToEncodedBytes](interface_TsplLib.TsplLibInterface.md#stringtoencodedbytes)
 
 ## Properties
+
+### command
+
+• **command**: `number`[]
+
+@description: command array
+
+#### Defined in
+
+[interface/TsplLib.ts:9](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L9)
+
+___
+
+### encoding
+
+• **encoding**: `string`
+
+@description: Encoding method, default utf-8
+
+#### Defined in
+
+[interface/TsplLib.ts:5](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L5)
+
+___
 
 ### getBuffer
 
@@ -69,7 +97,7 @@ Returns the print command (Buffer)
 
 #### Defined in
 
-[interface/TsplLib.ts:240](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L240)
+[interface/TsplLib.ts:261](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L261)
 
 ___
 
@@ -91,7 +119,7 @@ return print command
 
 #### Defined in
 
-[interface/TsplLib.ts:235](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L235)
+[interface/TsplLib.ts:256](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L256)
 
 ___
 
@@ -111,7 +139,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:7](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L7)
+[interface/TsplLib.ts:16](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L16)
 
 ___
 
@@ -137,7 +165,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:123](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L123)
+[interface/TsplLib.ts:138](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L138)
 
 ___
 
@@ -163,7 +191,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:128](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L128)
+[interface/TsplLib.ts:143](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L143)
 
 ___
 
@@ -192,7 +220,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:155](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L155)
+[interface/TsplLib.ts:170](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L170)
 
 ___
 
@@ -232,7 +260,7 @@ setBarCode(10, 10, '39', 100, 1, 0, 2, 4, '123456789')
 
 #### Defined in
 
-[interface/TsplLib.ts:170](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L170)
+[interface/TsplLib.ts:185](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L185)
 
 ___
 
@@ -263,7 +291,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:43](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L43)
+[interface/TsplLib.ts:58](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L58)
 
 ___
 
@@ -290,7 +318,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:75](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L75)
+[interface/TsplLib.ts:90](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L90)
 
 ___
 
@@ -320,7 +348,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:179](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L179)
+[interface/TsplLib.ts:194](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L194)
 
 ___
 
@@ -348,7 +376,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:69](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L69)
+[interface/TsplLib.ts:84](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L84)
 
 ___
 
@@ -368,7 +396,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:32](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L32)
+[interface/TsplLib.ts:47](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L47)
 
 ___
 
@@ -394,7 +422,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:113](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L113)
+[interface/TsplLib.ts:128](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L128)
 
 ___
 
@@ -420,7 +448,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:230](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L230)
+[interface/TsplLib.ts:251](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L251)
 
 ___
 
@@ -446,7 +474,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:106](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L106)
+[interface/TsplLib.ts:121](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L121)
 
 ___
 
@@ -472,7 +500,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:90](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L90)
+[interface/TsplLib.ts:105](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L105)
 
 ___
 
@@ -498,7 +526,33 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:95](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L95)
+[interface/TsplLib.ts:110](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L110)
+
+___
+
+### setEncoding
+
+• **setEncoding**: (`encoding`: `string`) => `void`
+
+#### Type declaration
+
+▸ (`encoding`): `void`
+
+@description: Set encoding type
+
+##### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `encoding` | `string` | encoding type |
+
+##### Returns
+
+`void`
+
+#### Defined in
+
+[interface/TsplLib.ts:242](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L242)
 
 ___
 
@@ -527,7 +581,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:201](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L201)
+[interface/TsplLib.ts:216](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L216)
 
 ___
 
@@ -553,7 +607,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:118](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L118)
+[interface/TsplLib.ts:133](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L133)
 
 ___
 
@@ -573,7 +627,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:132](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L132)
+[interface/TsplLib.ts:147](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L147)
 
 ___
 
@@ -600,7 +654,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:27](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L27)
+[interface/TsplLib.ts:42](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L42)
 
 ___
 
@@ -620,7 +674,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:136](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L136)
+[interface/TsplLib.ts:151](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L151)
 
 ___
 
@@ -646,7 +700,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:147](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L147)
+[interface/TsplLib.ts:162](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L162)
 
 ___
 
@@ -666,7 +720,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:225](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L225)
+[interface/TsplLib.ts:246](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L246)
 
 ___
 
@@ -692,7 +746,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:80](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L80)
+[interface/TsplLib.ts:95](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L95)
 
 ___
 
@@ -719,7 +773,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:62](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L62)
+[interface/TsplLib.ts:77](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L77)
 
 ___
 
@@ -747,7 +801,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:186](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L186)
+[interface/TsplLib.ts:201](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L201)
 
 ___
 
@@ -775,7 +829,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:193](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L193)
+[interface/TsplLib.ts:208](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L208)
 
 ___
 
@@ -813,7 +867,7 @@ setQRCode(10, 10, 'L', 5, 'A', 0, '123456789')
 
 #### Defined in
 
-[interface/TsplLib.ts:221](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L221)
+[interface/TsplLib.ts:236](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L236)
 
 ___
 
@@ -840,7 +894,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:101](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L101)
+[interface/TsplLib.ts:116](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L116)
 
 ___
 
@@ -869,7 +923,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:209](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L209)
+[interface/TsplLib.ts:224](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L224)
 
 ___
 
@@ -896,7 +950,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:20](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L20)
+[interface/TsplLib.ts:35](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L35)
 
 ___
 
@@ -923,7 +977,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:142](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L142)
+[interface/TsplLib.ts:157](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L157)
 
 ___
 
@@ -949,7 +1003,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:85](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L85)
+[interface/TsplLib.ts:100](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L100)
 
 ___
 
@@ -981,7 +1035,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:55](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L55)
+[interface/TsplLib.ts:70](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L70)
 
 ___
 
@@ -1009,4 +1063,30 @@ charCode array
 
 #### Defined in
 
-[interface/TsplLib.ts:13](https://github.com/17562105692/printease/blob/08cf583/src/interface/TsplLib.ts#L13)
+[interface/TsplLib.ts:22](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L22)
+
+___
+
+### stringToEncodedBytes
+
+• **stringToEncodedBytes**: (`str`: `string`) => `number`[]
+
+#### Type declaration
+
+▸ (`str`): `number`[]
+
+@description: string to encoded bytes
+
+##### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `str` | `string` | string data |
+
+##### Returns
+
+`number`[]
+
+#### Defined in
+
+[interface/TsplLib.ts:28](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/interface/TsplLib.ts#L28)

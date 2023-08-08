@@ -96,6 +96,29 @@ ctx.getImageData(img,200,300,(res)=>{
 ```
 If you use uniapp, please use the ```uniGetImageData``` method of ```UniappImagePixelInformation```. eg: ```ctx.uniGetImageData('myCanvas','./test.png',200,300,(res)=>{})```
 
+```js
+let ctx = new printsea.imagePixelInformation.UniappImagePixelInformation(100);
+ctx.uniGetImageData('myCanvas',img,200,300,()=>{
+    // ...
+})
+```
+
+
+### set the charset
+
+```js
+import printsea from 'printsea'
+let tspl = new printease.tspl.TsplLib()
+tspl.init()
+tspl.setEncoding('GB18030')
+tspl.setSize(60, 40)
+tspl.setGap(3, 0)
+tspl.setCls()
+tspl.setText(10, 10, 'TSS24.BF2', 0, 1, 1, '世界你好')
+tspl.setPrint(1)
+console.log(tspl.getBuffer())
+```
+
 ## License
 
 [MIT licensed](./LICENSE)

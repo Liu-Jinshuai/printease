@@ -1,5 +1,14 @@
 export interface TsplLibInterface {
     /**
+     * @description: Encoding method, default utf-8
+     */
+    encoding: string;
+    /**
+     * @description: command array
+     */
+    command: number[];
+
+    /**
      * @description: init the command
      * @param {*}
      * @return {*}
@@ -11,6 +20,12 @@ export interface TsplLibInterface {
      * @return {*} charCode array
      */
     stringToCharCodeArray: (str: string) => number[];
+    /**
+     * @description: string to encoded bytes
+     * @param str  string data
+     * @returns
+     */
+    stringToEncodedBytes: (str: string) => number[];
     /**
      * @description: Set the width and length of the label paper
      * @param width Width of label paper (without backing paper)
@@ -219,6 +234,12 @@ export interface TsplLibInterface {
      * @example setQRCode(10, 10, 'L', 5, 'A', 0, '123456789')
      */
     setQRCode: (x: number, y: number, ecc: string, cellWidth: number, mode: string, rotation: number, content: string) => void;
+    /**
+     * @description: Set encoding type
+     * @param encoding encoding type
+     * @returns 
+     */
+    setEncoding: (encoding: string) => void;
     /**
      * @description: Instruction wrapping, called by default, if not necessary, do not need to call
      */
