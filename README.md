@@ -3,7 +3,7 @@
 
 ## document
 
-[document](docs/modules.md)
+[document](https://liu-jinshuai.github.io/printeaseDocs)
 
 ## install
 
