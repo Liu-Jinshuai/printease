@@ -1,6 +1,6 @@
 {
   "name": "printease",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "npm run type-check && npm run docs && babel src --extensions '.ts' --out-dir dist",
     "prepublishOnly": "npm run build",
     "lint": "eslint .",
-    "docs": "typedoc --plugin typedoc-plugin-markdown --excludeProtected  --out docs --entryPointStrategy expand ./src/components/**/*.ts ./src/interface/**/*.ts"
+    "docs": "typedoc --plugin typedoc-plugin-markdown --excludeProtected  --out docs --entryPointStrategy expand ./src/components/**/*.ts ./src/interface/**/*.ts ./src/types/**/*.ts"
   },
   "repository": {
     "type": "git",

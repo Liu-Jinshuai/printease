@@ -23,4 +23,4 @@
 
 #### Defined in
 
-[components/imagePixelInformation/indexs.d.ts:1](https://github.com/Liu-Jinshuai/printease/blob/e9c15cc/src/components/imagePixelInformation/indexs.d.ts#L1)
+[components/imagePixelInformation/indexs.d.ts:1](https://github.com/Liu-Jinshuai/printease/blob/c142227/src/components/imagePixelInformation/indexs.d.ts#L1)

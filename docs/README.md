@@ -5,7 +5,7 @@ printease / [Modules](modules.md)
 
 ## document
 
-[document](https://liu-jinshuai.github.io/printeaseDocs/)
+[document](https://liu-jinshuai.github.io/printeaseDocs)
 
 ## install
 

@@ -11,3 +11,5 @@
 - [components/tspl](modules/components_tspl.md)
 - [interface/ImagePixelInformation](modules/interface_ImagePixelInformation.md)
 - [interface/TsplLib](modules/interface_TsplLib.md)
+- [types/ImageProcessing](modules/types_ImageProcessing.md)
+- [types/dataProcessing](modules/types_dataProcessing.md)
