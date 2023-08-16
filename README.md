@@ -18,8 +18,8 @@ It is relatively simple to use, for example, we can use the following statement 
 ### print text
 
 ```js
-import printsea from 'printsea'
-let tspl = new printsea.tspl.TsplLib()
+import printease from 'printease'
+let tspl = new printease.tspl.TsplLib()
 tspl.init()
 tspl.setSize(60, 40)
 tspl.setGap(0, 0)
@@ -35,8 +35,8 @@ You can see that we have used ```tspl.getBuffer()``` to get a piece of buffer da
 ### print barcode
 
 ```js
-import printsea from 'printsea'
-let tspl = new printsea.tspl.TsplLib()
+import printease from 'printease'
+let tspl = new printease.tspl.TsplLib()
 tspl.init()
 tspl.setSize(60, 40)
 tspl.setGap(0, 0)
@@ -51,8 +51,8 @@ Similarly, you should send the content obtained by ```tspl.getBuffer()``` to the
 ### print QR code
     
 ```js
-import printsea from 'printsea'
-let tspl = new printsea.tspl.TsplLib()
+import printease from 'printease'
+let tspl = new printease.tspl.TsplLib()
 tspl.init()
 tspl.setSize(60, 40)
 tspl.setGap(0, 0)
@@ -65,9 +65,9 @@ console.log(tspl.getBuffer())
 ### print image
 
 ```js
-import printsea from 'printsea'
+import printease from 'printease'
 let imageData = [0, 0, 0, 0, 0, 0, 7, 255, 3, 255, 17, 255, 24, 255, 28, 127, 30, 63, 31, 31, 31, 143, 31, 199, 31, 227, 31, 231, 31, 255, 31, 255]
-let tspl = new printsea.tspl.TsplLib()
+let tspl = new printease.tspl.TsplLib()
 tspl.init()
 tspl.setSize(60, 40)
 tspl.setGap(0, 0)
@@ -80,11 +80,11 @@ console.log(tspl.getBuffer())
 If you don't want to organize the image data yourself, you can use ```imagePixelInformation``` for processing, like this:
 
 ```js
-import printsea from 'printsea'
+import printease from 'printease'
 import img from './test.png'
-let ctx = new printsea.imagePixelInformation.JavaScriptImagePixelInformation(100);
+let ctx = new printease.imagePixelInformation.JavaScriptImagePixelInformation(100);
 ctx.getImageData(img,200,300,(res)=>{
-    let tspl = new printsea.tspl.TsplLib()
+    let tspl = new printease.tspl.TsplLib()
     tspl.init()
     tspl.setSize(60, 40)
     tspl.setGap(0, 0)
@@ -97,7 +97,7 @@ ctx.getImageData(img,200,300,(res)=>{
 If you use uniapp, please use the ```uniGetImageData``` method of ```UniappImagePixelInformation```. eg: ```ctx.uniGetImageData('myCanvas','./test.png',200,300,(res)=>{})```
 
 ```js
-let ctx = new printsea.imagePixelInformation.UniappImagePixelInformation(100);
+let ctx = new printease.imagePixelInformation.UniappImagePixelInformation(100);
 ctx.uniGetImageData('myCanvas',img,200,300,()=>{
     // ...
 })
@@ -107,7 +107,7 @@ ctx.uniGetImageData('myCanvas',img,200,300,()=>{
 ### set the charset
 
 ```js
-import printsea from 'printsea'
+import printease from 'printease'
 let tspl = new printease.tspl.TsplLib()
 tspl.init()
 tspl.setEncoding('GB18030')
