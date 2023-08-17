@@ -63,7 +63,7 @@ ImagePixelInformation.constructor
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:21](https://github.com/Liu-Jinshuai/printease/blob/c142227/src/components/imagePixelInformation/index.ts#L21)
+[components/imagePixelInformation/index.ts:21](https://github.com/Liu-Jinshuai/printease/blob/26e3b3c/src/components/imagePixelInformation/index.ts#L21)
 
 ## Properties
 
@@ -79,7 +79,7 @@ ImagePixelInformation.constructor
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:20](https://github.com/Liu-Jinshuai/printease/blob/c142227/src/components/imagePixelInformation/index.ts#L20)
+[components/imagePixelInformation/index.ts:20](https://github.com/Liu-Jinshuai/printease/blob/26e3b3c/src/components/imagePixelInformation/index.ts#L20)
 
 ## Methods
 
@@ -112,7 +112,7 @@ ImagePixelInformation.getImageData
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:9](https://github.com/Liu-Jinshuai/printease/blob/c142227/src/components/imagePixelInformation/index.ts#L9)
+[components/imagePixelInformation/index.ts:9](https://github.com/Liu-Jinshuai/printease/blob/26e3b3c/src/components/imagePixelInformation/index.ts#L9)
 
 ___
 
@@ -146,4 +146,4 @@ ImagePixelInformation.uniGetImageData
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:25](https://github.com/Liu-Jinshuai/printease/blob/c142227/src/components/imagePixelInformation/index.ts#L25)
+[components/imagePixelInformation/index.ts:25](https://github.com/Liu-Jinshuai/printease/blob/26e3b3c/src/components/imagePixelInformation/index.ts#L25)

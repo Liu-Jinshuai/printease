@@ -35,7 +35,7 @@ array of decimal data
 
 #### Defined in
 
-[types/ImageProcessing.ts:14](https://github.com/Liu-Jinshuai/printease/blob/c142227/src/types/ImageProcessing.ts#L14)
+[types/ImageProcessing.ts:14](https://github.com/Liu-Jinshuai/printease/blob/26e3b3c/src/types/ImageProcessing.ts#L14)
 
 ___
 
@@ -64,4 +64,4 @@ Gray scale binarized data array
 
 #### Defined in
 
-[types/ImageProcessing.ts:7](https://github.com/Liu-Jinshuai/printease/blob/c142227/src/types/ImageProcessing.ts#L7)
+[types/ImageProcessing.ts:7](https://github.com/Liu-Jinshuai/printease/blob/26e3b3c/src/types/ImageProcessing.ts#L7)
