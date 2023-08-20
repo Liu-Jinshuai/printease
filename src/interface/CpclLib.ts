@@ -36,4 +36,31 @@ export interface CpclLibInterface {
      * @returns 
      */
     setText: (command: string, font: string, size: number, x: number, y: number, data: string) => void;
+    /**
+     * @description Enlarge the resident font by the specified magnification factor
+     * @param x Width magnification, effective magnification is 1 to 16
+     * @param y Height magnification, effective magnification is 1 to 16
+     * @returns 
+     */
+    setBag:(x:number,y:number)=>void;
+    /**
+     * @description Bold the resident font
+     * @param bold 1: bold, 0: not bold
+     * @returns 
+     */
+    setBold: (bold: boolean) => void;
+    /**
+     * @description Print the barcode.
+     * @param printDirection 0:landscape printing 1:vertical print
+     * @param type UPCA UPC-A 2:1 2 ;UPCE UPC-E 2:1 2 ;EAN13 EAN/JAN-13 2:1 2 ;EAN8 EAN/JAN-8 2:1 2 ;39 Code39 2.5:1 2 ;93 Code93/Ext.93 1.5:1 1 ;128 Code128 N/A 2 ;CODABAR Codabar 2.5:1 2
+     * @param width  width of the barcode
+     * @param ratio  ratio of the barcode(0 1.5:1 ;1 2.0:1 ;2 2.5:1 ;3 3.0:1 ;4 3.5:1 ;20 2.0:1 ;21 2.1:1 ;22 2.2:1 ;23 2.3:1 ;24 2.4:1 ;25 2.5:1 ;26 2.6:1 ;27 2.7:1 ;28 2.8:1 ;29 2.9:1 ;30 3.0:1)
+     * @param height  height of the barcode
+     * @param x  horizontal start position
+     * @param y  vertical start position
+     * @param data  barcode data
+     * @returns 
+     */
+    setBarCode: (printDirection:number,type:string,width:number,ratio:number,height:number,x:number,y:number,data:string) => void;
+
 }

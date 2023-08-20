@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.CpclLib = void 0;
+exports.ZplLib = void 0;
 var _iconvLite = _interopRequireDefault(require("iconv-lite"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
@@ -18,17 +18,19 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
 function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
 function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
-var CpclLib = /*#__PURE__*/function () {
-  function CpclLib() {
-    _classCallCheck(this, CpclLib);
+var ZplLib = /*#__PURE__*/function () {
+  function ZplLib() {
+    _classCallCheck(this, ZplLib);
     this.command = [];
     this.NEW_LINE = '\n';
     this.encoding = "utf-8";
   }
-  _createClass(CpclLib, [{
+  _createClass(ZplLib, [{
     key: "init",
     value: function init() {
       this.command = [];
+      this.setCommand('^XA');
+      this.setNewLine();
     }
   }, {
     key: "stringToEncodedBytes",
@@ -44,48 +46,48 @@ var CpclLib = /*#__PURE__*/function () {
       });
     }
   }, {
-    key: "labelInit",
-    value: function labelInit() {
-      var offset = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
-      var landscapeDPI = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 200;
-      var portraitDPI = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 200;
-      var height = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 40;
-      var str = "! ".concat(offset, " ").concat(landscapeDPI, " ").concat(portraitDPI, " ").concat(height, " 1");
-      this.setCommand(str);
-      this.setNewLine();
-    }
-  }, {
     key: "setText",
-    value: function setText(command, font, size, x, y, data) {
-      var str = "".concat(command, " ").concat(font, " ").concat(size, " ").concat(x, " ").concat(y, " ").concat(data);
-      this.setCommand(str);
+    value: function setText(x, y, data) {
+      var str1 = "^FO".concat(x, ",").concat(y);
+      var str2 = "^FD".concat(data, "^FS");
+      this.setCommand(str1);
       this.setNewLine();
-    }
-  }, {
-    key: "setBag",
-    value: function setBag(x, y) {
-      var str = "SETMAG ".concat(x, " ").concat(y);
-      this.setCommand(str);
-      this.setNewLine();
-    }
-  }, {
-    key: "setBold",
-    value: function setBold(bold) {
-      var str = "SETBOLD ".concat(bold ? 1 : 0);
-      this.setCommand(str);
+      this.setCommand(str2);
       this.setNewLine();
     }
   }, {
     key: "setBarCode",
-    value: function setBarCode(printDirection, type, width, ratio, height, x, y, data) {
-      var str = "".concat(printDirection == 0 ? 'BARCODE' : 'VBARCODE', "  ").concat(type, " ").concat(width, " ").concat(ratio, " ").concat(height, " ").concat(x, " ").concat(y, " ").concat(data);
-      this.setCommand(str);
+    value: function setBarCode(x, y, width, height, data, o, e, f, g) {
+      var str1 = "^FO".concat(x, ",").concat(y);
+      var str2 = "^BY".concat(width);
+      var str3 = "^BC".concat(o || 'N', ",").concat(height, ",").concat(f || 'Y', ",").concat(g || 'N', ",").concat(e || 'N');
+      var str4 = "^FD".concat(data, "^FS");
+      this.setCommand(str1);
+      this.setNewLine();
+      this.setCommand(str2);
+      this.setNewLine();
+      this.setCommand(str3);
+      this.setNewLine();
+      this.setCommand(str4);
+      this.setNewLine();
+    }
+  }, {
+    key: "setQRCode",
+    value: function setQRCode(x, y, data, model, c, d, e) {
+      var str1 = "^FO".concat(x, ",").concat(y);
+      var str2 = "^BQN,".concat(model, ",").concat(c, ",").concat(d || 'Q', ",").concat(e || 7);
+      var str3 = "^FD".concat(data, "^FS");
+      this.setCommand(str1);
+      this.setNewLine();
+      this.setCommand(str2);
+      this.setNewLine();
+      this.setCommand(str3);
       this.setNewLine();
     }
   }, {
     key: "setPrint",
     value: function setPrint() {
-      var str = "PRINT";
+      var str = "^XZ";
       this.setCommand(str);
       this.setNewLine();
     }
@@ -107,6 +109,11 @@ var CpclLib = /*#__PURE__*/function () {
       }
     }
   }, {
+    key: "setEncoding",
+    value: function setEncoding(encoding) {
+      this.encoding = encoding;
+    }
+  }, {
     key: "getCommand",
     value: function getCommand() {
       return this.command;
@@ -122,6 +129,6 @@ var CpclLib = /*#__PURE__*/function () {
       return buffer;
     }
   }]);
-  return CpclLib;
+  return ZplLib;
 }();
-exports.CpclLib = CpclLib;
+exports.ZplLib = ZplLib;

@@ -1,7 +1,7 @@
-import { CpclLibInterface } from "@/interface/CpclLib";
+import { ZplLibInterface } from "@/interface/ZplLib";
 import iconv from 'iconv-lite';
 
-export class CpclLib implements CpclLibInterface {
+export class ZplLib implements ZplLibInterface {
     command: number[];
     NEW_LINE: string;
     encoding: string;
@@ -12,6 +12,8 @@ export class CpclLib implements CpclLibInterface {
     }
     init(): void {
         this.command = [];
+        this.setCommand('^XA');
+        this.setNewLine();
     }
     stringToEncodedBytes(str: string): number[] {
         const buffer = iconv.encode(str, this.encoding);
@@ -20,35 +22,41 @@ export class CpclLib implements CpclLibInterface {
     stringToCharCodeArray(str: string): number[] {
         return Array.from(str).map((char) => char.charCodeAt(0));
     }
-
-    labelInit(offset: number = 0, landscapeDPI: number = 200, portraitDPI: number = 200, height: number = 40) {
-        let str = `! ${offset} ${landscapeDPI} ${portraitDPI} ${height} 1`;
-        this.setCommand(str);
+    setText(x: number, y: number, data: string) {
+        let str1 = `^FO${x},${y}`;
+        let str2 = `^FD${data}^FS`;
+        this.setCommand(str1);
+        this.setNewLine();
+        this.setCommand(str2);
         this.setNewLine();
     }
-    setText(command: string, font: string, size: number, x: number, y: number, data: string) {
-        let str = `${command} ${font} ${size} ${x} ${y} ${data}`;
-        this.setCommand(str);
+    setBarCode(x: number, y: number, width: number, height: number, data: string, o: string, e: string, f: string, g: string) {
+        let str1 = `^FO${x},${y}`;
+        let str2 = `^BY${width}`;
+        let str3 = `^BC${o || 'N'},${height},${f || 'Y'},${g || 'N'},${e || 'N'}`;
+        let str4 = `^FD${data}^FS`;
+        this.setCommand(str1);
+        this.setNewLine();
+        this.setCommand(str2);
+        this.setNewLine();
+        this.setCommand(str3);
+        this.setNewLine();
+        this.setCommand(str4);
         this.setNewLine();
     }
-    setBag(x: number, y: number){
-        let str = `SETMAG ${x} ${y}`;
-        this.setCommand(str);
+    setQRCode(x: number, y: number, data: string, model: number, c: number, d: string, e: string) {
+        let str1 = `^FO${x},${y}`;
+        let str2 = `^BQN,${model},${c},${d || 'Q'},${e || 7}`;
+        let str3 = `^FD${data}^FS`;
+        this.setCommand(str1);
+        this.setNewLine();
+        this.setCommand(str2);
+        this.setNewLine();
+        this.setCommand(str3);
         this.setNewLine();
     }
-    setBold(bold: boolean) {
-        let str = `SETBOLD ${bold ? 1 : 0}`;
-        this.setCommand(str);
-        this.setNewLine();
-    }
-    setBarCode(printDirection: number, type: string, width: number, ratio: number, height: number, x: number, y: number, data: string) {
-        let str = `${printDirection==0?'BARCODE':'VBARCODE'}  ${type} ${width} ${ratio} ${height} ${x} ${y} ${data}`;
-        this.setCommand(str);
-        this.setNewLine();
-    }
-
     setPrint(): void {
-        let str = `PRINT`;
+        let str = `^XZ`;
         this.setCommand(str);
         this.setNewLine();
     }
@@ -61,6 +69,9 @@ export class CpclLib implements CpclLibInterface {
         } else {
             this.command.push(...command);
         }
+    }
+    setEncoding(encoding: string) {
+        this.encoding = encoding;
     }
     getCommand() {
         return this.command;

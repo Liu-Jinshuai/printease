@@ -4,14 +4,6 @@
 
 [components/cpcl](../modules/components_cpcl.md).CpclLib
 
-@description: TSPL instruction library interface document
-
-**`Param`**
-
-**`Implements`**
-
-TsplLibInterface
-
 ## Implements
 
 - [`CpclLibInterface`](../interfaces/interface_CpclLib.CpclLibInterface.md)
@@ -34,6 +26,9 @@ TsplLibInterface
 - [getCommand](components_cpcl.CpclLib.md#getcommand)
 - [init](components_cpcl.CpclLib.md#init)
 - [labelInit](components_cpcl.CpclLib.md#labelinit)
+- [setBag](components_cpcl.CpclLib.md#setbag)
+- [setBarCode](components_cpcl.CpclLib.md#setbarcode)
+- [setBold](components_cpcl.CpclLib.md#setbold)
 - [setCommand](components_cpcl.CpclLib.md#setcommand)
 - [setNewLine](components_cpcl.CpclLib.md#setnewline)
 - [setPrint](components_cpcl.CpclLib.md#setprint)
@@ -49,7 +44,7 @@ TsplLibInterface
 
 #### Defined in
 
-components/cpcl/index.ts:14
+[components/cpcl/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L8)
 
 ## Properties
 
@@ -59,7 +54,7 @@ components/cpcl/index.ts:14
 
 #### Defined in
 
-components/cpcl/index.ts:12
+[components/cpcl/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L6)
 
 ___
 
@@ -75,7 +70,7 @@ ___
 
 #### Defined in
 
-components/cpcl/index.ts:11
+[components/cpcl/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L5)
 
 ___
 
@@ -91,7 +86,7 @@ ___
 
 #### Defined in
 
-components/cpcl/index.ts:13
+[components/cpcl/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L7)
 
 ## Methods
 
@@ -105,7 +100,7 @@ components/cpcl/index.ts:13
 
 #### Defined in
 
-components/cpcl/index.ts:59
+[components/cpcl/index.ts:68](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L68)
 
 ___
 
@@ -119,7 +114,7 @@ ___
 
 #### Defined in
 
-components/cpcl/index.ts:56
+[components/cpcl/index.ts:65](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L65)
 
 ___
 
@@ -139,7 +134,7 @@ ___
 
 #### Defined in
 
-components/cpcl/index.ts:19
+[components/cpcl/index.ts:13](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L13)
 
 ___
 
@@ -168,7 +163,99 @@ ___
 
 #### Defined in
 
-components/cpcl/index.ts:30
+[components/cpcl/index.ts:24](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L24)
+
+___
+
+### setBag
+
+▸ **setBag**(`x`, `y`): `void`
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `x` | `number` | Width magnification, effective magnification is 1 to 16 |
+| `y` | `number` | Height magnification, effective magnification is 1 to 16 |
+
+#### Returns
+
+`void`
+
+**`Description`**
+
+Enlarge the resident font by the specified magnification factor
+
+#### Implementation of
+
+[CpclLibInterface](../interfaces/interface_CpclLib.CpclLibInterface.md).[setBag](../interfaces/interface_CpclLib.CpclLibInterface.md#setbag)
+
+#### Defined in
+
+[components/cpcl/index.ts:34](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L34)
+
+___
+
+### setBarCode
+
+▸ **setBarCode**(`printDirection`, `type`, `width`, `ratio`, `height`, `x`, `y`, `data`): `void`
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `printDirection` | `number` | 0:landscape printing 1:vertical print |
+| `type` | `string` | UPCA UPC-A 2:1 2 ;UPCE UPC-E 2:1 2 ;EAN13 EAN/JAN-13 2:1 2 ;EAN8 EAN/JAN-8 2:1 2 ;39 Code39 2.5:1 2 ;93 Code93/Ext.93 1.5:1 1 ;128 Code128 N/A 2 ;CODABAR Codabar 2.5:1 2 |
+| `width` | `number` | width of the barcode |
+| `ratio` | `number` | ratio of the barcode(0 1.5:1 ;1 2.0:1 ;2 2.5:1 ;3 3.0:1 ;4 3.5:1 ;20 2.0:1 ;21 2.1:1 ;22 2.2:1 ;23 2.3:1 ;24 2.4:1 ;25 2.5:1 ;26 2.6:1 ;27 2.7:1 ;28 2.8:1 ;29 2.9:1 ;30 3.0:1) |
+| `height` | `number` | height of the barcode |
+| `x` | `number` | horizontal start position |
+| `y` | `number` | vertical start position |
+| `data` | `string` | barcode data |
+
+#### Returns
+
+`void`
+
+**`Description`**
+
+Print the barcode.
+
+#### Implementation of
+
+[CpclLibInterface](../interfaces/interface_CpclLib.CpclLibInterface.md).[setBarCode](../interfaces/interface_CpclLib.CpclLibInterface.md#setbarcode)
+
+#### Defined in
+
+[components/cpcl/index.ts:44](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L44)
+
+___
+
+### setBold
+
+▸ **setBold**(`bold`): `void`
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `bold` | `boolean` | 1: bold, 0: not bold |
+
+#### Returns
+
+`void`
+
+**`Description`**
+
+Bold the resident font
+
+#### Implementation of
+
+[CpclLibInterface](../interfaces/interface_CpclLib.CpclLibInterface.md).[setBold](../interfaces/interface_CpclLib.CpclLibInterface.md#setbold)
+
+#### Defined in
+
+[components/cpcl/index.ts:39](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L39)
 
 ___
 
@@ -188,7 +275,7 @@ ___
 
 #### Defined in
 
-components/cpcl/index.ts:49
+[components/cpcl/index.ts:58](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L58)
 
 ___
 
@@ -202,7 +289,7 @@ ___
 
 #### Defined in
 
-components/cpcl/index.ts:46
+[components/cpcl/index.ts:55](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L55)
 
 ___
 
@@ -222,7 +309,7 @@ ___
 
 #### Defined in
 
-components/cpcl/index.ts:41
+[components/cpcl/index.ts:50](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L50)
 
 ___
 
@@ -253,7 +340,7 @@ ___
 
 #### Defined in
 
-components/cpcl/index.ts:35
+[components/cpcl/index.ts:29](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L29)
 
 ___
 
@@ -273,7 +360,7 @@ ___
 
 #### Defined in
 
-components/cpcl/index.ts:26
+[components/cpcl/index.ts:20](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L20)
 
 ___
 
@@ -293,4 +380,4 @@ ___
 
 #### Defined in
 
-components/cpcl/index.ts:22
+[components/cpcl/index.ts:16](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/cpcl/index.ts#L16)

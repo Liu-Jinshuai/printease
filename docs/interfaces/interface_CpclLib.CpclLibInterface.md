@@ -16,6 +16,9 @@
 - [encoding](interface_CpclLib.CpclLibInterface.md#encoding)
 - [init](interface_CpclLib.CpclLibInterface.md#init)
 - [labelInit](interface_CpclLib.CpclLibInterface.md#labelinit)
+- [setBag](interface_CpclLib.CpclLibInterface.md#setbag)
+- [setBarCode](interface_CpclLib.CpclLibInterface.md#setbarcode)
+- [setBold](interface_CpclLib.CpclLibInterface.md#setbold)
 - [setPrint](interface_CpclLib.CpclLibInterface.md#setprint)
 - [setText](interface_CpclLib.CpclLibInterface.md#settext)
 
@@ -29,7 +32,7 @@
 
 #### Defined in
 
-interface/CpclLib.ts:9
+[interface/CpclLib.ts:9](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/interface/CpclLib.ts#L9)
 
 ___
 
@@ -41,7 +44,7 @@ ___
 
 #### Defined in
 
-interface/CpclLib.ts:5
+[interface/CpclLib.ts:5](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/interface/CpclLib.ts#L5)
 
 ___
 
@@ -61,7 +64,7 @@ ___
 
 #### Defined in
 
-interface/CpclLib.ts:15
+[interface/CpclLib.ts:15](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/interface/CpclLib.ts#L15)
 
 ___
 
@@ -90,7 +93,99 @@ ___
 
 #### Defined in
 
-interface/CpclLib.ts:23
+[interface/CpclLib.ts:23](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/interface/CpclLib.ts#L23)
+
+___
+
+### setBag
+
+• **setBag**: (`x`: `number`, `y`: `number`) => `void`
+
+#### Type declaration
+
+▸ (`x`, `y`): `void`
+
+##### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `x` | `number` | Width magnification, effective magnification is 1 to 16 |
+| `y` | `number` | Height magnification, effective magnification is 1 to 16 |
+
+##### Returns
+
+`void`
+
+**`Description`**
+
+Enlarge the resident font by the specified magnification factor
+
+#### Defined in
+
+[interface/CpclLib.ts:45](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/interface/CpclLib.ts#L45)
+
+___
+
+### setBarCode
+
+• **setBarCode**: (`printDirection`: `number`, `type`: `string`, `width`: `number`, `ratio`: `number`, `height`: `number`, `x`: `number`, `y`: `number`, `data`: `string`) => `void`
+
+#### Type declaration
+
+▸ (`printDirection`, `type`, `width`, `ratio`, `height`, `x`, `y`, `data`): `void`
+
+##### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `printDirection` | `number` | 0:landscape printing 1:vertical print |
+| `type` | `string` | UPCA UPC-A 2:1 2 ;UPCE UPC-E 2:1 2 ;EAN13 EAN/JAN-13 2:1 2 ;EAN8 EAN/JAN-8 2:1 2 ;39 Code39 2.5:1 2 ;93 Code93/Ext.93 1.5:1 1 ;128 Code128 N/A 2 ;CODABAR Codabar 2.5:1 2 |
+| `width` | `number` | width of the barcode |
+| `ratio` | `number` | ratio of the barcode(0 1.5:1 ;1 2.0:1 ;2 2.5:1 ;3 3.0:1 ;4 3.5:1 ;20 2.0:1 ;21 2.1:1 ;22 2.2:1 ;23 2.3:1 ;24 2.4:1 ;25 2.5:1 ;26 2.6:1 ;27 2.7:1 ;28 2.8:1 ;29 2.9:1 ;30 3.0:1) |
+| `height` | `number` | height of the barcode |
+| `x` | `number` | horizontal start position |
+| `y` | `number` | vertical start position |
+| `data` | `string` | barcode data |
+
+##### Returns
+
+`void`
+
+**`Description`**
+
+Print the barcode.
+
+#### Defined in
+
+[interface/CpclLib.ts:64](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/interface/CpclLib.ts#L64)
+
+___
+
+### setBold
+
+• **setBold**: (`bold`: `boolean`) => `void`
+
+#### Type declaration
+
+▸ (`bold`): `void`
+
+##### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `bold` | `boolean` | 1: bold, 0: not bold |
+
+##### Returns
+
+`void`
+
+**`Description`**
+
+Bold the resident font
+
+#### Defined in
+
+[interface/CpclLib.ts:51](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/interface/CpclLib.ts#L51)
 
 ___
 
@@ -110,7 +205,7 @@ ___
 
 #### Defined in
 
-interface/CpclLib.ts:27
+[interface/CpclLib.ts:27](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/interface/CpclLib.ts#L27)
 
 ___
 
@@ -141,4 +236,4 @@ ___
 
 #### Defined in
 
-interface/CpclLib.ts:38
+[interface/CpclLib.ts:38](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/interface/CpclLib.ts#L38)
