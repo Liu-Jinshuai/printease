@@ -46,7 +46,7 @@
 
 #### Defined in
 
-components/uniappWebview/index.ts:21
+[components/uniappWebview/index.ts:21](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniappWebview/index.ts#L21)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-components/uniappWebview/index.ts:22
+[components/uniappWebview/index.ts:22](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniappWebview/index.ts#L22)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-components/uniappWebview/index.ts:20
+[components/uniappWebview/index.ts:20](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniappWebview/index.ts#L20)
 
 ## Methods
 
@@ -88,7 +88,7 @@ components/uniappWebview/index.ts:20
 
 #### Defined in
 
-components/uniappWebview/index.ts:49
+[components/uniappWebview/index.ts:49](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniappWebview/index.ts#L49)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-components/uniappWebview/index.ts:44
+[components/uniappWebview/index.ts:44](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniappWebview/index.ts#L44)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-components/uniappWebview/index.ts:32
+[components/uniappWebview/index.ts:32](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniappWebview/index.ts#L32)
 
 ___
 
@@ -148,7 +148,7 @@ init
 
 #### Defined in
 
-components/uniappWebview/index.ts:23
+[components/uniappWebview/index.ts:23](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniappWebview/index.ts#L23)
 
 ___
 
@@ -174,4 +174,4 @@ set html
 
 #### Defined in
 
-components/uniappWebview/index.ts:27
+[components/uniappWebview/index.ts:27](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniappWebview/index.ts#L27)

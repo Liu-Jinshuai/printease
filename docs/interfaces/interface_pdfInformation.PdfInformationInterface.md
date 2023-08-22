@@ -51,7 +51,7 @@ get pdf image
 
 #### Defined in
 
-interface/pdfInformation.ts:32
+[interface/pdfInformation.ts:32](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L32)
 
 ___
 
@@ -71,7 +71,7 @@ get pdf page count
 
 #### Defined in
 
-interface/pdfInformation.ts:26
+[interface/pdfInformation.ts:26](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L26)
 
 ___
 
@@ -97,7 +97,7 @@ get pdf Text
 
 #### Defined in
 
-interface/pdfInformation.ts:22
+[interface/pdfInformation.ts:22](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L22)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-interface/pdfInformation.ts:9
+[interface/pdfInformation.ts:9](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L9)
 
 ___
 
@@ -127,7 +127,7 @@ init
 
 #### Defined in
 
-interface/pdfInformation.ts:13
+[interface/pdfInformation.ts:13](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L13)
 
 ___
 
@@ -153,7 +153,7 @@ load pdf file
 
 #### Defined in
 
-interface/pdfInformation.ts:17
+[interface/pdfInformation.ts:17](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L17)
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 #### Defined in
 
-interface/pdfInformation.ts:7
+[interface/pdfInformation.ts:7](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L7)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-interface/pdfInformation.ts:6
+[interface/pdfInformation.ts:6](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L6)
 
 ___
 
@@ -183,7 +183,7 @@ ___
 
 #### Defined in
 
-interface/pdfInformation.ts:5
+[interface/pdfInformation.ts:5](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L5)
 
 ___
 
@@ -193,4 +193,4 @@ ___
 
 #### Defined in
 
-interface/pdfInformation.ts:8
+[interface/pdfInformation.ts:8](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L8)

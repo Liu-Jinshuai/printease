@@ -9,6 +9,7 @@ var tspl = _interopRequireWildcard(require("./components/tspl"));
 var cpcl = _interopRequireWildcard(require("./components/cpcl"));
 var zpl = _interopRequireWildcard(require("./components/zpl"));
 var esc = _interopRequireWildcard(require("./components/esc"));
+var customDirective = _interopRequireWildcard(require("./components/customDirective"));
 var imagePixelInformation = _interopRequireWildcard(require("./components/imagePixelInformation"));
 var dataProcessing = _interopRequireWildcard(require("./utils/dataProcessing"));
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
@@ -18,6 +19,7 @@ var _default = {
   cpcl: cpcl,
   zpl: zpl,
   esc: esc,
+  customDirective: customDirective,
   imagePixelInformation: imagePixelInformation,
   dataProcessing: dataProcessing
 };

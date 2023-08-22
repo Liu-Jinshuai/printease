@@ -7,6 +7,7 @@
 ### Modules
 
 - [components/cpcl](modules/components_cpcl.md)
+- [components/customDirective](modules/components_customDirective.md)
 - [components/esc](modules/components_esc.md)
 - [components/imagePixelInformation](modules/components_imagePixelInformation.md)
 - [components/imagePixelInformation/indexs](modules/components_imagePixelInformation_indexs.md)
@@ -16,6 +17,7 @@
 - [components/uniappWebview](modules/components_uniappWebview.md)
 - [components/zpl](modules/components_zpl.md)
 - [interface/CpclLib](modules/interface_CpclLib.md)
+- [interface/CustomDirective](modules/interface_CustomDirective.md)
 - [interface/EscLib](modules/interface_EscLib.md)
 - [interface/ImagePixelInformation](modules/interface_ImagePixelInformation.md)
 - [interface/TsplLib](modules/interface_TsplLib.md)

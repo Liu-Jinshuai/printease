@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[interface/ZplLib.ts:9](https://github.com/Liu-Jinshuai/printease/blob/ea3e8cb/src/interface/ZplLib.ts#L9)
+[interface/ZplLib.ts:9](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/ZplLib.ts#L9)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[interface/ZplLib.ts:5](https://github.com/Liu-Jinshuai/printease/blob/ea3e8cb/src/interface/ZplLib.ts#L5)
+[interface/ZplLib.ts:5](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/ZplLib.ts#L5)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[interface/ZplLib.ts:15](https://github.com/Liu-Jinshuai/printease/blob/ea3e8cb/src/interface/ZplLib.ts#L15)
+[interface/ZplLib.ts:15](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/ZplLib.ts#L15)
 
 ___
 
@@ -99,7 +99,7 @@ Print the barcode.
 
 #### Defined in
 
-[interface/ZplLib.ts:39](https://github.com/Liu-Jinshuai/printease/blob/ea3e8cb/src/interface/ZplLib.ts#L39)
+[interface/ZplLib.ts:39](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/ZplLib.ts#L39)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[interface/ZplLib.ts:62](https://github.com/Liu-Jinshuai/printease/blob/ea3e8cb/src/interface/ZplLib.ts#L62)
+[interface/ZplLib.ts:62](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/ZplLib.ts#L62)
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 #### Defined in
 
-[interface/ZplLib.ts:19](https://github.com/Liu-Jinshuai/printease/blob/ea3e8cb/src/interface/ZplLib.ts#L19)
+[interface/ZplLib.ts:19](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/ZplLib.ts#L19)
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 #### Defined in
 
-[interface/ZplLib.ts:56](https://github.com/Liu-Jinshuai/printease/blob/ea3e8cb/src/interface/ZplLib.ts#L56)
+[interface/ZplLib.ts:56](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/ZplLib.ts#L56)
 
 ___
 
@@ -205,4 +205,4 @@ ___
 
 #### Defined in
 
-[interface/ZplLib.ts:26](https://github.com/Liu-Jinshuai/printease/blob/ea3e8cb/src/interface/ZplLib.ts#L26)
+[interface/ZplLib.ts:26](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/ZplLib.ts#L26)

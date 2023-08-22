@@ -50,7 +50,7 @@ pdf information
 
 #### Defined in
 
-components/uniPdfInformation/index.ts:6
+[components/uniPdfInformation/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniPdfInformation/index.ts#L6)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-components/uniPdfInformation/index.ts:4
+[components/uniPdfInformation/index.ts:4](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniPdfInformation/index.ts#L4)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-components/uniPdfInformation/index.ts:8
+[components/uniPdfInformation/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniPdfInformation/index.ts#L8)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-components/uniPdfInformation/index.ts:7
+[components/uniPdfInformation/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniPdfInformation/index.ts#L7)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-components/uniPdfInformation/index.ts:5
+[components/uniPdfInformation/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniPdfInformation/index.ts#L5)
 
 ## Methods
 
@@ -132,7 +132,7 @@ get pdf image
 
 #### Defined in
 
-components/uniPdfInformation/index.ts:43
+[components/uniPdfInformation/index.ts:43](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniPdfInformation/index.ts#L43)
 
 ___
 
@@ -152,7 +152,7 @@ get pdf page count
 
 #### Defined in
 
-components/uniPdfInformation/index.ts:35
+[components/uniPdfInformation/index.ts:35](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniPdfInformation/index.ts#L35)
 
 ___
 
@@ -178,7 +178,7 @@ get pdf Text
 
 #### Defined in
 
-components/uniPdfInformation/index.ts:24
+[components/uniPdfInformation/index.ts:24](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniPdfInformation/index.ts#L24)
 
 ___
 
@@ -198,7 +198,7 @@ init
 
 #### Defined in
 
-components/uniPdfInformation/index.ts:9
+[components/uniPdfInformation/index.ts:9](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniPdfInformation/index.ts#L9)
 
 ___
 
@@ -224,4 +224,4 @@ load pdf file
 
 #### Defined in
 
-components/uniPdfInformation/index.ts:15
+[components/uniPdfInformation/index.ts:15](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/uniPdfInformation/index.ts#L15)

@@ -29,7 +29,7 @@
 
 #### Defined in
 
-interface/UniappWebview.ts:4
+[interface/UniappWebview.ts:4](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/UniappWebview.ts#L4)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-interface/UniappWebview.ts:3
+[interface/UniappWebview.ts:3](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/UniappWebview.ts#L3)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-interface/UniappWebview.ts:2
+[interface/UniappWebview.ts:2](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/UniappWebview.ts#L2)
 
 ## Methods
 
@@ -65,7 +65,7 @@ init
 
 #### Defined in
 
-interface/UniappWebview.ts:8
+[interface/UniappWebview.ts:8](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/UniappWebview.ts#L8)
 
 ___
 
@@ -87,4 +87,4 @@ set html
 
 #### Defined in
 
-interface/UniappWebview.ts:13
+[interface/UniappWebview.ts:13](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/UniappWebview.ts#L13)
