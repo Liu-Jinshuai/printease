@@ -8,6 +8,7 @@
 
 - [ConvertBinaryDataToDecimalData](types_ImageProcessing.md#convertbinarydatatodecimaldata)
 - [ConvertRgbToGrayscaleAndBinarization](types_ImageProcessing.md#convertrgbtograyscaleandbinarization)
+- [ConvertRgbToRgba](types_ImageProcessing.md#convertrgbtorgba)
 
 ## Type Aliases
 
@@ -35,7 +36,7 @@ array of decimal data
 
 #### Defined in
 
-[types/ImageProcessing.ts:14](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/types/ImageProcessing.ts#L14)
+[types/ImageProcessing.ts:14](https://github.com/Liu-Jinshuai/printease/blob/ea3e8cb/src/types/ImageProcessing.ts#L14)
 
 ___
 
@@ -64,4 +65,32 @@ Gray scale binarized data array
 
 #### Defined in
 
-[types/ImageProcessing.ts:7](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/types/ImageProcessing.ts#L7)
+[types/ImageProcessing.ts:7](https://github.com/Liu-Jinshuai/printease/blob/ea3e8cb/src/types/ImageProcessing.ts#L7)
+
+___
+
+### ConvertRgbToRgba
+
+Ƭ **ConvertRgbToRgba**: (`data`: `number`[]) => `number`[]
+
+#### Type declaration
+
+▸ (`data`): `number`[]
+
+convert rgb to rgba
+
+##### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `data` | `number`[] | rgb data array |
+
+##### Returns
+
+`number`[]
+
+rgba data array
+
+#### Defined in
+
+[types/ImageProcessing.ts:21](https://github.com/Liu-Jinshuai/printease/blob/ea3e8cb/src/types/ImageProcessing.ts#L21)

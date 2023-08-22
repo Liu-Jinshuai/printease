@@ -43,6 +43,7 @@
     ]
   },
   "dependencies": {
-    "iconv-lite": "^0.6.3"
+    "iconv-lite": "^0.6.3",
+    "pdfjs-dist": "^2.4.456"
   }
 }

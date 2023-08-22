@@ -40,3 +40,17 @@ export const convertBinaryDataToDecimalData: ConvertBinaryDataToDecimalData = fu
     }
     return arr;
 }
+
+export const convertRgbToRgba = function (data: number[]) {
+    if (data.length % 4 == 0) {
+        return data;
+    }
+    let arr: number[] = [];
+    for (let i = 0; i < data.length; i++) {
+        arr.push(data[i]);
+        if ((i + 1) % 3 === 0) {
+            arr.push(255);
+        }
+    }
+    return arr;
+}

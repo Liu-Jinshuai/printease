@@ -13,3 +13,10 @@ export type ConvertRgbToGrayscaleAndBinarization = (data: number[], grayThreshol
  */
 export type ConvertBinaryDataToDecimalData = (data: number[]) => number[];
 
+/**
+ * convert rgb to rgba
+ * @param data rgb data array
+ * @returns rgba data array
+ */
+export type ConvertRgbToRgba = (data: number[]) => number[];
+

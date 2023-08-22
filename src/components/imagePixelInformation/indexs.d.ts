@@ -5,4 +5,14 @@ declare const uni: {
         canvasGetImageData: (obj: any) => void;
     },
     canvasGetImageData: (obj: any) => void;
+    env: {
+        USER_DATA_PATH: string;
+    },
+    writeFile: (obj: any) => void;
+    createWebView: (obj: any) => void;
+}
+
+declare module 'pdfjs-dist' {
+    var pdfjsLib: any;
+    export = pdfjsLib;
 }

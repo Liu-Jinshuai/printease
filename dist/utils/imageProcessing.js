@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.convertRgbToGrayscaleAndBinarization = exports.convertBinaryDataToDecimalData = void 0;
+exports.convertRgbToRgba = exports.convertRgbToGrayscaleAndBinarization = exports.convertBinaryDataToDecimalData = void 0;
 var convertRgbToGrayscaleAndBinarization = function convertRgbToGrayscaleAndBinarization(data) {
   var grayThreshold = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 100;
   if (data.length % 4 !== 0) {
@@ -42,3 +42,17 @@ var convertBinaryDataToDecimalData = function convertBinaryDataToDecimalData(dat
   return arr;
 };
 exports.convertBinaryDataToDecimalData = convertBinaryDataToDecimalData;
+var convertRgbToRgba = function convertRgbToRgba(data) {
+  if (data.length % 4 == 0) {
+    return data;
+  }
+  var arr = [];
+  for (var i = 0; i < data.length; i++) {
+    arr.push(data[i]);
+    if ((i + 1) % 3 === 0) {
+      arr.push(255);
+    }
+  }
+  return arr;
+};
+exports.convertRgbToRgba = convertRgbToRgba;

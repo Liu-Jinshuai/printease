@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+### Namespaces
+
+- [&quot;pdfjs-dist&quot;](components_imagePixelInformation_indexs._pdfjs_dist_.md)
+
 ### Variables
 
 - [uni](components_imagePixelInformation_indexs.md#uni)
@@ -20,7 +24,11 @@
 | :------ | :------ |
 | `canvasGetImageData` | (`obj`: `any`) => `void` |
 | `createCanvasContext` | (`canvasId`: `string`, `componentInstance?`: `object`) => { `canvasGetImageData`: (`obj`: `any`) => `void` ; `draw`: (`bool?`: `Boolean`, `callback?`: () => `void`) => `void` ; `drawImage`: (`imageResource`: `string`, `dx?`: `number`, `dy?`: `number`, `dWidth?`: `number`, `dHeight?`: `number`, `sx?`: `number`, `sy?`: `number`, `sWidth?`: `number`, `sHeight?`: `number`) => `void`  } |
+| `createWebView` | (`obj`: `any`) => `void` |
+| `env` | { `USER_DATA_PATH`: `string`  } |
+| `env.USER_DATA_PATH` | `string` |
+| `writeFile` | (`obj`: `any`) => `void` |
 
 #### Defined in
 
-[components/imagePixelInformation/indexs.d.ts:1](https://github.com/Liu-Jinshuai/printease/blob/b564588/src/components/imagePixelInformation/indexs.d.ts#L1)
+[components/imagePixelInformation/indexs.d.ts:1](https://github.com/Liu-Jinshuai/printease/blob/ea3e8cb/src/components/imagePixelInformation/indexs.d.ts#L1)
