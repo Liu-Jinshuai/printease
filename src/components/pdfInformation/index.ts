@@ -13,24 +13,85 @@ export class PdfInformation implements PdfInformationInterface {
         this.pdfjsLib = pdfjsLib;
     }
     loadPdfFile(file: any) {
+        let that = this
         return new Promise((resolve) => {
             let filees = this.pdfjsLib.getDocument(file)
             filees.promise.then((pdf: any) => {
-                this.pdfInstance = pdf;
-                resolve(pdf)
-            })
-        })
-    }
-    getPdfText(page: number) {
-        this.textContent = {}
-        return new Promise((resolve) => {
-            this.pdfInstance.getPage(page).then((page: any) => {
-                page.getTextContent().then((textContent: any) => {
-                    this.textContent = textContent
-                    resolve(textContent)
+                let imgObj: object[] = []
+
+                pdf.getPage(1).then(function (page: any) {
+
+                    page.getOperatorList().then(function (opList: any) {
+
+                        for (let i = 0; i < opList.fnArray.length; i++) {
+                            let transformMatrix = null;
+
+                            let fnId = opList.fnArray[i]
+                            if (fnId === pdfjsLib.OPS.transform) {
+                                transformMatrix = opList.argsArray[i];
+                            }
+
+                            if (opList.fnArray[i] == pdfjsLib.OPS.paintImageXObject) {
+                                let imgIndex = opList.argsArray[i][0]
+                                let img = page.objs.get(imgIndex)
+                                let rgbaData;
+                                const numPixels = img.width * img.height;
+                                let len = Object.keys(img.data).length
+
+                                if (len === numPixels * 3) { // RGB
+                                    rgbaData = [];
+                                    for (let i = 0, j = 0; i < len; i += 3, j += 4) {
+                                        rgbaData[j] = img.data[i];
+                                        rgbaData[j + 1] = img.data[i + 1];
+                                        rgbaData[j + 2] = img.data[i + 2];
+                                        rgbaData[j + 3] = 255;
+                                    }
+                                } else if (len === numPixels * 4) { // RGBA
+                                    rgbaData = Object.values(img.data);
+                                } else {
+                                    console.error("Unknown image data format");
+                                    return;
+                                }
+                                imgObj.push({
+                                    width: img.width,
+                                    height: img.height,
+                                    data: rgbaData,
+                                    transformMatrix: transformMatrix
+                                })
+                            }
+
+                        }
+
+                        page.getTextContent().then(function (textContent: any) {
+                            console.log('textContent', textContent);
+                            var textItems = textContent.items;
+                            var finalString = "";
+                            for (var i = 0; i < textItems.length; i++) {
+                                var item = textItems[i];
+                                finalString += item.str + " ";
+                            }
+                            that.imageContent = imgObj
+                            that.textContent = textItems
+                            resolve(true)
+                        });
+
+                    });
                 })
             })
         })
+    }
+    loadUniPdfFile(file: any, webviewObj: any) {
+        return new Promise((resolve) => {
+            webviewObj.install(file, (data: any) => {
+                let obj = JSON.parse(data)
+                this.imageContent = obj.imgItems
+                this.textContent = obj.textItems
+                resolve(true)
+            })
+        })
+    }
+    getPdfText() {
+        return this.textContent
     }
     getPdfPageCount() {
         return new Promise((resolve) => {
@@ -40,30 +101,7 @@ export class PdfInformation implements PdfInformationInterface {
             })
         })
     }
-    getPdfImage(pageIndex: number) {
-        let that = this;
-        this.imageContent = []
-        return new Promise((resolve) => {
-            this.pdfInstance.getPage(pageIndex).then(function (page: any) {
-                page.getOperatorList().then(function (opList: any) {
-                    let transformMatrix = null;
-                    for (let i = 0; i < opList.fnArray.length; i++) {
-                        let fnId = opList.fnArray[i]
-                        if (fnId === pdfjsLib.OPS.transform) {
-                            transformMatrix = opList.argsArray[i];
-                        }
-                        if (opList.fnArray[i] == pdfjsLib.OPS.paintImageXObject) {
-                            let imgIndex = opList.argsArray[i][0]
-                            let img = page.objs.get(imgIndex)
-                            that.imageContent.push({
-                                transformMatrix: transformMatrix,
-                                data: img
-                            })
-                            resolve(that.imageContent)
-                        }
-                    }
-                });
-            })
-        })
+    getPdfImage() {
+        return this.imageContent
     }
 }

@@ -16,18 +16,22 @@ export interface PdfInformationInterface {
      */
     loadPdfFile: (file: any) => void;
     /**
-     * get pdf Text
-     * @param page page number
+     * load uni pdf file
+     * @param file file path
+     * @param webviewObj webview object
+     * @returns 
      */
-    getPdfText: (page: number) => Promise<any>;
+    loadUniPdfFile: (file: any, webviewObj: object) => Promise<any>;
+    /**
+     * get pdf Text
+     */
+    getPdfText: () => object;
     /**
      * get pdf page count
      */
     getPdfPageCount: () => Promise<unknown>;
     /**
      * get pdf image
-     * @param page page number
-     * @param convertRgba convert to rgba default true
      */
-    getPdfImage: (page: number, convertRgba: boolean) => object;
+    getPdfImage: () => any;
 }

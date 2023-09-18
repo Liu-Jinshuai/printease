@@ -1,4 +1,4 @@
-export interface UniappWebviewInterface{
+export interface UniappWebviewInterface {
     webview: any;
     html: string;
     callback: any;
@@ -7,8 +7,18 @@ export interface UniappWebviewInterface{
      */
     init(): void;
     /**
-     * set html
-     * @param html 
+     * set webview html
+     * @param html html string
      */
     setHtml(html: string): void;
+    /**
+     * create webview
+     */
+    createWebView(): void;
+    /**
+     * Load complete callback
+     * @param file
+     * @param callback 
+     */
+    install(file: string, callback: (data: string) => void): void;
 }

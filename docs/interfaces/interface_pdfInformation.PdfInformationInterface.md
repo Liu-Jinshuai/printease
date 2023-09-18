@@ -21,6 +21,7 @@ pdf information
 - [imageContent](interface_pdfInformation.PdfInformationInterface.md#imagecontent)
 - [init](interface_pdfInformation.PdfInformationInterface.md#init)
 - [loadPdfFile](interface_pdfInformation.PdfInformationInterface.md#loadpdffile)
+- [loadUniPdfFile](interface_pdfInformation.PdfInformationInterface.md#loadunipdffile)
 - [pageCount](interface_pdfInformation.PdfInformationInterface.md#pagecount)
 - [pdfInstance](interface_pdfInformation.PdfInformationInterface.md#pdfinstance)
 - [pdfjsLib](interface_pdfInformation.PdfInformationInterface.md#pdfjslib)
@@ -30,28 +31,21 @@ pdf information
 
 ### getPdfImage
 
-• **getPdfImage**: (`page`: `number`, `convertRgba`: `boolean`) => `object`
+• **getPdfImage**: () => `any`
 
 #### Type declaration
 
-▸ (`page`, `convertRgba`): `object`
+▸ (): `any`
 
 get pdf image
 
-##### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `page` | `number` | page number |
-| `convertRgba` | `boolean` | convert to rgba default true |
-
 ##### Returns
 
-`object`
+`any`
 
 #### Defined in
 
-[interface/pdfInformation.ts:32](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L32)
+[interface/pdfInformation.ts:36](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/pdfInformation.ts#L36)
 
 ___
 
@@ -71,33 +65,27 @@ get pdf page count
 
 #### Defined in
 
-[interface/pdfInformation.ts:26](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L26)
+[interface/pdfInformation.ts:32](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/pdfInformation.ts#L32)
 
 ___
 
 ### getPdfText
 
-• **getPdfText**: (`page`: `number`) => `Promise`<`any`\>
+• **getPdfText**: () => `object`
 
 #### Type declaration
 
-▸ (`page`): `Promise`<`any`\>
+▸ (): `object`
 
 get pdf Text
 
-##### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `page` | `number` | page number |
-
 ##### Returns
 
-`Promise`<`any`\>
+`object`
 
 #### Defined in
 
-[interface/pdfInformation.ts:22](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L22)
+[interface/pdfInformation.ts:28](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/pdfInformation.ts#L28)
 
 ___
 
@@ -107,7 +95,7 @@ ___
 
 #### Defined in
 
-[interface/pdfInformation.ts:9](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L9)
+[interface/pdfInformation.ts:9](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/pdfInformation.ts#L9)
 
 ___
 
@@ -127,7 +115,7 @@ init
 
 #### Defined in
 
-[interface/pdfInformation.ts:13](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L13)
+[interface/pdfInformation.ts:13](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/pdfInformation.ts#L13)
 
 ___
 
@@ -153,7 +141,34 @@ load pdf file
 
 #### Defined in
 
-[interface/pdfInformation.ts:17](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L17)
+[interface/pdfInformation.ts:17](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/pdfInformation.ts#L17)
+
+___
+
+### loadUniPdfFile
+
+• **loadUniPdfFile**: (`file`: `any`, `webviewObj`: `object`) => `Promise`<`any`\>
+
+#### Type declaration
+
+▸ (`file`, `webviewObj`): `Promise`<`any`\>
+
+load uni pdf file
+
+##### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `file` | `any` | file path |
+| `webviewObj` | `object` | webview object |
+
+##### Returns
+
+`Promise`<`any`\>
+
+#### Defined in
+
+[interface/pdfInformation.ts:24](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/pdfInformation.ts#L24)
 
 ___
 
@@ -163,7 +178,7 @@ ___
 
 #### Defined in
 
-[interface/pdfInformation.ts:7](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L7)
+[interface/pdfInformation.ts:7](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/pdfInformation.ts#L7)
 
 ___
 
@@ -173,7 +188,7 @@ ___
 
 #### Defined in
 
-[interface/pdfInformation.ts:6](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L6)
+[interface/pdfInformation.ts:6](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/pdfInformation.ts#L6)
 
 ___
 
@@ -183,7 +198,7 @@ ___
 
 #### Defined in
 
-[interface/pdfInformation.ts:5](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L5)
+[interface/pdfInformation.ts:5](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/pdfInformation.ts#L5)
 
 ___
 
@@ -193,4 +208,4 @@ ___
 
 #### Defined in
 
-[interface/pdfInformation.ts:8](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/pdfInformation.ts#L8)
+[interface/pdfInformation.ts:8](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/pdfInformation.ts#L8)

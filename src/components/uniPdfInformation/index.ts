@@ -21,17 +21,20 @@ export class UniPdfInformation implements PdfInformationInterface {
             })
         })
     }
-    getPdfText(page: number) {
-        this.textContent = {}
+    loadUniPdfFile(file: any, webviewObj: any) {
         return new Promise((resolve) => {
-            this.pdfInstance.getPage(page).then((page: any) => {
-                page.getTextContent().then((textContent: any) => {
-                    this.textContent = textContent
-                    resolve(textContent)
-                })
+            webviewObj.install(file, (data: any) => {
+                let obj = JSON.parse(data)
+                this.imageContent = obj.imgItems
+                this.textContent = obj.textItems
+                resolve(true)
             })
         })
     }
+    getPdfText() {
+        return this.textContent
+    }
+
     getPdfPageCount() {
         return new Promise((resolve) => {
             this.pdfInstance.getMetadata().then((metadata: any) => {
@@ -40,30 +43,7 @@ export class UniPdfInformation implements PdfInformationInterface {
             })
         })
     }
-    getPdfImage(pageIndex: number) {
-        let that = this;
-        this.imageContent = []
-        return new Promise((resolve) => {
-            this.pdfInstance.getPage(pageIndex).then(function (page: any) {
-                page.getOperatorList().then(function (opList: any) {
-                    let transformMatrix = null;
-                    for (let i = 0; i < opList.fnArray.length; i++) {
-                        let fnId = opList.fnArray[i]
-                        if (fnId === pdfjsLib.OPS.transform) {
-                            transformMatrix = opList.argsArray[i];
-                        }
-                        if (opList.fnArray[i] == pdfjsLib.OPS.paintImageXObject) {
-                            let imgIndex = opList.argsArray[i][0]
-                            let img = page.objs.get(imgIndex)
-                            that.imageContent.push({
-                                transformMatrix: transformMatrix,
-                                data: img
-                            })
-                            resolve(that.imageContent)
-                        }
-                    }
-                });
-            })
-        })
+    getPdfImage() {
+        return this.imageContent
     }
 }

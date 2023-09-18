@@ -28,7 +28,7 @@
 
 #### Defined in
 
-interface/CustomDirective.ts:2
+[interface/CustomDirective.ts:2](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/CustomDirective.ts#L2)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-interface/CustomDirective.ts:3
+[interface/CustomDirective.ts:3](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/CustomDirective.ts#L3)
 
 ___
 
@@ -60,7 +60,7 @@ Returns the print command (Buffer)
 
 #### Defined in
 
-interface/CustomDirective.ts:13
+[interface/CustomDirective.ts:13](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/CustomDirective.ts#L13)
 
 ___
 
@@ -82,7 +82,7 @@ return print command
 
 #### Defined in
 
-interface/CustomDirective.ts:8
+[interface/CustomDirective.ts:8](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/CustomDirective.ts#L8)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-interface/CustomDirective.ts:19
+[interface/CustomDirective.ts:19](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/CustomDirective.ts#L19)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-interface/CustomDirective.ts:25
+[interface/CustomDirective.ts:25](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/CustomDirective.ts#L25)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-interface/CustomDirective.ts:30
+[interface/CustomDirective.ts:30](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/CustomDirective.ts#L30)

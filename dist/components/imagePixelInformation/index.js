@@ -65,33 +65,40 @@ var UniappImagePixelInformation = /*#__PURE__*/function (_ImagePixelInformatio) 
   _createClass(UniappImagePixelInformation, [{
     key: "uniGetImageData",
     value: function uniGetImageData(canvasId, imageResource) {
-      var _this2 = this;
       var width = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 256;
       var height = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 256;
       var callback = arguments.length > 4 ? arguments[4] : undefined;
       var that = this;
       var ctx = uni.createCanvasContext(canvasId);
-      ctx.drawImage(imageResource, 0, 0, width, height);
-      ctx.draw(false, function () {
-        var maxWidth = _this2.assignToPowerOfTwo(Math.max(width, height));
-        uni.canvasGetImageData({
-          canvasId: canvasId,
-          x: 0,
-          y: 0,
-          width: maxWidth,
-          height: maxWidth,
-          success: function success(res) {
-            callback && callback({
-              data: (0, _imageProcessing.convertBinaryDataToDecimalData)((0, _imageProcessing.convertRgbToGrayscaleAndBinarization)(Object.values(res.data), that.grayThreshold)),
-              width: maxWidth,
-              height: maxWidth
-            });
-          },
-          fail: function fail() {
-            callback && callback([]);
-          }
+      var maxWidth = this.assignToPowerOfTwo(Math.max(width, height));
+      if (Array.isArray(imageResource)) {
+        callback && callback({
+          data: (0, _imageProcessing.convertBinaryDataToDecimalData)((0, _imageProcessing.convertRgbToGrayscaleAndBinarization)(imageResource, that.grayThreshold)),
+          width: width,
+          height: height
         });
-      });
+      } else {
+        ctx.drawImage(imageResource, 0, 0, width, height);
+        ctx.draw(false, function () {
+          uni.canvasGetImageData({
+            canvasId: canvasId,
+            x: 0,
+            y: 0,
+            width: maxWidth,
+            height: maxWidth,
+            success: function success(res) {
+              callback && callback({
+                data: (0, _imageProcessing.convertBinaryDataToDecimalData)((0, _imageProcessing.convertRgbToGrayscaleAndBinarization)(Object.values(res.data), that.grayThreshold)),
+                width: maxWidth,
+                height: maxWidth
+              });
+            },
+            fail: function fail() {
+              callback && callback([]);
+            }
+          });
+        });
+      }
     }
   }]);
   return UniappImagePixelInformation;
@@ -108,11 +115,11 @@ var JavaScriptImagePixelInformation = /*#__PURE__*/function (_ImagePixelInformat
   _inherits(JavaScriptImagePixelInformation, _ImagePixelInformatio2);
   var _super2 = _createSuper(JavaScriptImagePixelInformation);
   function JavaScriptImagePixelInformation(grayThreshold) {
-    var _this3;
+    var _this2;
     _classCallCheck(this, JavaScriptImagePixelInformation);
-    _this3 = _super2.call(this);
-    _this3.grayThreshold = grayThreshold;
-    return _this3;
+    _this2 = _super2.call(this);
+    _this2.grayThreshold = grayThreshold;
+    return _this2;
   }
   _createClass(JavaScriptImagePixelInformation, [{
     key: "getImageData",
@@ -121,6 +128,9 @@ var JavaScriptImagePixelInformation = /*#__PURE__*/function (_ImagePixelInformat
       var height = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 256;
       var callback = arguments.length > 3 ? arguments[3] : undefined;
       var that = this;
+      if (imageResource instanceof Array) {
+        throw new Error('imageResource is Array');
+      }
       var image = new Image();
       image.crossOrigin = 'Anonymous';
       image.src = imageResource;

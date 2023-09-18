@@ -42,18 +42,22 @@ var UniPdfInformation = /*#__PURE__*/function () {
       });
     }
   }, {
-    key: "getPdfText",
-    value: function getPdfText(page) {
+    key: "loadUniPdfFile",
+    value: function loadUniPdfFile(file, webviewObj) {
       var _this2 = this;
-      this.textContent = {};
       return new Promise(function (resolve) {
-        _this2.pdfInstance.getPage(page).then(function (page) {
-          page.getTextContent().then(function (textContent) {
-            _this2.textContent = textContent;
-            resolve(textContent);
-          });
+        webviewObj.install(file, function (data) {
+          var obj = JSON.parse(data);
+          _this2.imageContent = obj.imgItems;
+          _this2.textContent = obj.textItems;
+          resolve(true);
         });
       });
+    }
+  }, {
+    key: "getPdfText",
+    value: function getPdfText() {
+      return this.textContent;
     }
   }, {
     key: "getPdfPageCount",
@@ -68,32 +72,8 @@ var UniPdfInformation = /*#__PURE__*/function () {
     }
   }, {
     key: "getPdfImage",
-    value: function getPdfImage(pageIndex) {
-      var _this4 = this;
-      var that = this;
-      this.imageContent = [];
-      return new Promise(function (resolve) {
-        _this4.pdfInstance.getPage(pageIndex).then(function (page) {
-          page.getOperatorList().then(function (opList) {
-            var transformMatrix = null;
-            for (var i = 0; i < opList.fnArray.length; i++) {
-              var fnId = opList.fnArray[i];
-              if (fnId === pdfjsLib.OPS.transform) {
-                transformMatrix = opList.argsArray[i];
-              }
-              if (opList.fnArray[i] == pdfjsLib.OPS.paintImageXObject) {
-                var imgIndex = opList.argsArray[i][0];
-                var img = page.objs.get(imgIndex);
-                that.imageContent.push({
-                  transformMatrix: transformMatrix,
-                  data: img
-                });
-                resolve(that.imageContent);
-              }
-            }
-          });
-        });
-      });
+    value: function getPdfImage() {
+      return this.imageContent;
     }
   }]);
   return UniPdfInformation;

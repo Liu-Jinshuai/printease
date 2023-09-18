@@ -6,4 +6,4 @@
 
 ### Classes
 
-- [default](../classes/components_uniappWebview.default.md)
+- [UniappWebview](../classes/components_uniappWebview.UniappWebview.md)

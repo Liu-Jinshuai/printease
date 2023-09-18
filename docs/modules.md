@@ -21,6 +21,7 @@
 - [interface/EscLib](modules/interface_EscLib.md)
 - [interface/ImagePixelInformation](modules/interface_ImagePixelInformation.md)
 - [interface/TsplLib](modules/interface_TsplLib.md)
+- [interface/UniappFile](modules/interface_UniappFile.md)
 - [interface/UniappWebview](modules/interface_UniappWebview.md)
 - [interface/ZplLib](modules/interface_ZplLib.md)
 - [interface/pdfInformation](modules/interface_pdfInformation.md)

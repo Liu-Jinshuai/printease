@@ -36,4 +36,4 @@ Shard the arraybuffer data
 
 #### Defined in
 
-[types/dataProcessing.ts:8](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/types/dataProcessing.ts#L8)
+[types/dataProcessing.ts:8](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/types/dataProcessing.ts#L8)

@@ -6,7 +6,7 @@
 
 ## Implemented by
 
-- [`default`](../classes/components_uniappWebview.default.md)
+- [`UniappWebview`](../classes/components_uniappWebview.UniappWebview.md)
 
 ## Table of contents
 
@@ -18,7 +18,9 @@
 
 ### Methods
 
+- [createWebView](interface_UniappWebview.UniappWebviewInterface.md#createwebview)
 - [init](interface_UniappWebview.UniappWebviewInterface.md#init)
+- [install](interface_UniappWebview.UniappWebviewInterface.md#install)
 - [setHtml](interface_UniappWebview.UniappWebviewInterface.md#sethtml)
 
 ## Properties
@@ -29,7 +31,7 @@
 
 #### Defined in
 
-[interface/UniappWebview.ts:4](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/UniappWebview.ts#L4)
+[interface/UniappWebview.ts:4](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/UniappWebview.ts#L4)
 
 ___
 
@@ -39,7 +41,7 @@ ___
 
 #### Defined in
 
-[interface/UniappWebview.ts:3](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/UniappWebview.ts#L3)
+[interface/UniappWebview.ts:3](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/UniappWebview.ts#L3)
 
 ___
 
@@ -49,9 +51,25 @@ ___
 
 #### Defined in
 
-[interface/UniappWebview.ts:2](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/UniappWebview.ts#L2)
+[interface/UniappWebview.ts:2](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/UniappWebview.ts#L2)
 
 ## Methods
+
+### createWebView
+
+▸ **createWebView**(): `void`
+
+create webview
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[interface/UniappWebview.ts:17](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/UniappWebview.ts#L17)
+
+___
 
 ### init
 
@@ -65,21 +83,22 @@ init
 
 #### Defined in
 
-[interface/UniappWebview.ts:8](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/UniappWebview.ts#L8)
+[interface/UniappWebview.ts:8](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/UniappWebview.ts#L8)
 
 ___
 
-### setHtml
+### install
 
-▸ **setHtml**(`html`): `void`
+▸ **install**(`file`, `callback`): `void`
 
-set html
+Load complete callback
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `html` | `string` |
+| `file` | `string` |
+| `callback` | (`data`: `string`) => `void` |
 
 #### Returns
 
@@ -87,4 +106,26 @@ set html
 
 #### Defined in
 
-[interface/UniappWebview.ts:13](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/UniappWebview.ts#L13)
+[interface/UniappWebview.ts:23](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/UniappWebview.ts#L23)
+
+___
+
+### setHtml
+
+▸ **setHtml**(`html`): `void`
+
+set webview html
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `html` | `string` | html string |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[interface/UniappWebview.ts:13](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/UniappWebview.ts#L13)

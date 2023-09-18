@@ -5,8 +5,8 @@ class ImagePixelInformation {
         let power = Math.ceil(Math.log2(n));
         return Math.pow(2, power);
     }
-    uniGetImageData(canvasId: string, imageResource: string, width: number = 256, height: number = 256, callback: (pixelInformation: object) => void) { }
-    getImageData(imageResource: string, width: number = 256, height: number = 256, callback: (pixelInformation: object) => void) { }
+    uniGetImageData(canvasId: string, imageResource: string|number[], width: number = 256, height: number = 256, callback: (pixelInformation: object) => void) {}
+    getImageData(imageResource: string|number[], width: number = 256, height: number = 256, callback: (pixelInformation: object) => void) {}
 }
 
 /**
@@ -22,30 +22,39 @@ export class UniappImagePixelInformation extends ImagePixelInformation implement
         super();
         this.grayThreshold = grayThreshold;
     }
-    uniGetImageData(canvasId: string, imageResource: string, width: number = 256, height: number = 256, callback: (pixelInformation: object) => void) {
+    uniGetImageData(canvasId: string, imageResource: string|number[], width: number = 256, height: number = 256, callback: (pixelInformation: object) => void) {
         let that = this;
         const ctx = uni.createCanvasContext(canvasId)
-        ctx.drawImage(imageResource, 0, 0, width, height)
-        ctx.draw(false, () => {
-            let maxWidth = this.assignToPowerOfTwo(Math.max(width, height))
-            uni.canvasGetImageData({
-                canvasId: canvasId,
-                x: 0,
-                y: 0,
-                width: maxWidth,
-                height: maxWidth,
-                success(res: any) {
-                    callback && callback({
-                        data: convertBinaryDataToDecimalData(convertRgbToGrayscaleAndBinarization(Object.values(res.data), that.grayThreshold)),
-                        width: maxWidth,
-                        height: maxWidth
-                    })
-                },
-                fail() {
-                    callback && callback([])
-                }
+        let maxWidth = this.assignToPowerOfTwo(Math.max(width, height))
+        if (Array.isArray(imageResource)) {
+            callback && callback({
+                data: convertBinaryDataToDecimalData(convertRgbToGrayscaleAndBinarization(imageResource, that.grayThreshold)),
+                width: width,
+                height: height
             })
-        })
+        }else{
+            ctx.drawImage(imageResource, 0, 0, width, height)
+            ctx.draw(false, () => {
+                uni.canvasGetImageData({
+                    canvasId: canvasId,
+                    x: 0,
+                    y: 0,
+                    width: maxWidth,
+                    height: maxWidth,
+                    success(res: any) {
+                        callback && callback({
+                            data: convertBinaryDataToDecimalData(convertRgbToGrayscaleAndBinarization(Object.values(res.data), that.grayThreshold)),
+                            width: maxWidth,
+                            height: maxWidth
+                        })
+                    },
+                    fail() {
+                        callback && callback([])
+                    }
+                })
+            })
+        }
+        
     }
 }
 /**
@@ -61,8 +70,11 @@ export class JavaScriptImagePixelInformation extends ImagePixelInformation imple
         super();
         this.grayThreshold = grayThreshold;
     }
-    getImageData(imageResource: string, width: number = 256, height: number = 256, callback: (pixelInformation: object) => void) {
+    getImageData(imageResource: string|number[], width: number = 256, height: number = 256, callback: (pixelInformation: object) => void) {
         let that = this;
+        if (imageResource instanceof Array) {
+            throw new Error('imageResource is Array')
+        }
         let image = new Image();
         image.crossOrigin = 'Anonymous';
         image.src = imageResource;

@@ -31,6 +31,7 @@ pdf information
 - [getPdfText](components_pdfInformation.PdfInformation.md#getpdftext)
 - [init](components_pdfInformation.PdfInformation.md#init)
 - [loadPdfFile](components_pdfInformation.PdfInformation.md#loadpdffile)
+- [loadUniPdfFile](components_pdfInformation.PdfInformation.md#loadunipdffile)
 
 ## Constructors
 
@@ -50,7 +51,7 @@ pdf information
 
 #### Defined in
 
-[components/pdfInformation/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/pdfInformation/index.ts#L6)
+[components/pdfInformation/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/pdfInformation/index.ts#L6)
 
 ___
 
@@ -64,7 +65,7 @@ ___
 
 #### Defined in
 
-[components/pdfInformation/index.ts:4](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/pdfInformation/index.ts#L4)
+[components/pdfInformation/index.ts:4](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/pdfInformation/index.ts#L4)
 
 ___
 
@@ -78,7 +79,7 @@ ___
 
 #### Defined in
 
-[components/pdfInformation/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/pdfInformation/index.ts#L8)
+[components/pdfInformation/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/pdfInformation/index.ts#L8)
 
 ___
 
@@ -92,7 +93,7 @@ ___
 
 #### Defined in
 
-[components/pdfInformation/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/pdfInformation/index.ts#L7)
+[components/pdfInformation/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/pdfInformation/index.ts#L7)
 
 ___
 
@@ -106,25 +107,19 @@ ___
 
 #### Defined in
 
-[components/pdfInformation/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/pdfInformation/index.ts#L5)
+[components/pdfInformation/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/pdfInformation/index.ts#L5)
 
 ## Methods
 
 ### getPdfImage
 
-▸ **getPdfImage**(`pageIndex`): `Promise`<`unknown`\>
+▸ **getPdfImage**(): {}[]
 
 get pdf image
 
-#### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `pageIndex` | `number` | page number |
-
 #### Returns
 
-`Promise`<`unknown`\>
+{}[]
 
 #### Implementation of
 
@@ -132,7 +127,7 @@ get pdf image
 
 #### Defined in
 
-[components/pdfInformation/index.ts:43](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/pdfInformation/index.ts#L43)
+[components/pdfInformation/index.ts:45](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/pdfInformation/index.ts#L45)
 
 ___
 
@@ -152,25 +147,19 @@ get pdf page count
 
 #### Defined in
 
-[components/pdfInformation/index.ts:35](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/pdfInformation/index.ts#L35)
+[components/pdfInformation/index.ts:37](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/pdfInformation/index.ts#L37)
 
 ___
 
 ### getPdfText
 
-▸ **getPdfText**(`page`): `Promise`<`unknown`\>
+▸ **getPdfText**(): `object`
 
 get pdf Text
 
-#### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `page` | `number` | page number |
-
 #### Returns
 
-`Promise`<`unknown`\>
+`object`
 
 #### Implementation of
 
@@ -178,7 +167,7 @@ get pdf Text
 
 #### Defined in
 
-[components/pdfInformation/index.ts:24](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/pdfInformation/index.ts#L24)
+[components/pdfInformation/index.ts:34](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/pdfInformation/index.ts#L34)
 
 ___
 
@@ -198,7 +187,7 @@ init
 
 #### Defined in
 
-[components/pdfInformation/index.ts:9](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/pdfInformation/index.ts#L9)
+[components/pdfInformation/index.ts:9](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/pdfInformation/index.ts#L9)
 
 ___
 
@@ -224,4 +213,31 @@ load pdf file
 
 #### Defined in
 
-[components/pdfInformation/index.ts:15](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/pdfInformation/index.ts#L15)
+[components/pdfInformation/index.ts:15](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/pdfInformation/index.ts#L15)
+
+___
+
+### loadUniPdfFile
+
+▸ **loadUniPdfFile**(`file`, `webviewObj`): `Promise`<`unknown`\>
+
+load uni pdf file
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `file` | `any` | file path |
+| `webviewObj` | `any` | webview object |
+
+#### Returns
+
+`Promise`<`unknown`\>
+
+#### Implementation of
+
+[PdfInformationInterface](../interfaces/interface_pdfInformation.PdfInformationInterface.md).[loadUniPdfFile](../interfaces/interface_pdfInformation.PdfInformationInterface.md#loadunipdffile)
+
+#### Defined in
+
+[components/pdfInformation/index.ts:24](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/pdfInformation/index.ts#L24)

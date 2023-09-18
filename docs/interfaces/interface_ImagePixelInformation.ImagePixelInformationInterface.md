@@ -23,7 +23,7 @@ Get image pixel information
 
 ### getImageData
 
-• **getImageData**: (`imageResource`: `string`, `width`: `number`, `height`: `number`, `callback`: (`pixelInformation`: `object`) => `void`) => `void`
+• **getImageData**: (`imageResource`: `string` \| `number`[], `width`: `number`, `height`: `number`, `callback`: (`pixelInformation`: `object`) => `void`) => `void`
 
 #### Type declaration
 
@@ -35,7 +35,7 @@ Get image pixel information
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `imageResource` | `string` | image path |
+| `imageResource` | `string` \| `number`[] | image path |
 | `width` | `number` | The width of the rectangle from which the pixel data will be retrieved; |
 | `height` | `number` | The height of the rectangle from which the pixel data will be retrieved |
 | `callback` | (`pixelInformation`: `object`) => `void` | callback function |
@@ -46,7 +46,7 @@ Get image pixel information
 
 #### Defined in
 
-[interface/ImagePixelInformation.ts:16](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/ImagePixelInformation.ts#L16)
+[interface/ImagePixelInformation.ts:16](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/ImagePixelInformation.ts#L16)
 
 ___
 
@@ -58,13 +58,13 @@ ___
 
 #### Defined in
 
-[interface/ImagePixelInformation.ts:8](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/ImagePixelInformation.ts#L8)
+[interface/ImagePixelInformation.ts:8](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/ImagePixelInformation.ts#L8)
 
 ___
 
 ### uniGetImageData
 
-• **uniGetImageData**: (`canvasId`: `string`, `imageResource`: `string`, `width`: `number`, `height`: `number`, `callback`: (`pixelInformation`: `object`) => `void`) => `void`
+• **uniGetImageData**: (`canvasId`: `string`, `imageResource`: `string` \| `number`[], `width`: `number`, `height`: `number`, `callback`: (`pixelInformation`: `object`) => `void`) => `void`
 
 #### Type declaration
 
@@ -77,7 +77,7 @@ ___
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `canvasId` | `string` | canvas id |
-| `imageResource` | `string` | image path |
+| `imageResource` | `string` \| `number`[] | image path |
 | `width` | `number` | The width of the rectangle from which the pixel data will be retrieved; |
 | `height` | `number` | The height of the rectangle from which the pixel data will be retrieved |
 | `callback` | (`pixelInformation`: `object`) => `void` | callback function |
@@ -88,4 +88,4 @@ ___
 
 #### Defined in
 
-[interface/ImagePixelInformation.ts:25](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/interface/ImagePixelInformation.ts#L25)
+[interface/ImagePixelInformation.ts:25](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/ImagePixelInformation.ts#L25)

@@ -63,7 +63,7 @@ ImagePixelInformation.constructor
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:21](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/imagePixelInformation/index.ts#L21)
+[components/imagePixelInformation/index.ts:21](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/imagePixelInformation/index.ts#L21)
 
 ## Properties
 
@@ -79,7 +79,7 @@ ImagePixelInformation.constructor
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:20](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/imagePixelInformation/index.ts#L20)
+[components/imagePixelInformation/index.ts:20](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/imagePixelInformation/index.ts#L20)
 
 ## Methods
 
@@ -93,7 +93,7 @@ ImagePixelInformation.constructor
 
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
-| `imageResource` | `string` | `undefined` | image path |
+| `imageResource` | `string` \| `number`[] | `undefined` | image path |
 | `width` | `number` | `256` | The width of the rectangle from which the pixel data will be retrieved; |
 | `height` | `number` | `256` | The height of the rectangle from which the pixel data will be retrieved |
 | `callback` | (`pixelInformation`: `object`) => `void` | `undefined` | callback function |
@@ -112,7 +112,7 @@ ImagePixelInformation.getImageData
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:9](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/imagePixelInformation/index.ts#L9)
+[components/imagePixelInformation/index.ts:9](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/imagePixelInformation/index.ts#L9)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `canvasId` | `string` | `undefined` | canvas id |
-| `imageResource` | `string` | `undefined` | image path |
+| `imageResource` | `string` \| `number`[] | `undefined` | image path |
 | `width` | `number` | `256` | The width of the rectangle from which the pixel data will be retrieved; |
 | `height` | `number` | `256` | The height of the rectangle from which the pixel data will be retrieved |
 | `callback` | (`pixelInformation`: `object`) => `void` | `undefined` | callback function |
@@ -146,4 +146,4 @@ ImagePixelInformation.uniGetImageData
 
 #### Defined in
 
-[components/imagePixelInformation/index.ts:25](https://github.com/Liu-Jinshuai/printease/blob/cd89e37/src/components/imagePixelInformation/index.ts#L25)
+[components/imagePixelInformation/index.ts:25](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/imagePixelInformation/index.ts#L25)
