@@ -46,7 +46,7 @@ Get image pixel information
 
 #### Defined in
 
-[interface/ImagePixelInformation.ts:16](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/ImagePixelInformation.ts#L16)
+[interface/ImagePixelInformation.ts:16](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/ImagePixelInformation.ts#L16)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[interface/ImagePixelInformation.ts:8](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/ImagePixelInformation.ts#L8)
+[interface/ImagePixelInformation.ts:8](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/ImagePixelInformation.ts#L8)
 
 ___
 
@@ -88,4 +88,4 @@ ___
 
 #### Defined in
 
-[interface/ImagePixelInformation.ts:25](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/ImagePixelInformation.ts#L25)
+[interface/ImagePixelInformation.ts:25](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/ImagePixelInformation.ts#L25)

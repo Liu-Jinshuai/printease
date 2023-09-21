@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[components/uniappWebview/index.ts:4](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniappWebview/index.ts#L4)
+[components/uniappWebview/index.ts:4](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/uniappWebview/index.ts#L4)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[components/uniappWebview/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniappWebview/index.ts#L5)
+[components/uniappWebview/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/uniappWebview/index.ts#L5)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[components/uniappWebview/index.ts:3](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniappWebview/index.ts#L3)
+[components/uniappWebview/index.ts:3](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/uniappWebview/index.ts#L3)
 
 ## Methods
 
@@ -93,7 +93,7 @@ create webview
 
 #### Defined in
 
-[components/uniappWebview/index.ts:140](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniappWebview/index.ts#L140)
+[components/uniappWebview/index.ts:140](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/uniappWebview/index.ts#L140)
 
 ___
 
@@ -113,7 +113,7 @@ init
 
 #### Defined in
 
-[components/uniappWebview/index.ts:132](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniappWebview/index.ts#L132)
+[components/uniappWebview/index.ts:132](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/uniappWebview/index.ts#L132)
 
 ___
 
@@ -140,7 +140,7 @@ Load complete callback
 
 #### Defined in
 
-[components/uniappWebview/index.ts:144](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniappWebview/index.ts#L144)
+[components/uniappWebview/index.ts:144](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/uniappWebview/index.ts#L144)
 
 ___
 
@@ -166,4 +166,4 @@ set webview html
 
 #### Defined in
 
-[components/uniappWebview/index.ts:135](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniappWebview/index.ts#L135)
+[components/uniappWebview/index.ts:135](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/uniappWebview/index.ts#L135)

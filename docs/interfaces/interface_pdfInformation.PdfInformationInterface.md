@@ -45,7 +45,7 @@ get pdf image
 
 #### Defined in
 
-[interface/pdfInformation.ts:36](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/pdfInformation.ts#L36)
+[interface/pdfInformation.ts:36](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/pdfInformation.ts#L36)
 
 ___
 
@@ -65,7 +65,7 @@ get pdf page count
 
 #### Defined in
 
-[interface/pdfInformation.ts:32](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/pdfInformation.ts#L32)
+[interface/pdfInformation.ts:32](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/pdfInformation.ts#L32)
 
 ___
 
@@ -85,7 +85,7 @@ get pdf Text
 
 #### Defined in
 
-[interface/pdfInformation.ts:28](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/pdfInformation.ts#L28)
+[interface/pdfInformation.ts:28](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/pdfInformation.ts#L28)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[interface/pdfInformation.ts:9](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/pdfInformation.ts#L9)
+[interface/pdfInformation.ts:9](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/pdfInformation.ts#L9)
 
 ___
 
@@ -115,7 +115,7 @@ init
 
 #### Defined in
 
-[interface/pdfInformation.ts:13](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/pdfInformation.ts#L13)
+[interface/pdfInformation.ts:13](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/pdfInformation.ts#L13)
 
 ___
 
@@ -141,7 +141,7 @@ load pdf file
 
 #### Defined in
 
-[interface/pdfInformation.ts:17](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/pdfInformation.ts#L17)
+[interface/pdfInformation.ts:17](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/pdfInformation.ts#L17)
 
 ___
 
@@ -168,7 +168,7 @@ load uni pdf file
 
 #### Defined in
 
-[interface/pdfInformation.ts:24](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/pdfInformation.ts#L24)
+[interface/pdfInformation.ts:24](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/pdfInformation.ts#L24)
 
 ___
 
@@ -178,7 +178,7 @@ ___
 
 #### Defined in
 
-[interface/pdfInformation.ts:7](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/pdfInformation.ts#L7)
+[interface/pdfInformation.ts:7](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/pdfInformation.ts#L7)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-[interface/pdfInformation.ts:6](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/pdfInformation.ts#L6)
+[interface/pdfInformation.ts:6](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/pdfInformation.ts#L6)
 
 ___
 
@@ -198,7 +198,7 @@ ___
 
 #### Defined in
 
-[interface/pdfInformation.ts:5](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/pdfInformation.ts#L5)
+[interface/pdfInformation.ts:5](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/pdfInformation.ts#L5)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-[interface/pdfInformation.ts:8](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/pdfInformation.ts#L8)
+[interface/pdfInformation.ts:8](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/pdfInformation.ts#L8)
