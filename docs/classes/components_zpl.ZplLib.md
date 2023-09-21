@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[components/zpl/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L8)
+[components/zpl/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L8)
 
 ## Properties
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-[components/zpl/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L6)
+[components/zpl/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L6)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[components/zpl/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L5)
+[components/zpl/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L5)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[components/zpl/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L7)
+[components/zpl/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L7)
 
 ## Methods
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[components/zpl/index.ts:79](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L79)
+[components/zpl/index.ts:79](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L79)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-[components/zpl/index.ts:76](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L76)
+[components/zpl/index.ts:76](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L76)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-[components/zpl/index.ts:13](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L13)
+[components/zpl/index.ts:13](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L13)
 
 ___
 
@@ -169,7 +169,7 @@ Print the barcode.
 
 #### Defined in
 
-[components/zpl/index.ts:33](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L33)
+[components/zpl/index.ts:33](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L33)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-[components/zpl/index.ts:66](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L66)
+[components/zpl/index.ts:66](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L66)
 
 ___
 
@@ -215,7 +215,7 @@ ___
 
 #### Defined in
 
-[components/zpl/index.ts:73](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L73)
+[components/zpl/index.ts:73](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L73)
 
 ___
 
@@ -229,7 +229,7 @@ ___
 
 #### Defined in
 
-[components/zpl/index.ts:63](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L63)
+[components/zpl/index.ts:63](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L63)
 
 ___
 
@@ -249,7 +249,7 @@ ___
 
 #### Defined in
 
-[components/zpl/index.ts:58](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L58)
+[components/zpl/index.ts:58](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L58)
 
 ___
 
@@ -281,7 +281,7 @@ ___
 
 #### Defined in
 
-[components/zpl/index.ts:47](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L47)
+[components/zpl/index.ts:47](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L47)
 
 ___
 
@@ -309,7 +309,7 @@ ___
 
 #### Defined in
 
-[components/zpl/index.ts:25](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L25)
+[components/zpl/index.ts:25](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L25)
 
 ___
 
@@ -329,7 +329,7 @@ ___
 
 #### Defined in
 
-[components/zpl/index.ts:22](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L22)
+[components/zpl/index.ts:22](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L22)
 
 ___
 
@@ -349,4 +349,4 @@ ___
 
 #### Defined in
 
-[components/zpl/index.ts:18](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/zpl/index.ts#L18)
+[components/zpl/index.ts:18](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/zpl/index.ts#L18)

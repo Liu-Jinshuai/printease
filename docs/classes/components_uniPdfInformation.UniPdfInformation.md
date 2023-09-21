@@ -51,7 +51,7 @@ pdf information
 
 #### Defined in
 
-[components/uniPdfInformation/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/uniPdfInformation/index.ts#L6)
+[components/uniPdfInformation/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniPdfInformation/index.ts#L6)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[components/uniPdfInformation/index.ts:4](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/uniPdfInformation/index.ts#L4)
+[components/uniPdfInformation/index.ts:4](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniPdfInformation/index.ts#L4)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[components/uniPdfInformation/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/uniPdfInformation/index.ts#L8)
+[components/uniPdfInformation/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniPdfInformation/index.ts#L8)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[components/uniPdfInformation/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/uniPdfInformation/index.ts#L7)
+[components/uniPdfInformation/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniPdfInformation/index.ts#L7)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[components/uniPdfInformation/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/uniPdfInformation/index.ts#L5)
+[components/uniPdfInformation/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniPdfInformation/index.ts#L5)
 
 ## Methods
 
@@ -127,7 +127,7 @@ get pdf image
 
 #### Defined in
 
-[components/uniPdfInformation/index.ts:46](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/uniPdfInformation/index.ts#L46)
+[components/uniPdfInformation/index.ts:47](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniPdfInformation/index.ts#L47)
 
 ___
 
@@ -147,7 +147,7 @@ get pdf page count
 
 #### Defined in
 
-[components/uniPdfInformation/index.ts:38](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/uniPdfInformation/index.ts#L38)
+[components/uniPdfInformation/index.ts:39](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniPdfInformation/index.ts#L39)
 
 ___
 
@@ -167,7 +167,7 @@ get pdf Text
 
 #### Defined in
 
-[components/uniPdfInformation/index.ts:34](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/uniPdfInformation/index.ts#L34)
+[components/uniPdfInformation/index.ts:35](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniPdfInformation/index.ts#L35)
 
 ___
 
@@ -187,21 +187,15 @@ init
 
 #### Defined in
 
-[components/uniPdfInformation/index.ts:9](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/uniPdfInformation/index.ts#L9)
+[components/uniPdfInformation/index.ts:9](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniPdfInformation/index.ts#L9)
 
 ___
 
 ### loadPdfFile
 
-▸ **loadPdfFile**(`file`): `Promise`<`unknown`\>
+▸ **loadPdfFile**(): `Promise`<`unknown`\>
 
 load pdf file
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `file` | `any` |
 
 #### Returns
 
@@ -213,7 +207,7 @@ load pdf file
 
 #### Defined in
 
-[components/uniPdfInformation/index.ts:15](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/uniPdfInformation/index.ts#L15)
+[components/uniPdfInformation/index.ts:15](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniPdfInformation/index.ts#L15)
 
 ___
 
@@ -240,4 +234,4 @@ load uni pdf file
 
 #### Defined in
 
-[components/uniPdfInformation/index.ts:24](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/uniPdfInformation/index.ts#L24)
+[components/uniPdfInformation/index.ts:25](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/uniPdfInformation/index.ts#L25)

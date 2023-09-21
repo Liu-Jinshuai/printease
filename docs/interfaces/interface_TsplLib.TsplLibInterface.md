@@ -63,7 +63,7 @@
 
 #### Defined in
 
-[interface/TsplLib.ts:9](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L9)
+[interface/TsplLib.ts:9](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L9)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:5](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L5)
+[interface/TsplLib.ts:5](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L5)
 
 ___
 
@@ -97,7 +97,7 @@ Returns the print command (Buffer)
 
 #### Defined in
 
-[interface/TsplLib.ts:261](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L261)
+[interface/TsplLib.ts:261](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L261)
 
 ___
 
@@ -119,7 +119,7 @@ return print command
 
 #### Defined in
 
-[interface/TsplLib.ts:256](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L256)
+[interface/TsplLib.ts:256](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L256)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:16](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L16)
+[interface/TsplLib.ts:16](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L16)
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:138](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L138)
+[interface/TsplLib.ts:138](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L138)
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:143](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L143)
+[interface/TsplLib.ts:143](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L143)
 
 ___
 
@@ -220,7 +220,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:170](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L170)
+[interface/TsplLib.ts:170](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L170)
 
 ___
 
@@ -260,7 +260,7 @@ setBarCode(10, 10, '39', 100, 1, 0, 2, 4, '123456789')
 
 #### Defined in
 
-[interface/TsplLib.ts:185](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L185)
+[interface/TsplLib.ts:185](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L185)
 
 ___
 
@@ -291,7 +291,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:58](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L58)
+[interface/TsplLib.ts:58](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L58)
 
 ___
 
@@ -318,7 +318,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:90](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L90)
+[interface/TsplLib.ts:90](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L90)
 
 ___
 
@@ -348,7 +348,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:194](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L194)
+[interface/TsplLib.ts:194](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L194)
 
 ___
 
@@ -376,7 +376,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:84](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L84)
+[interface/TsplLib.ts:84](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L84)
 
 ___
 
@@ -396,7 +396,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:47](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L47)
+[interface/TsplLib.ts:47](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L47)
 
 ___
 
@@ -422,7 +422,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:128](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L128)
+[interface/TsplLib.ts:128](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L128)
 
 ___
 
@@ -448,7 +448,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:251](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L251)
+[interface/TsplLib.ts:251](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L251)
 
 ___
 
@@ -474,7 +474,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:121](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L121)
+[interface/TsplLib.ts:121](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L121)
 
 ___
 
@@ -500,7 +500,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:105](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L105)
+[interface/TsplLib.ts:105](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L105)
 
 ___
 
@@ -526,7 +526,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:110](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L110)
+[interface/TsplLib.ts:110](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L110)
 
 ___
 
@@ -552,7 +552,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:242](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L242)
+[interface/TsplLib.ts:242](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L242)
 
 ___
 
@@ -581,7 +581,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:216](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L216)
+[interface/TsplLib.ts:216](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L216)
 
 ___
 
@@ -607,7 +607,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:133](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L133)
+[interface/TsplLib.ts:133](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L133)
 
 ___
 
@@ -627,7 +627,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:147](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L147)
+[interface/TsplLib.ts:147](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L147)
 
 ___
 
@@ -654,7 +654,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:42](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L42)
+[interface/TsplLib.ts:42](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L42)
 
 ___
 
@@ -674,7 +674,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:151](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L151)
+[interface/TsplLib.ts:151](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L151)
 
 ___
 
@@ -700,7 +700,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:162](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L162)
+[interface/TsplLib.ts:162](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L162)
 
 ___
 
@@ -720,7 +720,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:246](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L246)
+[interface/TsplLib.ts:246](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L246)
 
 ___
 
@@ -746,7 +746,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:95](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L95)
+[interface/TsplLib.ts:95](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L95)
 
 ___
 
@@ -773,7 +773,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:77](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L77)
+[interface/TsplLib.ts:77](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L77)
 
 ___
 
@@ -801,7 +801,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:201](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L201)
+[interface/TsplLib.ts:201](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L201)
 
 ___
 
@@ -829,7 +829,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:208](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L208)
+[interface/TsplLib.ts:208](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L208)
 
 ___
 
@@ -867,7 +867,7 @@ setQRCode(10, 10, 'L', 5, 'A', 0, '123456789')
 
 #### Defined in
 
-[interface/TsplLib.ts:236](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L236)
+[interface/TsplLib.ts:236](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L236)
 
 ___
 
@@ -894,7 +894,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:116](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L116)
+[interface/TsplLib.ts:116](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L116)
 
 ___
 
@@ -923,7 +923,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:224](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L224)
+[interface/TsplLib.ts:224](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L224)
 
 ___
 
@@ -950,7 +950,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:35](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L35)
+[interface/TsplLib.ts:35](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L35)
 
 ___
 
@@ -977,7 +977,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:157](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L157)
+[interface/TsplLib.ts:157](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L157)
 
 ___
 
@@ -1003,7 +1003,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:100](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L100)
+[interface/TsplLib.ts:100](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L100)
 
 ___
 
@@ -1035,7 +1035,7 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:70](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L70)
+[interface/TsplLib.ts:70](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L70)
 
 ___
 
@@ -1063,7 +1063,7 @@ charCode array
 
 #### Defined in
 
-[interface/TsplLib.ts:22](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L22)
+[interface/TsplLib.ts:22](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L22)
 
 ___
 
@@ -1089,4 +1089,4 @@ ___
 
 #### Defined in
 
-[interface/TsplLib.ts:28](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/interface/TsplLib.ts#L28)
+[interface/TsplLib.ts:28](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/interface/TsplLib.ts#L28)

@@ -33,11 +33,63 @@ var PdfInformation = /*#__PURE__*/function () {
     key: "loadPdfFile",
     value: function loadPdfFile(file) {
       var _this = this;
+      var that = this;
       return new Promise(function (resolve) {
         var filees = _this.pdfjsLib.getDocument(file);
         filees.promise.then(function (pdf) {
-          _this.pdfInstance = pdf;
-          resolve(pdf);
+          var imgObj = [];
+          pdf.getPage(1).then(function (page) {
+            page.getOperatorList().then(function (opList) {
+              for (var i = 0; i < opList.fnArray.length; i++) {
+                var transformMatrix = null;
+                var fnId = opList.fnArray[i];
+                if (fnId === pdfjsLib.OPS.transform) {
+                  transformMatrix = opList.argsArray[i];
+                }
+                if (opList.fnArray[i] == pdfjsLib.OPS.paintImageXObject) {
+                  var imgIndex = opList.argsArray[i][0];
+                  var img = page.objs.get(imgIndex);
+                  var rgbaData = void 0;
+                  var numPixels = img.width * img.height;
+                  var len = Object.keys(img.data).length;
+                  if (len === numPixels * 3) {
+                    // RGB
+                    rgbaData = [];
+                    for (var _i = 0, j = 0; _i < len; _i += 3, j += 4) {
+                      rgbaData[j] = img.data[_i];
+                      rgbaData[j + 1] = img.data[_i + 1];
+                      rgbaData[j + 2] = img.data[_i + 2];
+                      rgbaData[j + 3] = 255;
+                    }
+                  } else if (len === numPixels * 4) {
+                    // RGBA
+                    rgbaData = Object.values(img.data);
+                  } else {
+                    console.error("Unknown image data format");
+                    return;
+                  }
+                  imgObj.push({
+                    width: img.width,
+                    height: img.height,
+                    data: rgbaData,
+                    transformMatrix: transformMatrix
+                  });
+                }
+              }
+              page.getTextContent().then(function (textContent) {
+                console.log('textContent', textContent);
+                var textItems = textContent.items;
+                var finalString = "";
+                for (var i = 0; i < textItems.length; i++) {
+                  var item = textItems[i];
+                  finalString += item.str + " ";
+                }
+                that.imageContent = imgObj;
+                that.textContent = textItems;
+                resolve(true);
+              });
+            });
+          });
         });
       });
     }

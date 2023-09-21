@@ -1,6 +1,6 @@
 {
   "name": "printease",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -43,7 +43,6 @@
     ]
   },
   "dependencies": {
-    "iconv-lite": "^0.6.3",
-    "pdfjs-dist": "^2.4.456"
+    "iconv-lite": "^0.6.3"
   }
 }

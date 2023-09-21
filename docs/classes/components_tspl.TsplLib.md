@@ -77,7 +77,7 @@ TsplLibInterface
 
 #### Defined in
 
-[components/tspl/index.ts:14](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L14)
+[components/tspl/index.ts:14](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L14)
 
 ## Properties
 
@@ -87,7 +87,7 @@ TsplLibInterface
 
 #### Defined in
 
-[components/tspl/index.ts:12](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L12)
+[components/tspl/index.ts:12](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L12)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:11](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L11)
+[components/tspl/index.ts:11](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L11)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:13](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L13)
+[components/tspl/index.ts:13](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L13)
 
 ## Methods
 
@@ -141,7 +141,7 @@ Returns the print command (Buffer)
 
 #### Defined in
 
-[components/tspl/index.ts:198](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L198)
+[components/tspl/index.ts:198](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L198)
 
 ___
 
@@ -163,7 +163,7 @@ return print command
 
 #### Defined in
 
-[components/tspl/index.ts:195](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L195)
+[components/tspl/index.ts:195](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L195)
 
 ___
 
@@ -183,7 +183,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:19](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L19)
+[components/tspl/index.ts:19](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L19)
 
 ___
 
@@ -209,7 +209,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:107](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L107)
+[components/tspl/index.ts:107](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L107)
 
 ___
 
@@ -235,7 +235,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:112](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L112)
+[components/tspl/index.ts:112](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L112)
 
 ___
 
@@ -264,7 +264,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:137](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L137)
+[components/tspl/index.ts:137](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L137)
 
 ___
 
@@ -304,7 +304,7 @@ setBarCode(10, 10, '39', 100, 1, 0, 2, 4, '123456789')
 
 #### Defined in
 
-[components/tspl/index.ts:142](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L142)
+[components/tspl/index.ts:142](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L142)
 
 ___
 
@@ -335,7 +335,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:44](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L44)
+[components/tspl/index.ts:44](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L44)
 
 ___
 
@@ -362,7 +362,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:62](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L62)
+[components/tspl/index.ts:62](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L62)
 
 ___
 
@@ -392,7 +392,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:147](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L147)
+[components/tspl/index.ts:147](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L147)
 
 ___
 
@@ -420,7 +420,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:57](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L57)
+[components/tspl/index.ts:57](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L57)
 
 ___
 
@@ -440,7 +440,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:39](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L39)
+[components/tspl/index.ts:39](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L39)
 
 ___
 
@@ -466,7 +466,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:97](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L97)
+[components/tspl/index.ts:97](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L97)
 
 ___
 
@@ -492,7 +492,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:188](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L188)
+[components/tspl/index.ts:188](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L188)
 
 ___
 
@@ -518,7 +518,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:92](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L92)
+[components/tspl/index.ts:92](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L92)
 
 ___
 
@@ -544,7 +544,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:77](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L77)
+[components/tspl/index.ts:77](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L77)
 
 ___
 
@@ -570,7 +570,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:82](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L82)
+[components/tspl/index.ts:82](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L82)
 
 ___
 
@@ -596,7 +596,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:177](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L177)
+[components/tspl/index.ts:177](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L177)
 
 ___
 
@@ -625,7 +625,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:162](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L162)
+[components/tspl/index.ts:162](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L162)
 
 ___
 
@@ -651,7 +651,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:102](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L102)
+[components/tspl/index.ts:102](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L102)
 
 ___
 
@@ -671,7 +671,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:117](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L117)
+[components/tspl/index.ts:117](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L117)
 
 ___
 
@@ -698,7 +698,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:34](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L34)
+[components/tspl/index.ts:34](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L34)
 
 ___
 
@@ -718,7 +718,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:122](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L122)
+[components/tspl/index.ts:122](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L122)
 
 ___
 
@@ -744,7 +744,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:132](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L132)
+[components/tspl/index.ts:132](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L132)
 
 ___
 
@@ -764,7 +764,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:185](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L185)
+[components/tspl/index.ts:185](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L185)
 
 ___
 
@@ -790,7 +790,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:67](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L67)
+[components/tspl/index.ts:67](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L67)
 
 ___
 
@@ -817,7 +817,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:180](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L180)
+[components/tspl/index.ts:180](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L180)
 
 ___
 
@@ -845,7 +845,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:152](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L152)
+[components/tspl/index.ts:152](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L152)
 
 ___
 
@@ -873,7 +873,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:157](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L157)
+[components/tspl/index.ts:157](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L157)
 
 ___
 
@@ -911,7 +911,7 @@ setQRCode(10, 10, 'L', 5, 'A', 0, '123456789')
 
 #### Defined in
 
-[components/tspl/index.ts:172](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L172)
+[components/tspl/index.ts:172](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L172)
 
 ___
 
@@ -938,7 +938,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:87](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L87)
+[components/tspl/index.ts:87](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L87)
 
 ___
 
@@ -967,7 +967,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:167](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L167)
+[components/tspl/index.ts:167](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L167)
 
 ___
 
@@ -994,7 +994,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:29](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L29)
+[components/tspl/index.ts:29](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L29)
 
 ___
 
@@ -1021,7 +1021,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:127](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L127)
+[components/tspl/index.ts:127](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L127)
 
 ___
 
@@ -1047,7 +1047,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:72](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L72)
+[components/tspl/index.ts:72](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L72)
 
 ___
 
@@ -1079,7 +1079,7 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:52](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L52)
+[components/tspl/index.ts:52](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L52)
 
 ___
 
@@ -1107,7 +1107,7 @@ charCode array
 
 #### Defined in
 
-[components/tspl/index.ts:26](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L26)
+[components/tspl/index.ts:26](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L26)
 
 ___
 
@@ -1133,4 +1133,4 @@ ___
 
 #### Defined in
 
-[components/tspl/index.ts:22](https://github.com/Liu-Jinshuai/printease/blob/ba33e13/src/components/tspl/index.ts#L22)
+[components/tspl/index.ts:22](https://github.com/Liu-Jinshuai/printease/blob/b77399d/src/components/tspl/index.ts#L22)
