@@ -1,5 +1,5 @@
 import { PdfInformationInterface } from '@/interface/pdfInformation';
-import * as pdfjsLib from 'pdfjs-dist';
+// import * as pdfjsLib from 'pdfjs-dist';
 export class UniPdfInformation implements PdfInformationInterface {
     pageCount = 0;
     textContent: object = {};
@@ -10,15 +10,16 @@ export class UniPdfInformation implements PdfInformationInterface {
         this.pageCount = 0;
         this.textContent = {};
         this.imageContent = [];
-        this.pdfjsLib = pdfjsLib;
+        // this.pdfjsLib = pdfjsLib;
     }
-    loadPdfFile(file: any) {
+    loadPdfFile() {
         return new Promise((resolve) => {
-            let filees = this.pdfjsLib.getDocument(file)
-            filees.promise.then((pdf: any) => {
-                this.pdfInstance = pdf;
-                resolve(pdf)
-            })
+            // let filees = this.pdfjsLib.getDocument(file)
+            // filees.promise.then((pdf: any) => {
+            //     this.pdfInstance = pdf;
+            //     resolve(pdf)
+            // })
+            resolve(true)
         })
     }
     loadUniPdfFile(file: any, webviewObj: any) {
