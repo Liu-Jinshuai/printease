@@ -1,5 +1,5 @@
 import { CpclLibInterface } from "@/interface/CpclLib";
-import TextEncoder from '../../utils/encoding'
+import textEncoder from '../../utils/encoding'
 
 export class CpclLib implements CpclLibInterface {
     command: number[];
@@ -14,7 +14,7 @@ export class CpclLib implements CpclLibInterface {
         this.command = [];
     }
     stringToEncodedBytes(str: string): number[] {
-        const buffer = TextEncoder(this.encoding, str);
+        const buffer = textEncoder(this.encoding, str);
         return Array.from(buffer);
     }
     stringToCharCodeArray(str: string): number[] {

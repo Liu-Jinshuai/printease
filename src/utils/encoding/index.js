@@ -1,11 +1,10 @@
 import encoding from "./encoding";
-
-function TextEncoder(encode = 'utf-8', content) {
-    let code = new encoding.TextEncoder(
+function encoder(encode = 'utf-8', content) {
+    let code = new encoding.textEncoder(
         encode, {
         NONSTANDARD_allowLegacyEncoding: true
     })
     return code.encode(content)
 }
 
-export default TextEncoder;
+export default encoder;

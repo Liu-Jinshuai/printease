@@ -1,5 +1,5 @@
 import { EscLibInterface } from "@/interface/EscLib";
-import TextEncoder from '../../utils/encoding'
+import textEncoder from '../../utils/encoding'
 
 export class EscLib implements EscLibInterface {
     command: number[];
@@ -14,7 +14,7 @@ export class EscLib implements EscLibInterface {
         this.command = [];
     }
     stringToEncodedBytes(str: string): number[] {
-        const buffer = TextEncoder(this.encoding, str);
+        const buffer = textEncoder(this.encoding, str);
         return Array.from(buffer);
     }
     stringToCharCodeArray(str: string): number[] {

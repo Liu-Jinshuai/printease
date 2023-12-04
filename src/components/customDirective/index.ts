@@ -1,5 +1,5 @@
 import { CustomDirectiveInterface } from '@/interface/CustomDirective';
-import TextEncoder from '../../utils/encoding'
+import textEncoder from '../../utils/encoding'
 
 export class CustomDirectiveLib implements CustomDirectiveInterface {
     command: number[];
@@ -11,7 +11,7 @@ export class CustomDirectiveLib implements CustomDirectiveInterface {
         this.encoding = "utf-8";
     }
     stringToEncodedBytes(str: string): number[] {
-        const buffer = TextEncoder(this.encoding, str);
+        const buffer = textEncoder(this.encoding, str);
         return Array.from(buffer);
     }
     stringToCharCodeArray(str: string): number[] {

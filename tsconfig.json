@@ -4,11 +4,10 @@
     "module": "commonjs",
     "outDir": "dist",
     "strict": true,
-    "allowJs": true,
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
-      "@/*": [ 
+      "@/*": [  
         "src/*",
         "src/{components,views,utils,api,store}/*",
         "src/{views}/*",
