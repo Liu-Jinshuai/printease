@@ -1,5 +1,5 @@
 import { CpclLibInterface } from "@/interface/CpclLib";
-import iconv from 'iconv-lite';
+import TextEncoder from '@/utils/encoding'
 
 export class CpclLib implements CpclLibInterface {
     command: number[];
@@ -14,7 +14,7 @@ export class CpclLib implements CpclLibInterface {
         this.command = [];
     }
     stringToEncodedBytes(str: string): number[] {
-        const buffer = iconv.encode(str, this.encoding);
+        const buffer = TextEncoder(this.encoding, str);
         return Array.from(buffer);
     }
     stringToCharCodeArray(str: string): number[] {

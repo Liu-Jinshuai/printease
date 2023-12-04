@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "type-check": "tsc --noEmit",
-    "build": "npm run type-check && npm run docs && babel src --extensions '.ts' --out-dir dist",
+    "build": "jest && npm run type-check && npm run docs && babel src --extensions '.ts' --out-dir dist",
     "prepublishOnly": "npm run build",
     "lint": "eslint .",
     "docs": "typedoc --plugin typedoc-plugin-markdown --excludeProtected  --out docs --entryPointStrategy expand ./src/components/**/*.ts ./src/interface/**/*.ts ./src/types/**/*.ts"
@@ -28,7 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",
     "eslint": "^8.45.0",
-    "jest": "^29.6.1",
+    "jest": "^29.7.0",
     "typedoc": "^0.24.8",
     "typedoc-plugin-markdown": "^3.15.4",
     "typescript": "^5.1.6"

@@ -8,12 +8,17 @@
     "baseUrl": "./",
     "paths": {
       "@/*": [ 
-        "src/*"
+        "src/*",
+        "src/{components,views,utils,api,store}/*",
+        "src/{views}/*",
+        "src/{components,views,utils,api,store}/{encoding}/*",
       ]
     }
   },
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
+    "src/*.d.ts",
+    "index.d.ts"
   ]
 }
