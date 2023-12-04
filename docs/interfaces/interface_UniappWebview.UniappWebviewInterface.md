@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[interface/UniappWebview.ts:4](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/UniappWebview.ts#L4)
+[interface/UniappWebview.ts:4](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/UniappWebview.ts#L4)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[interface/UniappWebview.ts:3](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/UniappWebview.ts#L3)
+[interface/UniappWebview.ts:3](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/UniappWebview.ts#L3)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[interface/UniappWebview.ts:2](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/UniappWebview.ts#L2)
+[interface/UniappWebview.ts:2](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/UniappWebview.ts#L2)
 
 ## Methods
 
@@ -67,7 +67,7 @@ create webview
 
 #### Defined in
 
-[interface/UniappWebview.ts:17](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/UniappWebview.ts#L17)
+[interface/UniappWebview.ts:17](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/UniappWebview.ts#L17)
 
 ___
 
@@ -83,7 +83,7 @@ init
 
 #### Defined in
 
-[interface/UniappWebview.ts:8](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/UniappWebview.ts#L8)
+[interface/UniappWebview.ts:8](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/UniappWebview.ts#L8)
 
 ___
 
@@ -106,7 +106,7 @@ Load complete callback
 
 #### Defined in
 
-[interface/UniappWebview.ts:23](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/UniappWebview.ts#L23)
+[interface/UniappWebview.ts:23](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/UniappWebview.ts#L23)
 
 ___
 
@@ -128,4 +128,4 @@ set webview html
 
 #### Defined in
 
-[interface/UniappWebview.ts:13](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/UniappWebview.ts#L13)
+[interface/UniappWebview.ts:13](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/UniappWebview.ts#L13)

@@ -33,4 +33,4 @@
 
 #### Defined in
 
-[interface/UniappFile.ts:2](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/UniappFile.ts#L2)
+[interface/UniappFile.ts:2](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/UniappFile.ts#L2)

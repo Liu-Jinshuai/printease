@@ -4,6 +4,7 @@
     "module": "commonjs",
     "outDir": "dist",
     "strict": true,
+    "allowJs": true,
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
@@ -19,6 +20,7 @@
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/*.d.ts",
-    "index.d.ts"
+    "index.d.ts",
+    "src"
   ]
 }

@@ -33,7 +33,7 @@
 
 #### Defined in
 
-[interface/EscLib.ts:5](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/EscLib.ts#L5)
+[interface/EscLib.ts:5](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/EscLib.ts#L5)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[interface/EscLib.ts:15](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/EscLib.ts#L15)
+[interface/EscLib.ts:15](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/EscLib.ts#L15)
 
 ___
 
@@ -73,7 +73,7 @@ Print out the data in the print buffer, and push the printing paper forward by o
 
 #### Defined in
 
-[interface/EscLib.ts:24](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/EscLib.ts#L24)
+[interface/EscLib.ts:24](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/EscLib.ts#L24)
 
 ___
 
@@ -97,7 +97,7 @@ Print buffer data and feed paper (inches)
 
 #### Defined in
 
-[interface/EscLib.ts:29](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/EscLib.ts#L29)
+[interface/EscLib.ts:29](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/EscLib.ts#L29)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[interface/EscLib.ts:10](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/EscLib.ts#L10)
+[interface/EscLib.ts:10](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/EscLib.ts#L10)
 
 ___
 
@@ -141,4 +141,4 @@ ___
 
 #### Defined in
 
-[interface/EscLib.ts:20](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/interface/EscLib.ts#L20)
+[interface/EscLib.ts:20](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/interface/EscLib.ts#L20)

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[components/customDirective/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/customDirective/index.ts#L8)
+[components/customDirective/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/customDirective/index.ts#L8)
 
 ## Properties
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[components/customDirective/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/customDirective/index.ts#L6)
+[components/customDirective/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/customDirective/index.ts#L6)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[components/customDirective/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/customDirective/index.ts#L5)
+[components/customDirective/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/customDirective/index.ts#L5)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[components/customDirective/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/customDirective/index.ts#L7)
+[components/customDirective/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/customDirective/index.ts#L7)
 
 ## Methods
 
@@ -98,7 +98,7 @@ Returns the print command (Buffer)
 
 #### Defined in
 
-[components/customDirective/index.ts:36](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/customDirective/index.ts#L36)
+[components/customDirective/index.ts:36](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/customDirective/index.ts#L36)
 
 ___
 
@@ -120,7 +120,7 @@ return print command
 
 #### Defined in
 
-[components/customDirective/index.ts:30](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/customDirective/index.ts#L30)
+[components/customDirective/index.ts:30](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/customDirective/index.ts#L30)
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 #### Defined in
 
-[components/customDirective/index.ts:20](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/customDirective/index.ts#L20)
+[components/customDirective/index.ts:20](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/customDirective/index.ts#L20)
 
 ___
 
@@ -172,7 +172,7 @@ ___
 
 #### Defined in
 
-[components/customDirective/index.ts:27](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/customDirective/index.ts#L27)
+[components/customDirective/index.ts:27](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/customDirective/index.ts#L27)
 
 ___
 
@@ -192,7 +192,7 @@ ___
 
 #### Defined in
 
-[components/customDirective/index.ts:33](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/customDirective/index.ts#L33)
+[components/customDirective/index.ts:33](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/customDirective/index.ts#L33)
 
 ___
 
@@ -212,7 +212,7 @@ ___
 
 #### Defined in
 
-[components/customDirective/index.ts:17](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/customDirective/index.ts#L17)
+[components/customDirective/index.ts:17](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/customDirective/index.ts#L17)
 
 ___
 
@@ -232,4 +232,4 @@ ___
 
 #### Defined in
 
-[components/customDirective/index.ts:13](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/customDirective/index.ts#L13)
+[components/customDirective/index.ts:13](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/customDirective/index.ts#L13)

@@ -42,7 +42,5 @@
       "@babel/plugin-transform-typescript"
     ]
   },
-  "dependencies": {
-    "iconv-lite": "^0.6.3"
-  }
+  "dependencies": {}
 }

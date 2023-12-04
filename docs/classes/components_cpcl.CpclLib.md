@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[components/cpcl/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L8)
+[components/cpcl/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L8)
 
 ## Properties
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[components/cpcl/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L6)
+[components/cpcl/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L6)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[components/cpcl/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L5)
+[components/cpcl/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L5)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[components/cpcl/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L7)
+[components/cpcl/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L7)
 
 ## Methods
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[components/cpcl/index.ts:68](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L68)
+[components/cpcl/index.ts:68](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L68)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[components/cpcl/index.ts:65](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L65)
+[components/cpcl/index.ts:65](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L65)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[components/cpcl/index.ts:13](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L13)
+[components/cpcl/index.ts:13](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L13)
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 #### Defined in
 
-[components/cpcl/index.ts:24](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L24)
+[components/cpcl/index.ts:24](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L24)
 
 ___
 
@@ -192,7 +192,7 @@ Enlarge the resident font by the specified magnification factor
 
 #### Defined in
 
-[components/cpcl/index.ts:34](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L34)
+[components/cpcl/index.ts:34](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L34)
 
 ___
 
@@ -227,7 +227,7 @@ Print the barcode.
 
 #### Defined in
 
-[components/cpcl/index.ts:44](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L44)
+[components/cpcl/index.ts:44](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L44)
 
 ___
 
@@ -255,7 +255,7 @@ Bold the resident font
 
 #### Defined in
 
-[components/cpcl/index.ts:39](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L39)
+[components/cpcl/index.ts:39](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L39)
 
 ___
 
@@ -275,7 +275,7 @@ ___
 
 #### Defined in
 
-[components/cpcl/index.ts:58](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L58)
+[components/cpcl/index.ts:58](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L58)
 
 ___
 
@@ -289,7 +289,7 @@ ___
 
 #### Defined in
 
-[components/cpcl/index.ts:55](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L55)
+[components/cpcl/index.ts:55](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L55)
 
 ___
 
@@ -309,7 +309,7 @@ ___
 
 #### Defined in
 
-[components/cpcl/index.ts:50](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L50)
+[components/cpcl/index.ts:50](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L50)
 
 ___
 
@@ -340,7 +340,7 @@ ___
 
 #### Defined in
 
-[components/cpcl/index.ts:29](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L29)
+[components/cpcl/index.ts:29](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L29)
 
 ___
 
@@ -360,7 +360,7 @@ ___
 
 #### Defined in
 
-[components/cpcl/index.ts:20](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L20)
+[components/cpcl/index.ts:20](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L20)
 
 ___
 
@@ -380,4 +380,4 @@ ___
 
 #### Defined in
 
-[components/cpcl/index.ts:16](https://github.com/Liu-Jinshuai/printease/blob/87fa96f/src/components/cpcl/index.ts#L16)
+[components/cpcl/index.ts:16](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/cpcl/index.ts#L16)

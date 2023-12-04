@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.CpclLib = void 0;
-var _iconvLite = _interopRequireDefault(require("iconv-lite"));
+var _encoding = _interopRequireDefault(require("@/utils/encoding"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
@@ -33,7 +33,7 @@ var CpclLib = /*#__PURE__*/function () {
   }, {
     key: "stringToEncodedBytes",
     value: function stringToEncodedBytes(str) {
-      var buffer = _iconvLite["default"].encode(str, this.encoding);
+      var buffer = (0, _encoding["default"])(this.encoding, str);
       return Array.from(buffer);
     }
   }, {
