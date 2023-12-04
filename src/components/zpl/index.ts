@@ -1,5 +1,5 @@
 import { ZplLibInterface } from "@/interface/ZplLib";
-import TextEncoder from '@/utils/encoding'
+import TextEncoder from '../../utils/encoding'
 
 export class ZplLib implements ZplLibInterface {
     command: number[];

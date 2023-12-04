@@ -1,5 +1,5 @@
 import { CpclLibInterface } from "@/interface/CpclLib";
-import TextEncoder from '@/utils/encoding'
+import TextEncoder from '../../utils/encoding'
 
 export class CpclLib implements CpclLibInterface {
     command: number[];

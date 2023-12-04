@@ -1,5 +1,5 @@
 import { EscLibInterface } from "@/interface/EscLib";
-import TextEncoder from '@/utils/encoding'
+import TextEncoder from '../../utils/encoding'
 
 export class EscLib implements EscLibInterface {
     command: number[];

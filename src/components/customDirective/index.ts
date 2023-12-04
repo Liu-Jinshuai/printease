@@ -1,5 +1,5 @@
 import { CustomDirectiveInterface } from '@/interface/CustomDirective';
-import TextEncoder from '@/utils/encoding'
+import TextEncoder from '../../utils/encoding'
 
 export class CustomDirectiveLib implements CustomDirectiveInterface {
     command: number[];

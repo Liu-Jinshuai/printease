@@ -1,5 +1,5 @@
 import { TsplLibInterface } from "@/interface/TsplLib";
-import TextEncoder from '@/utils/encoding'
+import TextEncoder from '../../utils/encoding'
 
 /**
  * @description: TSPL instruction library interface document
