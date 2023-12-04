@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[components/imagePixelInformation/indexs.d.ts:18](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/imagePixelInformation/indexs.d.ts#L18)
+[components/imagePixelInformation/indexs.d.ts:18](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/components/imagePixelInformation/indexs.d.ts#L18)
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 #### Defined in
 
-[components/imagePixelInformation/indexs.d.ts:1](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/imagePixelInformation/indexs.d.ts#L1)
+[components/imagePixelInformation/indexs.d.ts:1](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/components/imagePixelInformation/indexs.d.ts#L1)

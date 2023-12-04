@@ -51,7 +51,7 @@ pdf information
 
 #### Defined in
 
-[components/pdfInformation/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/pdfInformation/index.ts#L6)
+[components/pdfInformation/index.ts:6](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/components/pdfInformation/index.ts#L6)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[components/pdfInformation/index.ts:4](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/pdfInformation/index.ts#L4)
+[components/pdfInformation/index.ts:4](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/components/pdfInformation/index.ts#L4)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[components/pdfInformation/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/pdfInformation/index.ts#L8)
+[components/pdfInformation/index.ts:8](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/components/pdfInformation/index.ts#L8)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[components/pdfInformation/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/pdfInformation/index.ts#L7)
+[components/pdfInformation/index.ts:7](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/components/pdfInformation/index.ts#L7)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[components/pdfInformation/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/pdfInformation/index.ts#L5)
+[components/pdfInformation/index.ts:5](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/components/pdfInformation/index.ts#L5)
 
 ## Methods
 
@@ -127,7 +127,7 @@ get pdf image
 
 #### Defined in
 
-[components/pdfInformation/index.ts:104](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/pdfInformation/index.ts#L104)
+[components/pdfInformation/index.ts:104](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/components/pdfInformation/index.ts#L104)
 
 ___
 
@@ -147,7 +147,7 @@ get pdf page count
 
 #### Defined in
 
-[components/pdfInformation/index.ts:96](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/pdfInformation/index.ts#L96)
+[components/pdfInformation/index.ts:96](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/components/pdfInformation/index.ts#L96)
 
 ___
 
@@ -167,7 +167,7 @@ get pdf Text
 
 #### Defined in
 
-[components/pdfInformation/index.ts:93](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/pdfInformation/index.ts#L93)
+[components/pdfInformation/index.ts:93](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/components/pdfInformation/index.ts#L93)
 
 ___
 
@@ -187,7 +187,7 @@ init
 
 #### Defined in
 
-[components/pdfInformation/index.ts:9](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/pdfInformation/index.ts#L9)
+[components/pdfInformation/index.ts:9](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/components/pdfInformation/index.ts#L9)
 
 ___
 
@@ -207,7 +207,7 @@ load pdf file
 
 #### Defined in
 
-[components/pdfInformation/index.ts:15](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/pdfInformation/index.ts#L15)
+[components/pdfInformation/index.ts:15](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/components/pdfInformation/index.ts#L15)
 
 ___
 
@@ -234,4 +234,4 @@ load uni pdf file
 
 #### Defined in
 
-[components/pdfInformation/index.ts:83](https://github.com/Liu-Jinshuai/printease/blob/ae17e8e/src/components/pdfInformation/index.ts#L83)
+[components/pdfInformation/index.ts:83](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/components/pdfInformation/index.ts#L83)
