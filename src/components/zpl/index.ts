@@ -1,5 +1,5 @@
 import { ZplLibInterface } from "@/interface/ZplLib";
-import textEncoder from '../../utils/encoding'
+import iconv from 'iconv-lite';
 
 export class ZplLib implements ZplLibInterface {
     command: number[];
@@ -16,7 +16,7 @@ export class ZplLib implements ZplLibInterface {
         this.setNewLine();
     }
     stringToEncodedBytes(str: string): number[] {
-        const buffer = textEncoder(this.encoding, str);
+        const buffer = iconv.encode(str, this.encoding);
         return Array.from(buffer);
     }
     stringToCharCodeArray(str: string): number[] {

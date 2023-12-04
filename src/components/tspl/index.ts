@@ -1,5 +1,5 @@
 import { TsplLibInterface } from "@/interface/TsplLib";
-import textEncoder from '../../utils/encoding'
+import iconv from 'iconv-lite';
 
 /**
  * @description: TSPL instruction library interface document
@@ -20,7 +20,7 @@ export class TsplLib implements TsplLibInterface {
         this.command = [];
     }
     stringToEncodedBytes(str: string): number[] {
-        const buffer = textEncoder(this.encoding, str);
+        const buffer = iconv.encode(str, this.encoding);
         return Array.from(buffer);
     }
     stringToCharCodeArray(str: string): number[] {
