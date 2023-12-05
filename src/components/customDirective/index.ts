@@ -1,6 +1,5 @@
 import { CustomDirectiveInterface } from '@/interface/CustomDirective';
-import iconv from 'iconv-lite';
-
+import encoding from '@/utils/encoding'
 export class CustomDirectiveLib implements CustomDirectiveInterface {
     command: number[];
     NEW_LINE: string;
@@ -11,7 +10,7 @@ export class CustomDirectiveLib implements CustomDirectiveInterface {
         this.encoding = "utf-8";
     }
     stringToEncodedBytes(str: string): number[] {
-        const buffer = iconv.encode(str, this.encoding);
+        const buffer = encoding(this.encoding,str);
         return Array.from(buffer);
     }
     stringToCharCodeArray(str: string): number[] {

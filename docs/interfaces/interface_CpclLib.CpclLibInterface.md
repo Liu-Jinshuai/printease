@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[interface/CpclLib.ts:9](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/interface/CpclLib.ts#L9)
+[interface/CpclLib.ts:9](https://github.com/Liu-Jinshuai/printease/blob/f0ce9b9/src/interface/CpclLib.ts#L9)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[interface/CpclLib.ts:5](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/interface/CpclLib.ts#L5)
+[interface/CpclLib.ts:5](https://github.com/Liu-Jinshuai/printease/blob/f0ce9b9/src/interface/CpclLib.ts#L5)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[interface/CpclLib.ts:15](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/interface/CpclLib.ts#L15)
+[interface/CpclLib.ts:15](https://github.com/Liu-Jinshuai/printease/blob/f0ce9b9/src/interface/CpclLib.ts#L15)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[interface/CpclLib.ts:23](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/interface/CpclLib.ts#L23)
+[interface/CpclLib.ts:23](https://github.com/Liu-Jinshuai/printease/blob/f0ce9b9/src/interface/CpclLib.ts#L23)
 
 ___
 
@@ -122,7 +122,7 @@ Enlarge the resident font by the specified magnification factor
 
 #### Defined in
 
-[interface/CpclLib.ts:45](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/interface/CpclLib.ts#L45)
+[interface/CpclLib.ts:45](https://github.com/Liu-Jinshuai/printease/blob/f0ce9b9/src/interface/CpclLib.ts#L45)
 
 ___
 
@@ -157,7 +157,7 @@ Print the barcode.
 
 #### Defined in
 
-[interface/CpclLib.ts:64](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/interface/CpclLib.ts#L64)
+[interface/CpclLib.ts:64](https://github.com/Liu-Jinshuai/printease/blob/f0ce9b9/src/interface/CpclLib.ts#L64)
 
 ___
 
@@ -185,7 +185,7 @@ Bold the resident font
 
 #### Defined in
 
-[interface/CpclLib.ts:51](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/interface/CpclLib.ts#L51)
+[interface/CpclLib.ts:51](https://github.com/Liu-Jinshuai/printease/blob/f0ce9b9/src/interface/CpclLib.ts#L51)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-[interface/CpclLib.ts:27](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/interface/CpclLib.ts#L27)
+[interface/CpclLib.ts:27](https://github.com/Liu-Jinshuai/printease/blob/f0ce9b9/src/interface/CpclLib.ts#L27)
 
 ___
 
@@ -236,4 +236,4 @@ ___
 
 #### Defined in
 
-[interface/CpclLib.ts:38](https://github.com/Liu-Jinshuai/printease/blob/a0e1aa3/src/interface/CpclLib.ts#L38)
+[interface/CpclLib.ts:38](https://github.com/Liu-Jinshuai/printease/blob/f0ce9b9/src/interface/CpclLib.ts#L38)
