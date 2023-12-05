@@ -1,6 +1,6 @@
 {
   "name": "printease",
-  "version": "2.1.1-beta.0",
+  "version": "2.1.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
